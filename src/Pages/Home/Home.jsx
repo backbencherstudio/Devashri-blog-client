@@ -13,7 +13,7 @@ const Home = () => {
                 </div>
                 <div className='mt-[200px]'>
                     <p className='text-[#6D6D6D] text-2xl uppercase '>Recent case Studies</p>
-                    <div className='py-6'>
+                    <div className='py-8'>
                         <img src={img1} alt="" />
                     </div>
                 </div>
