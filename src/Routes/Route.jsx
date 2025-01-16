@@ -4,6 +4,7 @@ import {
 import Layout from "../Layout/Layout";
 import Home from "../Pages/Home/Home";
 import ContentProtected from "../Pages/ContentProtected/ContentProtected";
+import CaseStudiesOne from "../Pages/CaseStudies/CaseStudiesOne";
 
 export const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
             {
                 path: '/protected',
                 element: <ContentProtected/>
+            },
+            {
+                path: '/caseStudyOne',
+                element: <CaseStudiesOne/>
             }
         ]
     },
