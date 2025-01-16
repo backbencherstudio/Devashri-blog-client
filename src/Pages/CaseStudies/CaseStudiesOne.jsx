@@ -4,6 +4,7 @@ import imageForCaseStudy from '../../assets/Frame 1000003204.png';
 import CaseStuPictureSec from '../../Components/sharedComponents/CaseStuPictureSec';
 import BriefSecOfCaseSec from '../../Components/sharedComponents/BriefSecOfCaseSec';
 import ProblemCard from '../../Components/ProblemCard/ProblemCard';
+import ProjectGoal from '../../Components/ProjectGoal/ProjectGoal';
 
 const CaseStudiesOne = () => {
     // section header data
@@ -44,6 +45,10 @@ const CaseStudiesOne = () => {
             <div className='bg-[#F2ECEB] mt-28'>
                 {/* Problem card */}
                 <ProblemCard/>
+            </div>
+
+            <div className='max-w-[1120px] mx-auto px-4 mt-32'>
+                <ProjectGoal/>
             </div>
         </div>
     );
