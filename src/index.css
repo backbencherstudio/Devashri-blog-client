@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.font-barlow{
+    font-family: "Barlow", serif;
+}
+
+body{
+    font-family: 'Barlow', serif;
+}
+
+.active{
+    color: #DD0101;
+}
