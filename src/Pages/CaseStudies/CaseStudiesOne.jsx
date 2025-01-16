@@ -20,6 +20,7 @@ const CaseStudiesOne = () => {
 
             {/* section picture */}
             <CaseStuPictureSec/>
+            
         </div>
     );
 };
