@@ -18,15 +18,15 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
             </p>
 
             {/* manage options */}
-            <div class="flex items-center space-x-2 mt-6 text-md">
+            <div className="flex items-center space-x-2 mt-6 text-md">
                 <span className=''>{options.events}</span>
                 
-                <div class="flex items-center">
-                    <span class="mx-8 mr-8">&bull;</span> 
+                <div className="flex items-center">
+                    <span className="mx-8 mr-8">&bull;</span> 
                     <span>{options.management}</span>
                 </div>
-                <div class="flex items-center">
-                    <span class="mx-8">&bull;</span> 
+                <div className="flex items-center">
+                    <span className="mx-8">&bull;</span> 
                     <span>{options.research}</span>
                 </div>
             </div>
