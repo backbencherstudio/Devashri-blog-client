@@ -5,6 +5,9 @@ import Layout from "../Layout/Layout";
 import Home from "../Pages/Home/Home";
 import ContentProtected from "../Pages/ContentProtected/ContentProtected";
 import CaseStudiesOne from "../Pages/CaseStudies/CaseStudiesOne";
+import Playground from "../Pages/Playground/Playground";
+import Resume from "../Pages/Resume/Resume";
+import About from "../Pages/About/About";
 
 export const router = createBrowserRouter([
     {
@@ -22,6 +25,18 @@ export const router = createBrowserRouter([
             {
                 path: '/caseStudyOne',
                 element: <CaseStudiesOne/>
+            },
+            {
+                path:"/about",
+                element:<About></About>
+            },
+            {
+                path:"/playground",
+                element:<Playground></Playground>
+            },
+            {
+                path:"/resume",
+                element:<Resume></Resume>
             }
         ]
     },
