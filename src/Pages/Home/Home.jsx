@@ -12,7 +12,7 @@ const Home = () => {
                     <p className='text-2xl leading[40px] w-full'>I’m a user experience designer based in Kuala Lumpur, Malaysia, with expertise in end-to-end UX/UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
                 </div>
                 <div className='mt-[200px]'>
-                    <p className='text-[#6D6D6D] text-2xl uppercase '>Recent case Studies on</p>
+                    <p className='text-[#6D6D6D] text-2xl uppercase '>Recent case Studies</p>
                     <div className='py-8'>
                         <img src={img1} alt="" />
                     </div>
