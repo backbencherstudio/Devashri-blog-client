@@ -2,52 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-barlow{
-    font-family: "Barlow", serif;
+.font-barlow {
+  font-family: "Barlow", serif;
+}
+.font-inter{
+  font-family: "Inter", serif;
 }
 
-body{
-    font-family: 'Barlow', serif;
+body {
+  font-family: 'Barlow', serif;
 }
 
-.active{
-    color: #DD0101;
+.active {
+  color: #DD0101;
 }
 
 
 @keyframes colorSlide {
-    0%, 25% {
-      color: #2A2A2A; /* Default text color */
-    }
-    25%, 45% {
-      color: #DD0101; /* Highlight color stays */
-    }
-    45%, 100% {
-      color: #2A2A2A; /* Gradual transition back to default */
-    }
+
+  0%,
+  24% {
+    color: #2A2A2A;
+    /* Default text color */
   }
-  
-  .highlight {
-    animation: colorSlide 12s infinite; /* Adjusted total duration */
+
+  25%,
+  45% {
+    color: #DD0101;
+    /* Highlight color stays */
   }
-  
-  .delay-1 {
-    animation-delay: 2s; /* Second word starts at 2 seconds */
+
+  45%,
+  100% {
+    color: #2A2A2A;
+    /* Gradual transition back to default */
   }
-  
-  .delay-2 {
-    animation-delay: 4s; /* Third word starts at 4 seconds */
-  }
-  
-  .delay-3 {
-    animation-delay: 6s; /* Fourth word starts at 6 seconds */
-  }
-  
-  .delay-4 {
-    animation-delay: 8s; /* Fifth word starts at 8 seconds */
-  }
-  
-  .delay-5 {
-    animation-delay: 10s; /* Fifth word starts after 4th word completes */
-  }
-  
+}
+
+.highlight {
+  animation: colorSlide 12s infinite;
+  /* Adjusted total duration */
+}
+
+.delay-1 {
+  animation-delay: 2s;
+  /* Second word starts at 2 seconds */
+}
+
+.delay-2 {
+  animation-delay: 4s;
+  /* Third word starts at 4 seconds */
+}
+
+.delay-3 {
+  animation-delay: 6s;
+  /* Fourth word starts at 6 seconds */
+}
+
+.delay-4 {
+  animation-delay: 8s;
+  /* Fifth word starts at 8 seconds */
+}
+
+.delay-5 {
+  animation-delay: 10s;
+  /* Fifth word starts after 4th word completes */
+}
+
+
+.border-style-right {
+  border-radius: 0px 32px 0px 0px;
+  border-top: 2px solid  #221429;
+  border-right: 2px solid  #221429;
+
+ 
+}
+
+.border-style-left{
+  border-radius: 32px 0px 0px 0px;
+border-top: 2px solid  #221429;
+border-left: 2px solid  #221429;
+}
