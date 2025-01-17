@@ -12,6 +12,7 @@ import PersonalStoriesCard from '../../Components/PersonalStories/PersonalStorie
 import AffinityIdeation from '../../Components/AffinityIdeation/AffinityIdeation';
 import TheSolution from '../../Components/TheSolution/TheSolution';
 import FinalDesign from '../../Components/FinalDesign/FinalDesign';
+import WebToolResortStuff from '../../Components/WebToolResortStuff/WebToolResortStuff';
 
 
 const CaseStudiesOne = () => {
@@ -71,9 +72,11 @@ const CaseStudiesOne = () => {
                 <AffinityIdeation/>
 
                 <TheSolution/>
-
+                
                 <FinalDesign/>
             </div>
+
+            <WebToolResortStuff/>
 
         </div>
     );

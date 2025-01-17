@@ -2,7 +2,6 @@ import React from 'react';
 import { rolesData } from "../../roleData/roleData";
 
 const PersonalStoriesCard = () => {
-  console.log(rolesData);
   return (
     <div className="py-24">
       <div className="space-y-8">
