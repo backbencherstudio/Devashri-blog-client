@@ -5,6 +5,14 @@ import CaseStuPictureSec from '../../Components/sharedComponents/CaseStuPictureS
 import BriefSecOfCaseSec from '../../Components/sharedComponents/BriefSecOfCaseSec';
 import ProblemCard from '../../Components/ProblemCard/ProblemCard';
 import ProjectGoal from '../../Components/ProjectGoal/ProjectGoal';
+import DesignApproch from '../../Components/DesignApproch/DesignApproch';
+import Frame1 from '../../assets/Frame1.png'
+import PersionalStories from '../../Components/PersonalStories/PersionalStories';
+import PersonalStoriesCard from '../../Components/PersonalStories/PersonalStoriesCard';
+import AffinityIdeation from '../../Components/AffinityIdeation/AffinityIdeation';
+import TheSolution from '../../Components/TheSolution/TheSolution';
+import FinalDesign from '../../Components/FinalDesign/FinalDesign';
+
 
 const CaseStudiesOne = () => {
     // section header data
@@ -29,7 +37,7 @@ const CaseStudiesOne = () => {
 
     return (
         <div>
-            <div className='max-w-[1120px] mx-auto px-4 mt-48'>
+            <div className='max-w-[1128px] mx-auto px-4 mt-48'>
                 <hr className="w-[100px] border-0 border-t-[8px] mb-6 border-[#DD0101] " />
 
                 {/* header section title, description, options */}
@@ -47,9 +55,26 @@ const CaseStudiesOne = () => {
                 <ProblemCard/>
             </div>
 
-            <div className='max-w-[1120px] mx-auto px-4 mt-32'>
+            <div className='max-w-[1128px] mx-auto px-4 mt-32'>
                 <ProjectGoal/>
+                <DesignApproch/>
+
             </div>
+
+            <img className='w-full' src={Frame1} alt="" />
+
+            <div className='max-w-[1128px] mx-auto px-4 py-28'>
+                <PersionalStories/>
+
+                <PersonalStoriesCard/>
+
+                <AffinityIdeation/>
+
+                <TheSolution/>
+
+                <FinalDesign/>
+            </div>
+
         </div>
     );
 };

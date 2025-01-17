@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const ContentProtected = () => {
     return (
-        <div className="max-w-[1120px] mx-auto px-4">
+        <div className="max-w-[1128px] mx-auto px-4">
             <div className="flex items-center justify-center h-screen">
                 <div className="text-center p-6 rounded">
                     <PiLock size={120} className="mx-auto mb-4 text-[#6D6D6D]" />

@@ -8,7 +8,7 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
                 {sectionCat}
             </p>
             {/* section header */}
-            <h1 className='text-6xl font-semibold  mt-4 mb-6'>
+            <h1 className='text-6xl font-semibold mt-4 mb-6'>
                 {title}
             </h1>
 
@@ -18,7 +18,7 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
             </p>
 
             {/* manage options */}
-            <div className="flex items-center space-x-2 mt-6 text-md">
+            <div className="flex items-center md:space-x-2 mt-6 text-md">
                 <span className=''>{options.events}</span>
                 
                 <div className="flex items-center">
