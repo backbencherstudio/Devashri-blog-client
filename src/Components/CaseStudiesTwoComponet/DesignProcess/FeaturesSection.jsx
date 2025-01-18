@@ -61,7 +61,7 @@ const FeaturesSection = () => {
                 </p>
                 <div className="mt-8 flex flex-col gap-10">
                     {features.map((feature, index) => (
-                        <div>
+                        <div key={index}>
                             <div>
                                 <h2 className="lg:text-2xl md:text-[20px] text-[18px] font-semibold tracking-[.72px] text-[#2A2A2A] opacity-80 ">
                                     {feature.title}
