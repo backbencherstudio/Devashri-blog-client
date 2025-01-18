@@ -43,7 +43,7 @@ const Typography = () => {
                     <div className="2xl:mt-[142px] xl:mt-[120px] lg:mt-[100px] md:mt-[80px] mt-[60px] flex md:flex-row flex-col gap-6 2xl:gap-[92px] xl:gap-[82px] lg:gap-[72px] md:gap-[22px] text-[#2A2A2A] font-inter justify-evenly">
                         {
                             typographyExamples.map((item, i) => (
-                                <div className="text-center ">
+                                <div key={i} className="text-center ">
                                     <p className={`xl:text-[112px] lg:text-[90px] md:text-[60px] text-[52px] ${i === 0 ? "font-[700]" : i === 1 ? "font-[500]" : "font-[400]"} `}>{item.sampleText} <span className='font-[300]'>{item?.sampleTextTwo}</span></p>
                                     <h2 className="xl:mt-4 mt-2 xl:text-[32px] text-[26px] font-semibold xl:leading-[38.4px]">{item.style}</h2>
                                     <p className="xl:text-2xl  lg:text-[22px] text-[20px]  lg:mt-2  leading-[32px]">{item.description}</p>
