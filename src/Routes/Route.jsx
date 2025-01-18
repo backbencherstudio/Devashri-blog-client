@@ -42,7 +42,8 @@ export const router = createBrowserRouter([
             {
                 path:"/case-studies-two",
                 element:<CaseStudiesTwo></CaseStudiesTwo>
-            }
+            },
+            
         ]
     },
 ]);
