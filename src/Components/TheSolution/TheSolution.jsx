@@ -4,7 +4,7 @@ const TheSolution = () => {
   return (
     <div className="px-4 sm:px-8 lg:px-16">
       {/* Title */}
-      <h1 className="text-[#DD0101] text-[48px] font-extrabold leading-[110%] tracking-[12px] not-italic my-28 opacity-25 text-center md:text-left">
+      <h1 className="text-[#DD0101] text-[38px] md:text-[48px] font-extrabold leading-[110%] tracking-[12px] not-italic my-28 opacity-25 text-center md:text-left">
         THE <br />
         SOLUTION
       </h1>
@@ -15,10 +15,10 @@ const TheSolution = () => {
           WIREFRAMES
         </h1>
         <div>
-          <h1 className="text-[24px] font-medium leading-[110%] tracking-[2.4px] not-italic mb-6 text-center md:text-left">
+          <h1 className="text-[24px] font-medium leading-[110%] md:tracking-[2.4px] not-italic mb-6 text-center md:text-left">
             Structuring the Experience
           </h1>
-          <ul className="text-[24px] font-normal leading-[110%] tracking-[2.4px] not-italic list-disc pl-8">
+          <ul className="md:text-[24px] font-normal leading-[110%] md:tracking-[2.4px] not-italic list-disc pl-8">
             <li className="mb-4">
               Our approach to designing the Luxe Events platform began with creating low-fidelity wireframes, laying the foundation for a user-centric, efficient, and visually appealing interface.
             </li>
@@ -30,7 +30,7 @@ const TheSolution = () => {
       </div>
 
       {/* Early Sketches Section */}
-      <h1 className="p-8 text-center py-14 text-[#DD0101] text-[24px]  leading-[110%] tracking-[2.4px]">
+      <h1 className="p-8 text-center py-14 text-[#DD0101] text-[24px]  leading-[110%] md:tracking-[2.4px]">
         Early Sketches: Laying the Foundation
       </h1>
       <div className="flex flex-col lg:flex-row gap-6">
@@ -57,7 +57,7 @@ const TheSolution = () => {
 
 
       {/* Low-Fidelity Wireframes */}
-      <h1 className="p-8 text-center py-14 text-[#DD0101] text-[24px] leading-[110%] tracking-[2.4px]">
+      <h1 className="p-8 text-center py-14 text-[#DD0101] text-[24px] leading-[110%] md:tracking-[2.4px]">
         Low-Fidelity Wireframes: Structuring Core Features
       </h1>
       <div className="flex flex-col lg:flex-row gap-6 mb-28">

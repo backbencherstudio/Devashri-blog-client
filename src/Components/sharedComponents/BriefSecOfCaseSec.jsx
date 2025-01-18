@@ -4,12 +4,12 @@ const BriefSecOfCaseSec = ({briefObj}) => {
     return (
         <div className="flex flex-col md:flex-row mt-24 md:mt-48 gap-12 md:gap-16 lg:gap-40 justify-between">
     {/* Title */}
-    <div className="text-[28px] font-semibold leading-[30.8px] tracking-[2.8px] text-[#DD0101] ">
+    <div className="text-[22px] md:text-[28px] font-semibold tracking-[2.8px] text-[#DD0101] ">
         <h1>{briefObj.briefHead}</h1>
     </div>
 
     {/* Description */}
-    <div className="w-full text-justify text-[24px] md:w-[30%] text-[#2A2A2A] md:text-left">
+    <div className="w-full text-justify md:text-[24px] md:w-[30%] text-[#2A2A2A] md:text-left">
         <p>{briefObj.paragraph}</p>
     </div>
 

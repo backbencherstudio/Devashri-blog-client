@@ -5,7 +5,7 @@ const FinalDesignCard = ({ data, position }) => {
         <div className="md:mb-40">
             {/* Effortless Section with Centered SVG */}
             <div>
-                <div className="relative flex items-center justify-center mb-9 w-full">
+                <div className="relative flex items-center justify-center md:mb-9 w-full">
                     {/* Background SVG */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ const FinalDesignCard = ({ data, position }) => {
 
 
             {/* Description */}
-            <p className="mb-12 md:text-[24px] text-center font-normal leading-[32px] tracking-[0.72px] not-italic">
+            <p className=" mb-12 md:text-[24px] text-center font-normal md:leading-[32px] md:tracking-[0.72px] not-italic">
                 {data.content}
             </p>
 

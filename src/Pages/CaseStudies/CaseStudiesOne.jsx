@@ -93,7 +93,7 @@ const CaseStudiesOne = () => {
 
             <div className='bg-[#F2ECEB] mt-28'>
                 {/* Problem card */}
-                <ProblemCard/>
+                <ProblemCard />
             </div>
 
             <div className='max-w-[1128px] mx-auto px-4 mt-32'>
