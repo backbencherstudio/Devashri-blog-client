@@ -13,6 +13,7 @@ import AffinityIdeation from '../../Components/AffinityIdeation/AffinityIdeation
 import TheSolution from '../../Components/TheSolution/TheSolution';
 import FinalDesign from '../../Components/FinalDesign/FinalDesign';
 import WebToolResortStuff from '../../Components/WebToolResortStuff/WebToolResortStuff';
+import Conclusion from '../../Components/Conclusion/Conclusion';
 
 
 const CaseStudiesOne = () => {
@@ -39,7 +40,7 @@ const CaseStudiesOne = () => {
     return (
         <div>
             <div className='max-w-[1128px] mx-auto px-4 mt-48'>
-                <hr className="w-[100px] border-0 border-t-[8px] mb-6 border-[#DD0101] " />
+                <hr className="w-[86px] border-0 border-t-[8px] mb-6 border-[#DD0101] " />
 
                 {/* header section title, description, options */}
                 <SectionCategory sectionCat={sectionCat} title = {title} description = {description} options= {options}/>
@@ -77,6 +78,8 @@ const CaseStudiesOne = () => {
             </div>
 
             <WebToolResortStuff/>
+
+            <Conclusion/>
 
         </div>
     );

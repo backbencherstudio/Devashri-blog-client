@@ -4,16 +4,16 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
     return (
         <div className='text-[#2A2A2A]'>
             {/* section title */}
-            <p>
+            <p className='text-[16px]'>
                 {sectionCat}
             </p>
             {/* section header */}
-            <h1 className='text-6xl font-semibold mt-4 mb-6'>
+            <h1 className='text-[56px] font-semibold leading-[67.2px] tracking-[1.68px] mt-4 mb-6'>
                 {title}
             </h1>
 
             {/* description */}
-            <p className='text-2xl'>
+            <p className='text-[24px] font-normal leading-[32px] tracking-[0.72px]'>
                 {description}
             </p>
 
