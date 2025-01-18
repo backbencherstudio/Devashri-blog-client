@@ -40,13 +40,21 @@ const conclusionData = [
   
 
 const CaseStudiesTwo = () => {
+
+    const iconData={
+        leftName:"Luxe Events",
+        rightName:"BachelorRite",
+        leftLink:"/caseStudyOne",
+        rightLink:"/caseSTudyThree"
+    }
+
     return (
         <div>
             <DesignProcess></DesignProcess>
             <Typography></Typography>
             <TheFinalDesign></TheFinalDesign>
             <Conclusion conclusionData={conclusionData}></Conclusion>
-            <Slider></Slider>
+            <Slider iconData={iconData} ></Slider>
         </div>
     );
 };

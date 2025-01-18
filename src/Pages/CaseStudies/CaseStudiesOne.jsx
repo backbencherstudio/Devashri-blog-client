@@ -14,6 +14,7 @@ import TheSolution from '../../Components/TheSolution/TheSolution';
 import FinalDesign from '../../Components/FinalDesign/FinalDesign';
 import WebToolResortStuff from '../../Components/WebToolResortStuff/WebToolResortStuff';
 import Conclusion from '../../Components/Conclusion/Conclusion';
+import Slider from '../../Components/Slider/Slider';
 
 const conclusionData = [
     {
@@ -76,6 +77,15 @@ const CaseStudiesOne = () => {
         tools : "Figma"
     }
 
+    //slider section
+
+    const iconData={
+      leftName:"Watt Wise",
+      rightName:"BacheloRite",
+      leftLink:"/caseSTudyThree",
+      rightLink:"/case-studies-two"
+  }
+
     return (
         <div>
             <div className='max-w-[1128px] mx-auto px-4 mt-48'>
@@ -97,8 +107,8 @@ const CaseStudiesOne = () => {
             </div>
 
             <div className='max-w-[1128px] mx-auto px-4 mt-32'>
-                <ProjectGoal/>
-                <DesignApproch/>
+                {/* <ProjectGoal/> */}
+                {/* <DesignApproch/> */}
 
             </div>
 
@@ -120,6 +130,7 @@ const CaseStudiesOne = () => {
 
             <Conclusion conclusionData={conclusionData}  />
 
+            <Slider iconData={iconData} />
         </div>
     );
 };
