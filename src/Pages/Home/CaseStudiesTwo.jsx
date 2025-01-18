@@ -1,7 +1,13 @@
 import DesignProcess from "../../Components/CaseStudiesTwoComponet/DesignProcess/DesignProcess";
 import TheFinalDesign from "../../Components/CaseStudiesTwoComponet/theFinalDesign/TheFinalDesign";
 import Typography from "../../Components/CaseStudiesTwoComponet/typography/Typography";
+import Challenge from "../../Components/Challenge/Challenge";
 import Conclusion from "../../Components/Conclusion/Conclusion";
+import ProblemCard from "../../Components/ProblemCard/ProblemCard";
+import BriefSecOfCaseSec from "../../Components/sharedComponents/BriefSecOfCaseSec";
+import CaseStuPictureSec from "../../Components/sharedComponents/CaseStuPictureSec";
+import SectionCategory from "../../Components/sharedComponents/SectionCategory";
+import img2 from '../../assets/Frame 119.png';
 import Slider from "../../Components/Slider/Slider";
 
 
@@ -40,6 +46,25 @@ const conclusionData = [
   
 
 const CaseStudiesTwo = () => {
+    const sectionCat = "UXUI Design"
+    const title = "Crafting a premium and intuitive portal for effortless energy management"
+    const description = "Designed a sleek and intuitive portal that elevates the experience of managing energy consumption, empowering users with effortless control and insight."
+    const options = {
+        "events": "Watt Wise",
+        "management": "Energy management portal",
+        "research" : "UI Design"
+    }
+
+  //    brief section
+    const briefObj = {
+        paragraph : "Watt Wise is a customer-centric web portal designed to streamline energy management for commercial users. The platform simplifies account management, billing, and energy usage tracking while offering a seamless self-service experience. Built with advanced technology and intuitive UI/UX, the portal ensures secure access, quick information retrieval, and scalability for future integrations. Watt Wise empowers users with actionable insights, enhancing efficiency and control over their energy consumption through a robust, user-friendly solution.",
+        briefHead : "BRIEF",
+        role : "UI Designer ",
+        duration : "2024 - Ongoing",
+        tools : "Figma"
+    }
+
+
 
     const iconData={
         leftName:"Luxe Events",
@@ -50,6 +75,25 @@ const CaseStudiesTwo = () => {
 
     return (
         <div>
+            <div className='max-w-[1128px] mx-auto px-4 mt-48'>
+                <hr className="w-[86px] border-0 border-t-[8px] mb-6 border-[#DD0101] " />
+
+                {/* header section title, description, options */}
+                <SectionCategory sectionCat={sectionCat} title = {title} description = {description} options= {options}/>
+
+                {/* section picture */}
+                <CaseStuPictureSec image={img2}/>
+                
+                {/* Brief Section */}
+                <BriefSecOfCaseSec briefObj={briefObj}/>
+            </div>
+
+            <div className='bg-[#F2ECEB] mt-28'>
+                {/* Problem card */}
+                <Challenge/>
+            </div>
+
+
             <DesignProcess></DesignProcess>
             <Typography></Typography>
             <TheFinalDesign></TheFinalDesign>
