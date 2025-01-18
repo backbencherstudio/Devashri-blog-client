@@ -2,6 +2,7 @@ import DesignProcess from "../../Components/CaseStudiesTwoComponet/DesignProcess
 import TheFinalDesign from "../../Components/CaseStudiesTwoComponet/theFinalDesign/TheFinalDesign";
 import Typography from "../../Components/CaseStudiesTwoComponet/typography/Typography";
 import Conclusion from "../../Components/Conclusion/Conclusion";
+import Slider from "../../Components/Slider/Slider";
 
 
 const conclusionData = [
@@ -45,6 +46,7 @@ const CaseStudiesTwo = () => {
             <Typography></Typography>
             <TheFinalDesign></TheFinalDesign>
             <Conclusion conclusionData={conclusionData}></Conclusion>
+            <Slider></Slider>
         </div>
     );
 };
