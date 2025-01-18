@@ -79,10 +79,49 @@ const CaseStudiesOne = () => {
 
             <WebToolResortStuff/>
 
-            <Conclusion/>
+            <Conclusion conclusionData={conclusionData} />
 
         </div>
     );
 };
 
 export default CaseStudiesOne;
+
+const conclusionData = [
+    {
+      section: "Conclusion",
+      content:
+        "The Luxe Events project aimed to create an innovative platform that enhances the guest experience by simplifying event booking and streamlining operational workflows. It focused on delivering a seamless, user-friendly solution for both guests and resort staff, improving efficiency, personalization, and guest satisfaction.",
+    },
+    {
+      section: "What I Achieved From This Project",
+      items: [
+        "Designed a user-centric platform addressing the needs of guests and staff at luxury resorts.",
+        "Incorporated real-time booking management, activity tracking, and personalized recommendations to enhance user engagement.",
+        "Worked closely with stakeholders to understand and gather requirements, aligning client-facing and internal team objectives.",
+        "Contributed to the iterative design process, focusing on continuous improvement and adapting the platform to evolving user needs.",
+      ],
+    },
+    {
+      section: "What I Learned From This Project",
+      items: [
+        "Client Interaction: Extensive engagement with stakeholders refined my ability to analyze user needs and contribute to tailored solutions, ensuring seamless collaboration between the needs of guests and staff at luxury resorts.",
+        "Cross-Functional Collaboration: Collaborated with diverse teams to ensure design and functionality met operational needs.",
+        "Iterative Design: Through continuous iteration, I gained insights into balancing user experience and technical constraints in a dynamic project environment.",
+      ],
+    },
+    {
+      section: "Opportunities For Enhancement",
+      items: [
+        "Guest Personalization: Further enhancing personalized recommendations based on guest behavior and preferences.",
+        "Staff Efficiency: Adding new administrative features to streamline internal communications and event management.",
+        "Scalability: Expanding the platform to support multiple resorts and diverse activity types.",
+      ],
+    },
+    {
+      section: "Note",
+      content:
+        "This design is a reflection of the work completed during my time on the project. As likely company-sensitive iterations past my involvement.",
+    },
+  ];
+  
