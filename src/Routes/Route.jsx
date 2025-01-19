@@ -9,6 +9,7 @@ import Playground from "../Pages/Playground/Playground";
 import Resume from "../Pages/Resume/Resume";
 import About from "../Pages/About/About";
 import CaseStudiesTwo from "../Pages/Home/CaseStudiesTwo";
+import BachelorRite from "../Pages/Home/BachelorRite/BachelorRite";
 
 export const router = createBrowserRouter([
     {
@@ -43,6 +44,10 @@ export const router = createBrowserRouter([
                 path:"/case-studies-two",
                 element:<CaseStudiesTwo></CaseStudiesTwo>
             },
+            {
+                path:"/bachelorRite",
+                element:<BachelorRite></BachelorRite>
+            }
             
         ]
     },

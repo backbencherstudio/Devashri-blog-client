@@ -13,8 +13,8 @@ const Conclusion = ({ conclusionData }) => {
                 </h1>
                 <div>
                     {conclusionData.map((section, index) => (
-                        <div key={index} className={`mb-[56px]`}>
-                            <h1 className={ ` ${index === 0 && "hidden"} text-[#DD0101] mb-4 md:mb-6 lg:mb-8 text-[22px] md:text-[24px] lg:text-[28px] font-medium leading-[26px] sm:leading-[28px] lg:leading-[30.8px] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.8px]`}>
+                        <div key={index} className={` `}>
+                            <h1 className={ ` ${index === 0 && "hidden"} text-[#DD0101] mb-4 md:mb-6 lg:mb-8 text-[22px] md:text-[24px] lg:text-[28px] font-medium leading-[26px] sm:leading-[28px] lg:leading-[30.8px] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.8px] mt-[56px]`}>
                                 {section.section}
                             </h1>
                             {section.content && (

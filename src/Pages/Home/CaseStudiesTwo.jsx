@@ -8,6 +8,8 @@ import BriefSecOfCaseSec from "../../Components/sharedComponents/BriefSecOfCaseS
 import CaseStuPictureSec from "../../Components/sharedComponents/CaseStuPictureSec";
 import SectionCategory from "../../Components/sharedComponents/SectionCategory";
 import img2 from '../../assets/Frame 119.png';
+import Slider from "../../Components/Slider/Slider";
+
 
 const conclusionData = [
     {
@@ -63,6 +65,14 @@ const CaseStudiesTwo = () => {
     }
 
 
+
+    const iconData={
+        leftName:"Luxe Events",
+        rightName:"BachelorRite",
+        leftLink:"/caseStudyOne",
+        rightLink:"/bachelorRite"
+    }
+
     return (
         <div>
             <div className='max-w-[1128px] mx-auto px-4 mt-48'>
@@ -88,6 +98,7 @@ const CaseStudiesTwo = () => {
             <Typography></Typography>
             <TheFinalDesign></TheFinalDesign>
             <Conclusion conclusionData={conclusionData}></Conclusion>
+            <Slider iconData={iconData} ></Slider>
         </div>
     );
 };
