@@ -1,5 +1,6 @@
 import React from 'react';
 import playground1 from "/playground/playground1.gif"
+import playground2 from "../../assets/Group.png"
 import animation3 from '../../assets/animation3.gif'
 const Playground = () => {
     return (
@@ -15,6 +16,7 @@ const Playground = () => {
 
             <div className="my-10 md:my-20  bg-[#FFD8D8] w-full py-10 px-6 sm:py-16 sm:px-10 lg:py-20 lg:px-20 mx-auto">
                 {/* todo: add the laptop here */}
+                <img className="rounded-[64.28px] w-full max-w-[500px] mx-auto" src={playground2} alt="" />
             </div>
 
             
