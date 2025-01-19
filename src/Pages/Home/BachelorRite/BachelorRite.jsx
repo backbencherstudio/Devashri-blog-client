@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from '../../../Components/Slider/Slider';
 import Conclusion from '../../../Components/Conclusion/Conclusion';
 import FinalDesignforRite from '../../../Components/FinalDesign/FinalDesignforRite';
+import TypographyForRite from '../../../Components/BachelorRite/typography/TypographyForRite';
+import WireFrames from '../../../Components/BachelorRite/WireFrames/WireFrames';
 
 const BachelorRite = () => {
 
@@ -13,6 +15,8 @@ const BachelorRite = () => {
                 
 
             </div>
+                <WireFrames></WireFrames>
+                <TypographyForRite></TypographyForRite>
                 <FinalDesignforRite></FinalDesignforRite>
                 <Conclusion conclusionData={conclusionData}></Conclusion>
                 <Slider iconData={iconData}></Slider>
