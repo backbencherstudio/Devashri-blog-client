@@ -11,6 +11,10 @@ import CompetitiveAnalysis from '../../../Components/CompetitiveAnalysis/Competi
 import UserResearch from '../../../Components/UserResearch/UserResearch';
 import InsightsField from '../../../Components/InsightsField/InsightsField';
 import UserPersona from '../../../Components/UserPersona/UserPersona';
+import EmpathyMap from '../../../Components/EmpathyMap/EmpathyMap';
+import UxChallenge from '../../../Components/UxChallenge/UxChallenge';
+import UserFlow from '../../../Components/UserFlow/UserFlow';
+import StructuringInfo from '../../../Components/StructuringInfo/StructuringInfo';
 
 const BachelorRite = () => {
   const sectionCat = "UXUI Design"
@@ -59,8 +63,17 @@ const BachelorRite = () => {
                 <UserResearch/>
                 <InsightsField/>
                 <UserPersona/>
+                <EmpathyMap/>
+            </div>
+            
+            <div className='bg-[#F2ECEB] mt-28'>
+              <UxChallenge/>
             </div>
 
+            <div className='max-w-[1128px] mx-auto px-4 mt-28'>
+              <UserFlow/>
+              <StructuringInfo/>
+            </div>
 
 
             <div>

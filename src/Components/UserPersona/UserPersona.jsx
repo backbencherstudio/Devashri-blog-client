@@ -3,12 +3,13 @@ import userpersonaImg from '../../assets/userpersona/Group 40.png'
 
 const UserPersona = () => {
     return (
-        <div>
-            <h1 className='text-[28px] font-semibold leading-[30.8px] tracking-[2.8px] not-italic mt-28 text-[#DD0101]'>USER PERSONA</h1>
+        <div className='mb-28'>
+            <h1 className='text-[28px] text-center md:text-left font-semibold leading-[30.8px] tracking-[2.8px] not-italic mt-28 text-[#DD0101]'>USER PERSONA</h1>
 
-            <div className='mt-6'>
+            <div className='mt-6 '>
 
-                <div className='md:flex border-2 rounded-3xl'>
+                <div className='lg:flex border-2 bg-[#F2ECEB] rounded-3xl md:rounded-none lg:rounded-r-3xl'>
+                    {/* User Persona details */}
                     <div className='md:w-11/12 p-8 lg:w-4/5'>
                         <h1 className='text-[32px] text-[#221429] font-semibold leading-[35.2px] tracking-[3.2px] not-italic'>Rahul Verma</h1>
                         <p className='text-[16px] font-normal leading-[17.6px] text-[#6D6D6D] not-italic'>27 YEARS   |   BENGALURU, INDIA   |   SOFTWARE DEVELOPER</p>
@@ -25,7 +26,7 @@ const UserPersona = () => {
 
                         {/* Goal and Frustrations */}
                         <div className=' text-[#2A2A2A]'>
-                            <div className='flex gap-8'>
+                            <div className='md:flex gap-8'>
                                 <div>
                                     <h1 className='text-[24px] mb-4 font-medium leading-[26.4px] tracking-[2.4px] not-italic'>Goals</h1>
                                     <ul className='list-disc ml-8'>
@@ -48,7 +49,7 @@ const UserPersona = () => {
                             <div>
 
                                 {/* oppurtunity */}
-                            <div className='mt-6'>
+                            <div className=''>
                                 <h1 className='text-[24px] mb-4 font-medium leading-[26.4px] tracking-[2.4px] not-italic'>Opportunities</h1>
                                     <ul className='list-disc ml-8'>
                                         <li>Create a platform dedicated to simplifying the rental experience for single tenants.</li>
@@ -61,13 +62,17 @@ const UserPersona = () => {
 
                     </div>
 
-                    <div className="relative inline-block">
-                        <img className="rounded-r-3xl" src={userpersonaImg} alt="" />
+                    {/* user image */}
+                    <div className="flex justify-center items-center">
+                        <div className="relative inline-block">
+                            <img className="rounded-3xl md:rounded-r-3xl" src={userpersonaImg} alt="" />
 
-                        <p className="absolute text-center p-6 bottom-4 left-4 text-white text-[16px] font-medium">
-                            “Finding a decent place shouldn’t feel like a battle just because I’m a bachelor.”
-                        </p>
+                            <p className="absolute text-center p-6 bottom-4 lg:bottom-40 left-4 text-white text-[16px] font-semibold italic leading-[26.4px] tracking-[2.4px]">
+                                “Finding a decent place shouldn’t feel like a battle just because I’m a bachelor.”
+                            </p>
+                        </div>
                     </div>
+
              
                 </div>
 
