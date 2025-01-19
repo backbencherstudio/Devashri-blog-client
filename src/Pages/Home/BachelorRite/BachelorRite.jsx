@@ -7,6 +7,8 @@ import SectionCategory from '../../../Components/sharedComponents/SectionCategor
 import CaseStuPictureSec from '../../../Components/sharedComponents/CaseStuPictureSec';
 import BriefSecOfCaseSec from '../../../Components/sharedComponents/BriefSecOfCaseSec';
 import ProblemCard from '../../../Components/ProblemCard/ProblemCard';
+import CompetitiveAnalysis from '../../../Components/CompetitiveAnalysis/CompetitiveAnalysis';
+import UserResearch from '../../../Components/UserResearch/UserResearch';
 
 const BachelorRite = () => {
   const sectionCat = "UXUI Design"
@@ -49,6 +51,13 @@ const BachelorRite = () => {
                 {/* Problem card */}
                 <ProblemCard />
             </div>
+
+            <div className='max-w-[1128px] mx-auto px-4 mt-28'>
+                <CompetitiveAnalysis />
+                <UserResearch/>
+            </div>
+
+
 
             <div>
                 
