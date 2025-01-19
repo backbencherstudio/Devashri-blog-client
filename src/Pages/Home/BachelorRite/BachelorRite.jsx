@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from '../../../Components/Slider/Slider';
 import Conclusion from '../../../Components/Conclusion/Conclusion';
 import FinalDesignforRite from '../../../Components/FinalDesign/FinalDesignforRite';
+import TypographyForRite from '../../../Components/BachelorRite/typography/TypographyForRite';
+import WireFrames from '../../../Components/BachelorRite/WireFrames/WireFrames';
 import img3 from '../../../assets/Frame 116.png';
 import SectionCategory from '../../../Components/sharedComponents/SectionCategory';
 import CaseStuPictureSec from '../../../Components/sharedComponents/CaseStuPictureSec';
