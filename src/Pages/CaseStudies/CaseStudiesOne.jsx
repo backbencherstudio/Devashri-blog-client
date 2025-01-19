@@ -126,7 +126,7 @@ const CaseStudiesOne = () => {
                 <FinalDesign/>
             </div>
 
-            <WebToolResortStuff/>
+            {/* <WebToolResortStuff/> */}
 
             <Conclusion conclusionData={conclusionData}  />
 
