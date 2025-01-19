@@ -15,11 +15,13 @@ import img13 from "../../../assets/bachelorRite/wire-frames/Forget Password 12.p
 import img14 from "../../../assets/bachelorRite/wire-frames/Rent a Product Listing.png"
 import img15 from "../../../assets/bachelorRite/wire-frames/Book a Service.png"
 
+import Marquee from "react-fast-marquee";
 
 
-// const images = [
-//     img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15
-// ];
+
+const images = [
+    img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15
+];
 
 
 const WireFrames = () => {
@@ -33,17 +35,11 @@ const WireFrames = () => {
                     <p>The apartment exploration and booking flow was designed to be intuitive, alongside a "Pay Rent" feature for easy monthly payments of consolidated packages, ensuring a user-friendly and streamlined experience for single tenants.</p>
                 </div>
             </div>
-            <div className='w-[1200px] mx-auto'>
-                <div className="grid md:grid-cols-5 gap-[46px] p-4">
-                    {/* {images.map((image, index) => (
-                        <div key={index} className="rounded-lg overflow-hidden w-[226px] border-2">
-                            <img
-                                src={image}
-                                alt={`Wireframe ${index + 1}`}
-                                className=" "
-                            />
-                        </div>
-                    ))} */}
+            <div className='mt-[56px]'>
+                <div className="space-y-10">
+                    <MarqueeRow direction="left" rowImages={images.slice(0, 5)} />
+                    <MarqueeRow direction="right" rowImages={images.slice(5, 10)} />
+                    <MarqueeRow direction="left" rowImages={images.slice(10, 15)} />
                 </div>
             </div>
         </div>
@@ -51,3 +47,22 @@ const WireFrames = () => {
 };
 
 export default WireFrames;
+
+const MarqueeRow = ({ rowImages,direction }) => {
+    return (
+<Marquee gradient={false} direction={direction} speed={50} pauseOnHover={true}>
+  {rowImages.map((image, index) => (
+    <div
+      key={index}
+      className="flex-shrink-0 md:mx-5 mx-2"
+    >
+      <img
+        src={image}
+        alt={`Wireframe ${index + 1}`}
+        className="w-[150px] h-[300px] sm:w-[200px] sm:h-[400px] md:w-[222.409px] md:h-[480.479px] rounded-lg"
+      />
+    </div>
+  ))}
+</Marquee>
+    );
+};
