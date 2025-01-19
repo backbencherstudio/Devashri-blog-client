@@ -65,9 +65,9 @@ const UserPersona = () => {
                     {/* user image */}
                     <div className="flex justify-center items-center">
                         <div className="relative inline-block">
-                            <img className="rounded-3xl md:rounded-r-3xl" src={userpersonaImg} alt="" />
+                            <img className="rounded-3xl md:rounded-r-3xl " src={userpersonaImg} alt="" />
 
-                            <p className="absolute text-center p-6 bottom-4 lg:bottom-40 left-4 text-white text-[16px] font-semibold italic leading-[26.4px] tracking-[2.4px]">
+                            <p className="absolute text-center p-6 bottom-4 lg:bottom-0 left-4 text-white text-[16px] font-semibold italic leading-[26.4px] tracking-[2.4px]">
                                 “Finding a decent place shouldn’t feel like a battle just because I’m a bachelor.”
                             </p>
                         </div>

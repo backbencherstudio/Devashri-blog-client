@@ -37,6 +37,7 @@ let data = [
 
 
 const Home = () => {
+   
     return (
         <div className='bg-[##F9F6F5]'>
         <div className='max-w-[1128px] mx-auto xl:pt-[300px] lg:pt-[250px] md:pt-[200px] pt-[120px]  px-4 2xl:px-0'>
@@ -71,7 +72,7 @@ const Home = () => {
                                     <div>
                                         <h1 className='text-[#2A2A2A] lg:text-5xl md:text-[42px] text-[24px] font-semibold md:leading-[52.8px] tracking-[.5px] md:tracking-[1.44px]'>{item.heading}</h1>
                                         <p className='md:text-2xl text-[16px] text-[#2A2A2A] mt-4 leading-[32px] md:tracking-[.72px] tracking-[.20px]'>{item.description}</p>
-                                        <button className='mt-6 text-[#6D6D6D] md:text-2xl text-[18px] flex items-center gap-3'><Link  to={item.id === 2 && "/case-studies-two" || item.id === 1 && "/caseStudyOne" || item.id === 3 && "/bachelorRite"} className='leading'>{item.actionText}</Link>  <span> <FaArrowRightLong />
+                                        <button className='mt-6 text-[#6D6D6D] md:text-2xl text-[18px] flex items-center gap-3'><Link  to={item.id === 2 && "/caseStudyOne" || item.id === 1 && "/case-studies-two" || item.id === 3 && "/bachelorRite"} className='leading'>{item.actionText}</Link>  <span> <FaArrowRightLong />
                                         </span></button>
                                     </div>
                                 </div>
