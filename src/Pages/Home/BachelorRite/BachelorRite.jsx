@@ -9,6 +9,8 @@ import BriefSecOfCaseSec from '../../../Components/sharedComponents/BriefSecOfCa
 import ProblemCard from '../../../Components/ProblemCard/ProblemCard';
 import CompetitiveAnalysis from '../../../Components/CompetitiveAnalysis/CompetitiveAnalysis';
 import UserResearch from '../../../Components/UserResearch/UserResearch';
+import InsightsField from '../../../Components/InsightsField/InsightsField';
+import UserPersona from '../../../Components/UserPersona/UserPersona';
 
 const BachelorRite = () => {
   const sectionCat = "UXUI Design"
@@ -55,6 +57,8 @@ const BachelorRite = () => {
             <div className='max-w-[1128px] mx-auto px-4 mt-28'>
                 <CompetitiveAnalysis />
                 <UserResearch/>
+                <InsightsField/>
+                <UserPersona/>
             </div>
 
 
