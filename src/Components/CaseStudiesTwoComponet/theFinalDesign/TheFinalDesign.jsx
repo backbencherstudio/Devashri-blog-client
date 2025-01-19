@@ -19,7 +19,7 @@ const TheFinalDesign = () => {
                 <div className='flex flex-col lg:gap-[200px] md:gap-[150px] gap-[100px]'>
                     {sections.map((item,i) => (
                         <div key={i} className='grid md:grid-cols-5  lg:gap-6 gap-4'>
-                        <div className={`md:col-span-3 md:mt-[80px] ${i % 2 == 1 && "md:order-1 md:mt-0"}`}>
+                        <div className={`md:col-span-3  ${i % 2 == 1 && "md:order-1 md:mt-0" || i % 2 == 0 && "md:mt-[80px]"}`}>
                             <img src={item.img} alt="" />
                         </div>
                         <div className={`md:col-span-2  ${i % 2 == 1 && "md:mt-[80px]"}`}>

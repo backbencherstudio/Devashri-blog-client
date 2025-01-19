@@ -70,7 +70,7 @@ const CaseStudiesTwo = () => {
         leftName:"Luxe Events",
         rightName:"BachelorRite",
         leftLink:"/caseStudyOne",
-        rightLink:"/caseSTudyThree"
+        rightLink:"/bachelorRite"
     }
 
     return (
