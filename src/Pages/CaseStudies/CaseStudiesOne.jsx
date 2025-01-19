@@ -57,6 +57,7 @@ const conclusionData = [
 
 
 const CaseStudiesOne = () => {
+  
     // section header data
     const sectionCat = "UXUI Design"
     const title = "Redefining the guest experience with seamless event scheduling"
