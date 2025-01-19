@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProblemCard = () => {
+const  ProblemCard = () => {
     return (
         <div className="max-w-[1128px] mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between gap-8 py-10">
