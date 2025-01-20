@@ -14,7 +14,6 @@ const ContentProtected = () => {
         e.preventDefault();
         const password = e.target.password.value;
         const protectedPasswordONE = import.meta.env.VITE_REACT_APP_CACE_ONE;
-        const protectedPasswordTWO = import.meta.env.VITE_REACT_APP_CACE_TWO;
         
         if (password === protectedPasswordONE) {
             const token = await new SignJWT({ password, role: 'caseStudyOne' })
@@ -24,15 +23,6 @@ const ContentProtected = () => {
 
             localStorage.setItem("accessTokenOne", token);
             navigate("/caseStudyOne");
-          } else if (password === protectedPasswordTWO) {
-            // Generate JWT
-            const token = await new SignJWT({ password, role: 'caseStudyTwo' })
-            .setProtectedHeader({ alg: 'HS256' })
-            .setExpirationTime(EXPIRATION_TIME)
-            .sign(SECRET_KEY)
-
-            localStorage.setItem("accessTokenTwo", token);
-            navigate("/case-studies-two");
           } else {
             alert("Invalid Password");
           }
