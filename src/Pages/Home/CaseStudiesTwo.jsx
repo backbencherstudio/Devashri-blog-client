@@ -65,7 +65,7 @@ const CaseStudiesTwo = () => {
     }
 
 
-
+///slider icon data:
     const iconData={
         leftName:"Luxe Events",
         rightName:"BachelorRite",
@@ -73,10 +73,17 @@ const CaseStudiesTwo = () => {
         rightLink:"/bachelorRite"
     }
 
+      useEffect(()=>{
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+    },[])
+
     return (
         <div>
             <div className='max-w-[1128px] mx-auto px-4 xl:pt-[300px] lg:pt-[250px] md:pt-[200px] pt-[120px]'>
-            <div className='md:w-[100px] w-[60px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
+            <div className='w-[100px]  md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
 
                 {/* header section title, description, options */}
                 <SectionCategory sectionCat={sectionCat} title = {title} description = {description} options= {options}/>

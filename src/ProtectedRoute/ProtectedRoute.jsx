@@ -29,6 +29,8 @@ const ProtectedRoute = ({ children }) => {
 
   // Render children only if access is granted
   return passwordOne ? children : null;
+
+  
 };
 
 export default ProtectedRoute;

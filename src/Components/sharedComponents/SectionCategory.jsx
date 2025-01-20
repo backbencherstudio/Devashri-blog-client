@@ -4,7 +4,7 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
     return (
         <div className="text-[#2A2A2A] ">
             {/* Section Title */}
-            <p className="text-[14px] sm:text-[16px] font-normal">
+            <p className="text-base font-normal tracking-[1.6px]">
                 {sectionCat}
             </p>
 
