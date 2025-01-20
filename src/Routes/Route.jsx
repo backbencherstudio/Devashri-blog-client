@@ -11,6 +11,8 @@ import CaseStudiesTwo from "../Pages/Home/CaseStudiesTwo";
 import BachelorRite from "../Pages/Home/BachelorRite/BachelorRite";
 import ProtectedRoute from "../ProtectedRoute/ProtectedRoute";
 import ContentProtected from "../Pages/ContentProtected/ContentProtected";
+import ContentProtectedTwo from "../Pages/ContentProtected/ContentProtectedTwo";
+import ProtectedRouteTwo from "../ProtectedRoute/ProtectedRouteTwo";
 
 export const router = createBrowserRouter([
     {
@@ -26,8 +28,12 @@ export const router = createBrowserRouter([
                 element: <ContentProtected/>
             },
             {
+                path: '/protectedTwo',
+                element: <ContentProtectedTwo/>
+            },
+            {
                 path: '/caseStudyOne',
-                element: <CaseStudiesOne/> 
+                element: <ProtectedRoute><CaseStudiesOne/></ProtectedRoute> 
             },
             {
                 path:"/about",
@@ -43,7 +49,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/case-studies-two",
-                element:<CaseStudiesTwo/>
+                element:<ProtectedRouteTwo><CaseStudiesTwo/></ProtectedRouteTwo>
             },
             {
                 path:"/bachelorRite",

@@ -2,28 +2,33 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const ProtectedRoute = ({ children }) => {
-    const [password, setPassword] = useState(false);
-    const navigate = useNavigate();
+  const navigate = useNavigate();
+  const [passwordOne, setPasswordOne] = useState(null); 
 
-    useEffect(() => {
-        // Check for access token once the component mounts
-        const accessToken = localStorage.getItem("accessToken")
-        console.log("aaa",accessToken);
-        if (accessToken) {
-            setPassword(true);
-        } else {
-            setPassword(false);
-        }
-    }, []);
-
-    
-    if (!password) {
-        navigate("/protected");
+  useEffect(() => {
+    // Check for access token once the component mounts
+    const accessTokenOne = localStorage.getItem("accessTokenOne");
+    if (accessTokenOne) {
+      setPasswordOne(true);
+    } else {
+      setPasswordOne(false);
     }
-    
+  }, []);
 
-    // Only render children if password is true
-    return password ? children : null;
+  // Handle redirection after checking
+  useEffect(() => {
+    if (passwordOne === false) {
+      navigate("/protected");
+    }
+  }, [passwordOne, navigate]);
+
+  // Render null while checking
+  if (passwordOne === null) {
+    return null; // or a loading spinner
+  }
+
+  // Render children only if access is granted
+  return passwordOne ? children : null;
 };
 
 export default ProtectedRoute;
