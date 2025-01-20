@@ -16,6 +16,7 @@ const ProtectedRouteTwo = ({ children }) => {
             setPasswordTwo(false);
         }
     }, []);
+    
 
     // Handle redirection after checking
     useEffect(() => {
