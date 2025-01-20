@@ -43,10 +43,10 @@ export const router = createBrowserRouter([
                 path:"/playground",
                 element:<Playground></Playground>
             },
-            {
-                path:"/resume",
-                element:<Resume></Resume>
-            },
+            // {
+            //     path:"/resume",
+            //     element:<Resume></Resume>
+            // },
             {
                 path:"/case-studies-two",
                 element:<ProtectedRouteTwo><CaseStudiesTwo/></ProtectedRouteTwo>

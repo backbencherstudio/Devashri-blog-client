@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import SectionCategory from '../../Components/sharedComponents/SectionCategory';
 import imageForCaseStudy from '../../assets/Frame 1000003204.png';
 import CaseStuPictureSec from '../../Components/sharedComponents/CaseStuPictureSec';
@@ -87,10 +87,17 @@ const CaseStudiesOne = () => {
       rightLink:"/case-studies-two"
   }
 
+    useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+  },[])
+
     return (
         <div>
-            <div className='max-w-[1128px] mx-auto px-4 mt-48'>
-                <hr className="w-[86px] border-0 border-t-[8px] mb-6 border-[#DD0101] " />
+            <div className='max-w-[1128px] mx-auto px-4 xl:pt-[300px] lg:pt-[250px] md:pt-[200px] pt-[120px]'>
+            <div className='w-[100px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
 
                 {/* header section title, description, options */}
                 <SectionCategory sectionCat={sectionCat} title = {title} description = {description} options= {options}/>

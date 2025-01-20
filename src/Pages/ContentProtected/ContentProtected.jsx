@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { PiLock } from "react-icons/pi";
 import { BsArrowRight } from "react-icons/bs";
 import { useNavigate } from 'react-router-dom';
@@ -26,10 +26,20 @@ const ContentProtected = () => {
           } else {
             alert("Invalid Password");
           }
-    }
+
+        }
+
+        useEffect(()=>{
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+      },[])
+
+
     return (
-        <div className="max-w-[1128px] mx-auto px-4">
-            <div className="flex items-center justify-center h-screen">
+        <div className="max-w-[1128px] mx-auto px-4 ">
+            <div className="flex items-center justify-center min-h-screen">
                 <div className="text-center p-6 rounded">
                     <PiLock size={120} className="mx-auto mb-4 text-[#6D6D6D]" />
                     <h1 className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl mt-12 font-semibold mb-2 text-[#2A2A2A]">
