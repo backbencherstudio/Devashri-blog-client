@@ -10,6 +10,8 @@ import SectionCategory from "../../Components/sharedComponents/SectionCategory";
 import img2 from '../../assets/Frame 119.png';
 import Slider from "../../Components/Slider/Slider";
 
+import { useEffect } from "react";
+
 
 const conclusionData = [
     {
