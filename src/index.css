@@ -34,6 +34,7 @@ body{
   25%,
   45% {
     color: #DD0101;
+   
     /* Highlight color stays */
   }
 
@@ -51,6 +52,7 @@ body{
 
 .delay-1 {
   animation-delay: 2s;
+  font-weight: 600;
   /* Second word starts at 2 seconds */
 }
 
@@ -79,8 +81,6 @@ body{
   border-radius: 0px 32px 0px 0px;
   border-top: 2px solid  #221429;
   border-right: 2px solid  #221429;
-
- 
 }
 
 .border-style-left{

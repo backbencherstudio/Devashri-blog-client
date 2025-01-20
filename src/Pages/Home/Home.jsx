@@ -40,11 +40,11 @@ const Home = () => {
    
     return (
         <div className='bg-[##F9F6F5]'>
-        <div className='max-w-[1128px] mx-auto xl:pt-[300px] lg:pt-[250px] md:pt-[200px] pt-[120px]  px-4 2xl:px-0'>
+        <div className='max-w-[1128px] mx-auto  px-4 2xl:px-0'>
             <div>
-                <div className='w-full flex-col flex md:gap-6 gap-4'>
+                <div className='w-full flex-col flex md:gap-6 gap-4  md:py-[120px] py-[80px]'>
                     <div className='md:w-[100px] w-[60px] md:h-[8px] h-[5px] bg-[#DD0101] '></div>
-                    <h1 className='text-[#2A2A2A] font-bold lg:text-[56px] md:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[2px]' >Hi, I'm<span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></h1>
+                    <h1 className='text-[#2A2A2A] font-bold lg:text-[56px] md:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[2px]' >Hi, I'm <Link to={"/about"}><span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></Link> </h1>
                     <h3 className="text-[#2A2A2A] lg:text-[56px] md:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[1.5px] ">
                         I <span className="highlight delay-1">design</span>,
                         <span className="highlight delay-2">paint</span>,
@@ -54,9 +54,9 @@ const Home = () => {
                     </h3>
 
 
-                    <p className='md:text-2xl text-base leading[40px] w-full md:tracking-[1.2px] tracking-[.20px]'>I’m a user experience designer based in Kuala Lumpur, Malaysia, with expertise in end-to-end UX/UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
+                    <p className='md:text-2xl text-base md:leading[40px] w-full md:tracking-[1.2px] tracking-[.20px] font-[400] '>I’m a user experience designer based in Kuala Lumpur, Malaysia, with expertise in end-to-end UX/ UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
                 </div>
-                <div className='lg:mt-[200px] md:mt-[150px] mt-[100px]'>
+                <div className=' '>
                     <p className='text-[#6D6D6D] text-2xl uppercase '>Recent case Studies</p>
                     {
                         data.map((item, i) => (

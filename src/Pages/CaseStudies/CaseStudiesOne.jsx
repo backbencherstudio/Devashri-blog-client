@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 import SectionCategory from '../../Components/sharedComponents/SectionCategory';
 import imageForCaseStudy from '../../assets/Frame 1000003204.png';
 import CaseStuPictureSec from '../../Components/sharedComponents/CaseStuPictureSec';
@@ -17,130 +17,132 @@ import Conclusion from '../../Components/Conclusion/Conclusion';
 import Slider from '../../Components/Slider/Slider';
 
 const conclusionData = [
-    {
-      section: "Conclusion",
-      content:
-        "The Luxe Events project aimed to create an innovative platform that enhances the guest experience by simplifying event booking and streamlining operational workflows. It focused on delivering a seamless, user-friendly solution for both guests and resort staff, improving efficiency, personalization, and guest satisfaction.",
-    },
-    {
-      section: "What I Achieved From This Project",
-      items: [
-        "Designed a user-centric platform addressing the needs of guests and staff at luxury resorts.",
-        "Incorporated real-time booking management, activity tracking, and personalized recommendations to enhance user engagement.",
-        "Worked closely with stakeholders to understand and gather requirements, aligning client-facing and internal team objectives.",
-        "Contributed to the iterative design process, focusing on continuous improvement and adapting the platform to evolving user needs.",
-      ],
-    },
-    {
-      section: "What I Learned From This Project",
-      items: [
-        "Client Interaction: Extensive engagement with stakeholders refined my ability to analyze user needs and contribute to tailored solutions, ensuring seamless collaboration between the needs of guests and staff at luxury resorts.",
-        "Cross-Functional Collaboration: Collaborated with diverse teams to ensure design and functionality met operational needs.",
-        "Iterative Design: Through continuous iteration, I gained insights into balancing user experience and technical constraints in a dynamic project environment.",
-      ],
-    },
-    {
-      section: "Opportunities For Enhancement",
-      items: [
-        "Guest Personalization: Further enhancing personalized recommendations based on guest behavior and preferences.",
-        "Staff Efficiency: Adding new administrative features to streamline internal communications and event management.",
-        "Scalability: Expanding the platform to support multiple resorts and diverse activity types.",
-      ],
-    },
-    {
-      section: "Note",
-      content:
-        "This design is a reflection of the work completed during my time on the project. As likely company-sensitive iterations past my involvement.",
-    },
-  ];
-  
+  {
+    section: "Conclusion",
+    content:
+      "The Luxe Events project aimed to create an innovative platform that enhances the guest experience by simplifying event booking and streamlining operational workflows. It focused on delivering a seamless, user-friendly solution for both guests and resort staff, improving efficiency, personalization, and guest satisfaction.",
+  },
+  {
+    section: "What I Achieved From This Project",
+    items: [
+      "Designed a user-centric platform addressing the needs of guests and staff at luxury resorts.",
+      "Incorporated real-time booking management, activity tracking, and personalized recommendations to enhance user engagement.",
+      "Worked closely with stakeholders to understand and gather requirements, aligning client-facing and internal team objectives.",
+      "Contributed to the iterative design process, focusing on continuous improvement and adapting the platform to evolving user needs.",
+    ],
+  },
+  {
+    section: "What I Learned From This Project",
+    items: [
+      "Client Interaction: Extensive engagement with stakeholders refined my ability to analyze user needs and contribute to tailored solutions, ensuring seamless collaboration between the needs of guests and staff at luxury resorts.",
+      "Cross-Functional Collaboration: Collaborated with diverse teams to ensure design and functionality met operational needs.",
+      "Iterative Design: Through continuous iteration, I gained insights into balancing user experience and technical constraints in a dynamic project environment.",
+    ],
+  },
+  {
+    section: "Opportunities For Enhancement",
+    items: [
+      "Guest Personalization: Further enhancing personalized recommendations based on guest behavior and preferences.",
+      "Staff Efficiency: Adding new administrative features to streamline internal communications and event management.",
+      "Scalability: Expanding the platform to support multiple resorts and diverse activity types.",
+    ],
+  },
+  {
+    section: "Note",
+    content:
+      "This design is a reflection of the work completed during my time on the project. As likely company-sensitive iterations past my involvement.",
+  },
+];
+
 
 
 const CaseStudiesOne = () => {
-  
-    // section header data
-    const sectionCat = "UXUI Design"
-    const title = "Redefining the guest experience with seamless event scheduling"
-    const description = "Created a responsive web and mobile platform that elevates the luxury resort experience, ensuring guests enjoy effortless and elegant event planning that reflects the resort's exclusive offerings."
-    const options = {
-        "events": "Luxe Events",
-        "management": "Hospitality Management Solution",
-        "research" : "UX Research & UI Design"
-    }
 
-//    brief section
-    const briefObj = {
-        paragraph : "Luxe Events is a B2B2C platform designed to connect luxury resort guests with exclusive event offerings while streamlining operations for resort staff. The platform enables guests to seamlessly discover, book, and manage activities during their stay, offering a personalized and intuitive experience. For resort staff, it simplifies event scheduling, tracking, and guest communication, replacing manual processes with a unified digital solution. Luxe Events elevates the guest experience while driving operational efficiency and scalability for resorts.",
-
-        briefHead : "BRIEF",
-        role : "UX/UI Designer",
-        duration : "Dec 2023 - Ongoing",
-        tools : "Figma"
-    }
-
-    //slider section
-
-    const iconData={
-      leftName:"Watt Wise",
-      rightName:"BacheloRite",
-      leftLink:"/caseSTudyThree",
-      rightLink:"/case-studies-two"
+  // section header data
+  const sectionCat = "UXUI Design"
+  const title = "Redefining the guest experience with seamless event scheduling"
+  const description = "Created a responsive web and mobile platform that elevates the luxury resort experience, ensuring guests enjoy effortless and elegant event planning that reflects the resort's exclusive offerings."
+  const options = {
+    "events": "Luxe Events",
+    "management": "Hospitality Management Solution",
+    "research": "UX Research & UI Design"
   }
 
-    useEffect(()=>{
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-  },[])
+  //    brief section
+  const briefObj = {
+    paragraph: "Luxe Events is a B2B2C platform designed to connect luxury resort guests with exclusive event offerings while streamlining operations for resort staff. The platform enables guests to seamlessly discover, book, and manage activities during their stay, offering a personalized and intuitive experience. For resort staff, it simplifies event scheduling, tracking, and guest communication, replacing manual processes with a unified digital solution. Luxe Events elevates the guest experience while driving operational efficiency and scalability for resorts.",
 
-    return (
-        <div>
-            <div className='max-w-[1128px] mx-auto px-4 xl:pt-[300px] lg:pt-[250px] md:pt-[200px] pt-[120px]'>
-            <div className='w-[100px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
+    briefHead: "BRIEF",
+    role: "UX/UI Designer",
+    duration: "Dec 2023 - Ongoing",
+    tools: "Figma"
+  }
 
-                {/* header section title, description, options */}
-                <SectionCategory sectionCat={sectionCat} title = {title} description = {description} options= {options}/>
+  //slider section
 
-                {/* section picture */}
-                <CaseStuPictureSec image={imageForCaseStudy}/>
-                
-                {/* Brief Section */}
-                <BriefSecOfCaseSec briefObj={briefObj}/>
-            </div>
+  const iconData = {
+    leftName: "Watt Wise",
+    rightName: "BacheloRite",
+    leftLink: "/caseSTudyThree",
+    rightLink: "/case-studies-two"
+  }
 
-            <div className='bg-[#F2ECEB] mt-28'>
-                {/* Problem card */}
-                <ProblemCard />
-            </div>
+  //   useEffect(()=>{
+  //     window.scrollTo({
+  //       top: 0,
+  //       behavior: 'smooth'
+  //     });
+  // },[])
 
-            <div className='max-w-[1128px] mx-auto px-4 mt-32'>
-                {/* <ProjectGoal/> */}
-                {/* <DesignApproch/> */}
+  return (
+    <div>
+      <div className='max-w-[1128px] mx-auto px-4 xl:pt-[300px] lg:pt-[250px] md:pt-[200px] pt-[120px]'>
+        <div className='w-[100px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
 
-            </div>
+        {/* header section title, description, options */}
+        <SectionCategory sectionCat={sectionCat} title={title} description={description} options={options} />
 
-            <img className='w-full' src={Frame1} alt="" />
+        {/* section picture */}
+        <CaseStuPictureSec image={imageForCaseStudy} />
 
-            <div className='max-w-[1128px] mx-auto px-4 py-28'>
-                <PersionalStories/>
+        {/* Brief Section */}
+        <BriefSecOfCaseSec briefObj={briefObj} />
+      </div>
 
-                <PersonalStoriesCard/>
+      <div className='bg-[#F2ECEB] lg:mt-[120px] md:mt-[100px] mt-[60px]'>
+        {/* Problem card */}
+        <ProblemCard />
+      </div>
 
-                <AffinityIdeation/>
+      <div className='max-w-[1128px] mx-auto px-4 '>
+        {/* <ProjectGoal/> */}
+        {/* <DesignApproch/> */}
 
-                <TheSolution/>
-                
-                <FinalDesign/>
-            </div>
+      </div>
 
-            {/* <WebToolResortStuff/> */}
+      <div className='lg:mt-[80px] md:mt-[70px] mt-[40px]'>
+        <img className='w-full' src={Frame1} alt="" />
+      </div>
 
-            <Conclusion conclusionData={conclusionData}  />
+      <div className='max-w-[1128px] mx-auto px-4 lg:py-[120px] md:py[100px] py-[60px]'>
+        <PersionalStories />
 
-            <Slider iconData={iconData} />
-        </div>
-    );
+        <PersonalStoriesCard />
+
+        <AffinityIdeation />
+
+        <TheSolution />
+
+        <FinalDesign />
+      </div>
+
+      {/* <WebToolResortStuff/> */}
+
+      <Conclusion conclusionData={conclusionData} />
+
+      <Slider iconData={iconData} />
+    </div>
+  );
 };
 
 export default CaseStudiesOne;
