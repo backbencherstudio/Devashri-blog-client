@@ -8,7 +8,7 @@ const CompetitiveAnalysis = () => {
         <div className="mb-28">
             <div className="flex flex-col md:flex-row justify-between gap-8 py-10">
                 {/* Title Section */}
-                <h1 className="text-[20px] sm:text-[24px] md:text-[28px] font-semibold leading-[28px] sm:leading-[30px] tracking-[1.5px] md:tracking-[2.8px] text-[#DD0101]">
+                <h1 className="text-[20px] sm:text-[24px] md:text-[28px] font-semibold leading-[28px] lg:leading-[30px] tracking-[1.5px] lg:tracking-[2.8px] text-[#DD0101]">
                 COMPETITIVE
                 ANALYSIS
                 </h1>
@@ -21,11 +21,11 @@ const CompetitiveAnalysis = () => {
                 </p>
 
                 <div className="w-full md:w-[73%]">
-                    <p className='md:text-[24px]  leading-[32px] tracking-[0.72px] not-italic mb-6'><span className='font-medium'>Direct Competitors:</span> Zolo Stays, NestAway, and NoBroker.</p>
-                    <p className='md:text-[24px]  leading-[32px] tracking-[0.72px] not-italic mb-6'><span className='font-medium'>Indirect Competitors:</span> 99acres and Magicbricks.</p>
+                    <p className='md:text-[24px]  leading-[32px] tracking-[0.72px] not-italic lg:mb-6 md:mb-5 mb-4'><span className='font-medium'>Direct Competitors:</span> Zolo Stays, NestAway, and NoBroker.</p>
+                    <p className='md:text-[24px]  leading-[32px] tracking-[0.72px] not-italic lg:mb-6 md:mb-5 mb-4'><span className='font-medium'>Indirect Competitors:</span> 99acres and Magicbricks.</p>
                     <p className='md:text-[24px]  leading-[32px] tracking-[0.72px] not-italic mb-14'><span className='font-medium'>Parameters Benchmarked:</span> Service model, target audience, brand positioning, pricing structure, technology integration, and customer experience.</p>
 
-                    <div className='grid grid-cols-2 gap-6'>
+                    <div className='grid md:grid-cols-2 gap-6'>
                         <img src={img1} alt="" />
                         <img src={img2} alt="" />
                         <img src={img3} alt="" />

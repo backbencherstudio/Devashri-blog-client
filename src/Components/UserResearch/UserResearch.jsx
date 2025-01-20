@@ -10,14 +10,14 @@ const UserResearch = () => {
     return (
         <div className="mb-28">
                         {/* Title Section */}
-                        <h1 className="text-[20px] sm:text-[24px] md:text-[28px] font-semibold leading-[28px] sm:leading-[30px] tracking-[1.5px] md:tracking-[2.8px] text-[#DD0101]">
+                        <h1 className="text-[24px]  md:text-[28px] font-semibold leading-[28px] sm:leading-[30px] tracking-[1.5px] md:tracking-[2.8px] text-[#DD0101]">
                         USER RESEARCH
                         </h1>
 
                         {/* user Researcher */}
                     <div className="flex flex-col md:flex-row justify-between gap-8 py-10">
                         {/* Title Section */}
-                        <h1 className="text-[24px] font-normal leading-[26.4px] tracking-[2.4px] not-italic text-[#DD0101]">
+                        <h1 className="lg:text-[24px] text-[18px] font-normal leading-[26.4px] lg:tracking-[2.4px] tracking-[.72px] not-italic text-[#DD0101]">
                         QUANTITATIVE INTERVIEW 
                         </h1>
         

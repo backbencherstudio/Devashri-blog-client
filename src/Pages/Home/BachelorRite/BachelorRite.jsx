@@ -42,8 +42,8 @@ const BachelorRite = () => {
 
     return (
         <div>
-            <div className='max-w-[1128px] mx-auto px-4 mt-48'>
-                  <hr className="w-[86px] border-0 border-t-[8px] mb-6 border-[#DD0101] " />
+            <div className='max-w-[1128px] mx-auto px-4 xl:pt-[300px] lg:pt-[250px] md:pt-[200px] pt-[120px]'>
+            <div className='md:w-[100px] w-[60px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
 
                   {/* header section title, description, options */}
                   <SectionCategory sectionCat={sectionCat} title = {title} description = {description} options= {options}/>
@@ -60,7 +60,7 @@ const BachelorRite = () => {
                 <ProblemCard />
             </div>
 
-            <div className='max-w-[1128px] mx-auto px-4 mt-28'>
+            <div className='max-w-[1128px] mx-auto px-4 lg:mt-[120px] md:mt-[100px] mt-[60px]'>
                 <CompetitiveAnalysis />
                 <UserResearch/>
                 <InsightsField/>
