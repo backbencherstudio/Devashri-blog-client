@@ -72,28 +72,28 @@ const Home = () => {
         <div className='bg-[##F9F6F5]'>
             <div className='max-w-[1128px] mx-auto  px-4 2xl:px-0'>
                 <div>
-                    <div className='w-full flex-col flex xl:gap-6 lg:gap-6 md:gap-5 gap-3 responsive-padding'>
-                        <div className='md:w-[100px] w-[60px] md:h-[8px] h-[5px] bg-[#DD0101] mt-2'></div>
-                        <h1 className='text-[#2A2A2A] font-bold  md:text-[36px] lg:text-[42px] xl:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[1.5px] responsive-textH1' >Hi, I'm <Link to={"/about"}><span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></Link> </h1>
-                        <div className=" text-[#2A2A2A]  responsive-textH1">
-                            <span>I </span>
-                            {words.map((word, index) => (
-                                <span
-                                    key={word.text}
-                                    className={`transition-all duration-500 ${word.skipAnimation
+                    <div className='w-full flex-col flex xl:gap-4 lg:gap-4 md:gap-3 gap-2 responsive-padding'>
+                        <div className='md:w-[100px] w-[60px] md:h-[8px] h-[5px] bg-[#DD0101]'></div>
+                        <div className="flex flex-col items-start">
+                            <h1 className='text-[#2A2A2A] font-bold  responsive-textH1' >Hi, I'm <Link to={"/about"}><span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></Link> </h1>
+                            <div className=" text-[#2A2A2A]  responsive-textH1">
+                                <span>I </span>
+                                {words.map((word, index) => (
+                                    <span
+                                        key={word.text}
+                                        className={`transition-all duration-500 ${word.skipAnimation
                                             ? word.color
                                             : index === currentWordIndex
                                                 ? `${word.color} opacity-100 font-medium`
                                                 : ' font-normal'
-                                        }`}
-                                >
-                                    {word.text}{' '}
-                                </span>
-                            ))}
+                                            }`}
+                                    >
+                                        {word.text}{' '}
+                                    </span>
+                                ))}
+                            </div>
+                            <p className='mt-2 lg:responsive-textH5 md:text-[18px] leading-[166%] text-base md:tracking-[1.2px] tracking-[.8px]'>I’m a user experience designer based in Kuala Lumpur,Malaysia,with expertise in end-to-end UX/ UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
                         </div>
-
-
-                        <p className=' lg:responsive-textH5 md:text-[18px] text-base md:leading-[30px] leading- md:tracking-[.3px] tracking-[.8px]'>I’m a user experience designer based in Kuala Lumpur,Malaysia,with expertise in end-to-end UX/ UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
                     </div>
                     <div className=' '>
                         <p className='text-[#6D6D6D] text-2xl uppercase '>Recent case Studies</p>
@@ -115,14 +115,14 @@ const Home = () => {
                                             </div>}
                                             <img src={item.img} alt="" />
                                         </div>
-                                        <div className='mt-12 grid md:grid-cols-2 gap-6'>
-                                            <div className='flex flex-col items-end'>
+                                        <div className='mt-12 flex flex-col lg:flex-row items-start ms-auto w-full lg:w-[75%] gap-6 '>
+                                            <div className='flex flex-col items-start lg:items-end shrink-0'>
                                                 <h3 className='text-[#DD0101] text-2xl'>{item.title}</h3>
                                                 <p className='text-base text-[#2A2A2A]'>{item.subtitle}</p>
                                             </div>
                                             <div>
-                                                <h1 className='text-[#2A2A2A] lg:text-5xl md:text-[42px] text-[24px] font-semibold md:leading-[52.8px] tracking-[.5px] md:tracking-[1.44px]'>{item.heading}</h1>
-                                                <p className='md:text-2xl text-[16px] text-[#2A2A2A] mt-4 leading-[32px] md:tracking-[.72px] tracking-[.20px]'>{item.description}</p>
+                                                <h1 className='text-[#2A2A2A] lg:text-5xl md:text-[42px] text-[24px] font-semibold leading-[120%] tracking-[.5px] md:tracking-[1.44px]'>{item.heading}</h1>
+                                                <p className='md:text-2xl text-[16px] text-[#2A2A2A] mt-4 leading-[120%] md:tracking-[.72px] tracking-[.20px]'>{item.description}</p>
                                                 <button className='mt-6 text-[#6D6D6D] md:text-2xl text-[18px] flex items-center gap-3 hover:text-[#2A2A2A]'><div className='leading  hover:underline hover:font-[500] '>{item.actionText}</div>  <span> <FaArrowRightLong />
                                                 </span></button>
                                             </div>

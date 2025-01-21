@@ -87,23 +87,23 @@ const CaseStudiesOne = () => {
     rightLink: "/case-studies-two"
   }
 
-  //   useEffect(()=>{
-  //     window.scrollTo({
-  //       top: 0,
-  //       behavior: 'smooth'
-  //     });
-  // },[])
+    useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+  },[])
 
   return (
     <div>
-      <div className='max-w-[1128px] mx-auto px-4 xl:pt-[300px] lg:pt-[250px] md:pt-[200px] pt-[120px]'>
+      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 responsive-padding2'>
         <div className='w-[100px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
 
         {/* header section title, description, options */}
         <SectionCategory sectionCat={sectionCat} title={title} description={description} options={options} />
 
         {/* section picture */}
-        <CaseStuPictureSec image={imageForCaseStudy} />
+        <CaseStuPictureSec animationUsed={true} />
 
         {/* Brief Section */}
         <BriefSecOfCaseSec briefObj={briefObj} />

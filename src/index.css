@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, p {
+  padding: 0px;
+  margin: 0px;
+}
+
 .font-barlow{
     font-family: "Barlow", serif;
 }
@@ -40,18 +45,22 @@ border-left: 2px solid  #221429;
 
 .responsive-textH1 {
   font-size: clamp(24px, 4vw, 56px);
-  line-height: clamp(32px, 6vw, 76.2px);
   letter-spacing: clamp(1.5px, 0.5vw, 2.8px);
 }
 
 @layer utilities {
   .responsive-textH5 {
     font-size: clamp(16px, 2vw, 24px); /* Responsive font size */
-    line-height: clamp(24px, 5vw, 40px);
-    letter-spacing: clamp(0.2px, 0.5vw, 1.1px); /* Responsive letter-spacing */
   }
   .responsive-padding{
-    padding-top: clamp(80px, 10vw, 300px); /* Adjusts between 80px and 300px */
+    padding-top: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 300px */
+    padding-bottom: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 200px */
+  }
+  .responsive-padding2{
+    padding-top: clamp(80px, 8vw, 200px); /* Adjusts between 80px and 300px */
     padding-bottom: clamp(80px, 5vw, 200px); /* Adjusts between 80px and 200px */
+  }
+  .dynamic-margin {
+    margin-top: clamp(40px, 8vw, 200px); /* Min: 40px, scales with 10% of viewport width, Max: 200px */
   }
 }

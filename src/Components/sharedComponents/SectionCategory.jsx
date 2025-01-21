@@ -9,7 +9,7 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
             </p>
 
             {/* Section Header */}
-            <h1 className="text-[24px] sm:text-[36px] md:text-[46px] lg:text-[56px] font-semibold leading-[28px] sm:leading-[42px] lg:leading-[67.2px] md:leading-[56px] tracking-[0.84px] sm:tracking-[1.68px] mt-4 mb-6">
+            <h1 className="responsive-textH1  font-semibold mt-4 mb-6">
                 {title}
             </h1>
 
