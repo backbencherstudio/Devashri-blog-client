@@ -96,12 +96,12 @@ const Home = () => {
                         </div>
                     </div>
                     <div className=' '>
-                        <p className='text-[#6D6D6D] text-2xl uppercase '>Recent case Studies</p>
+                        <p className='text-[#6D6D6D] text-2xl uppercase mb-8 lg:tracking-[3.6px] md:tracking-[2.3px] tracking-[1.6px]'>Recent case Studies</p>
                         {
                             data.map((item, i) => (
-                                <div className='md:mb-[104px] mb-[60px]' >
+                                <div className={`${i === 2 ? "lg:mb-[200px] md:mb-[150px] mb-[100px] ":"md:mb-[104px]  mb-[60px]" } `} >
                                     <Link to={item.id === 2 && "/protectedTwo" || item.id === 1 && "/protected" || item.id === 3 && "/bachelorRite"} key={i} >
-                                        <div className='pt-8'>
+                                        <div className=''>
 
                                             {item.id === 1 && <div>
                                                 <div className="relative w-full  bg-cover bg-center "
