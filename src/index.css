@@ -88,3 +88,18 @@ body{
 border-top: 2px solid  #221429;
 border-left: 2px solid  #221429;
 }
+
+
+.responsive-textH1 {
+  font-size: clamp(24px, 4vw, 56px);
+  line-height: clamp(32px, 6vw, 67.2px);
+  letter-spacing: clamp(1.5px, 0.5vw, 2.8px);
+}
+
+@layer utilities {
+  .responsive-textH5 {
+    font-size: clamp(16px, 2vw, 24px); /* Responsive font size */
+    line-height: clamp(24px, 5vw, 40px); /* Responsive line height */
+    letter-spacing: clamp(0.2px, 0.5vw, 1.2px); /* Responsive letter-spacing */
+  }
+}

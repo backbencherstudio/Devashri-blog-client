@@ -2,11 +2,11 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='max-w-[1128px] mx-auto px-4 mt-12 md:mt-52'>
+        <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 mt-12 md:mt-52'>
             {/* show image in right */}
             <div className='flex '>
                 <p className='w-1/2'></p>
-                <img className=' w-1/2 pl-10 md:pl-0' src="/devosri.png" alt="" />
+                <img className=' max-w-1/2 pl-10 md:pl-0' src="/devosri.png" alt="" />
             </div>
 
             <div className='-mt-7 md:-mt-14'>

@@ -42,10 +42,10 @@ const Home = () => {
         <div className='bg-[##F9F6F5]'>
         <div className='max-w-[1128px] mx-auto  px-4 2xl:px-0'>
             <div>
-                <div className='w-full flex-col flex md:gap-6 gap-4  md:py-[120px] py-[80px]'>
+                <div className='w-full flex-col flex xl:gap-6 lg:gap-6 md:gap-4 gap-3   md:py-[120px] 2xl:pt-[300px] 2xl:pb-[200px] py-[80px]'>
                     <div className='md:w-[100px] w-[60px] md:h-[8px] h-[5px] bg-[#DD0101] '></div>
-                    <h1 className='text-[#2A2A2A] font-bold lg:text-[56px] md:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[2px]' >Hi, I'm <Link to={"/about"}><span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></Link> </h1>
-                    <h3 className="text-[#2A2A2A] lg:text-[56px] md:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[1.5px] ">
+                    <h1 className='text-[#2A2A2A] font-bold  md:text-[36px] lg:text-[42px] xl:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[1.5px] responsive-textH1' >Hi, I'm <Link to={"/about"}><span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></Link> </h1>
+                    <h3 className="text-[#2A2A2A]  responsive-textH1">
                         I <span className="highlight delay-1">design</span>,
                         <span className="highlight delay-2">paint</span>,
                         <span className="highlight delay-3">cook</span>,
@@ -54,7 +54,7 @@ const Home = () => {
                     </h3>
 
 
-                    <p className='md:text-2xl text-base md:leading[40px] w-full md:tracking-[1.2px] tracking-[.20px] font-[400] '>I’m a user experience designer based in Kuala Lumpur, Malaysia, with expertise in end-to-end UX/ UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
+                    <p className=' lg:responsive-textH5 md:text-[18px] text-base leading-[] '>I’m a user experience designer based in Kuala Lumpur, Malaysia, with expertise in end-to-end UX/ UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
                 </div>
                 <div className=' '>
                     <p className='text-[#6D6D6D] text-2xl uppercase '>Recent case Studies</p>
