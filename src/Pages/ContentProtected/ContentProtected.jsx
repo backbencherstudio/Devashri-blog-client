@@ -39,7 +39,7 @@ const ContentProtected = () => {
 
     return (
         <div className="max-w-[1128px] mx-auto px-4 ">
-            <div className="flex items-center justify-center translate-y-[30%]">
+            <div className="flex items-center justify-center translate-y-[25%] lg:translate-y-[20%]">
                 <div className="text-center p-6 rounded">
                     <PiLock  className="mx-auto  text-[#6D6D6D] text-[80px] md:text-[100px] lg:text-[120px]" />
                     <h1 className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl mt-6 md:mt-10 lg:mt-12 font-semibold  text-[#2A2A2A] tracking-[.52px] md:tracking-[1px] lg:tracking-[1.44px]">
@@ -57,7 +57,7 @@ const ContentProtected = () => {
                         />
                         
                       
-                        <button type='submit' className="flex items-center md:mt-6 text-[#6D6D6D] mx-auto justify-center gap-2 px-4 py-2  rounded">
+                        <button type='submit' className="flex lg:text-2xl md:text-xl text-base items-center md:mt-6 text-[#6D6D6D] mx-auto justify-center gap-2 px-4 py-2  rounded hover:text-[#2A2A2A]  hover:underline hover:font-[500]  ">
                             <p>Read Case Study</p>
                             <BsArrowRight />
                         </button>

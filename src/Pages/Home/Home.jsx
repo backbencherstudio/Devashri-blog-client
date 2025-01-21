@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import img2 from "../../assets/Frame 119.png"
 import img3 from "../../assets/Frame 116.png"
 import img1 from "../../assets/bg.png"
@@ -47,20 +47,23 @@ const Home = () => {
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
     const words = [
-        { text: 'design', color: 'text-[#DD0101]' },
-        { text: 'paint', color: 'text-[#DD0101]' },
-        { text: 'cook', color: 'text-[#DD0101]' },
+        { text: 'design,', color: 'text-[#DD0101]' },
+        { text: 'paint,', color: 'text-[#DD0101]' },
+        { text: 'cook,', color: 'text-[#DD0101]' },
         { text: 'travel', color: 'text-[#DD0101]' },
-        { text: '&', color: 'text-[#2A2A2A]' },
-        { text: 'workout', color: 'text-[#DD0101]' }
+        { text: '&', color: 'text-[#2A2A2A]', skipAnimation: true },
+        { text: 'workout.', color: 'text-[#DD0101]' }
     ];
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setCurrentWordIndex((prevIndex) =>
-                prevIndex === words.length - 1 ? 0 : prevIndex + 1
-            );
-        }, 3000);
+            setCurrentWordIndex((prevIndex) => {
+                // Skip the '&' symbol index
+                if (prevIndex === 3) return 5; // Skip from 'travel' to 'workout'
+                if (prevIndex === words.length - 1) return 0;
+                return prevIndex + 1;
+            });
+        }, 2000);
 
         return () => clearInterval(interval);
     }, []);
@@ -69,23 +72,25 @@ const Home = () => {
         <div className='bg-[##F9F6F5]'>
             <div className='max-w-[1128px] mx-auto  px-4 2xl:px-0'>
                 <div>
-                    <div className='w-full flex-col flex xl:gap-6 lg:gap-6 md:gap-4 gap-3 responsive-padding'>
+                    <div className='w-full flex-col flex xl:gap-6 lg:gap-6 md:gap-5 gap-3 responsive-padding'>
                         <div className='md:w-[100px] w-[60px] md:h-[8px] h-[5px] bg-[#DD0101] mt-2'></div>
                         <h1 className='text-[#2A2A2A] font-bold  md:text-[36px] lg:text-[42px] xl:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[1.5px] responsive-textH1' >Hi, I'm <Link to={"/about"}><span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></Link> </h1>
-                            <div className=" text-[#2A2A2A]  responsive-textH1">
-                                <span>I </span>
-                                {words.map((word, index) => (
-                                    <span
-                                        key={word.text}
-                                        className={`transition-all duration-500 ${index === currentWordIndex ? word.color: 'text-[#2A2A2A] '
-                                            }`}
-                                    >
-                                        {word.text}
-                                        {index < words.length - 1 && <span>, </span>}
-                                        {index === words.length - 1 && '.'}
-                                    </span>
-                                ))}
-                            </div>
+                        <div className=" text-[#2A2A2A]  responsive-textH1">
+                            <span>I </span>
+                            {words.map((word, index) => (
+                                <span
+                                    key={word.text}
+                                    className={`transition-all duration-500 ${word.skipAnimation
+                                            ? word.color
+                                            : index === currentWordIndex
+                                                ? `${word.color} opacity-100 font-medium`
+                                                : ' font-normal'
+                                        }`}
+                                >
+                                    {word.text}{' '}
+                                </span>
+                            ))}
+                        </div>
 
 
                         <p className=' lg:responsive-textH5 md:text-[18px] text-base md:leading-[30px] leading- md:tracking-[.3px] tracking-[.8px]'>I’m a user experience designer based in Kuala Lumpur,Malaysia,with expertise in end-to-end UX/ UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
