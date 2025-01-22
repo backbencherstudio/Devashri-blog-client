@@ -4,7 +4,7 @@ const AffinityIdeation = () => {
     return (
         <div>
 
-            <div className="flex flex-col md:flex-row gap-6">
+            <div className="flex flex-col md:flex-row gap-6 mt-[100px] md:mt-[100px] lg:mt-[120px]">
             {/* Affinity Mapping Text */}
                 <h1 className="text-[20px] md:text-[24px] font-normal md:leading-[110%] md:tracking-[2.4px] not-italic text-[#DD0101] md:w-1/3">
                     AFFINITY MAPPING & IDEATION

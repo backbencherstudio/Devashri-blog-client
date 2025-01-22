@@ -124,7 +124,7 @@ const CaseStudiesOne = () => {
         <img className='w-full' src={Frame1} alt="" />
       </div>
 
-      <div className='max-w-[1128px] mx-auto px-4 lg:py-[120px] md:py[100px] py-[60px]'>
+      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:py-[120px] md:py[100px] py-[60px]'>
         <PersionalStories />
 
         <PersonalStoriesCard />

@@ -9,8 +9,8 @@ export const rolesData = [
         name:"Jessica Tim",
       age: "30 Years",
       country:"California",
-      image: "/people/people1.png",
-      designation:"Guest"
+      image: "/people/Frame1.png",
+      designation:"// Guest"
     },
     {
       id: 2,
@@ -21,8 +21,8 @@ export const rolesData = [
         name:"James Anderson",
       age: "35 Years",
       country:"Texas",
-      image: "/people/people2.png",
-      designation:"Guide"
+      image: "/people/Frame2.png",
+      designation:"// Guide"
     },
      {
       id: 3,
@@ -33,8 +33,8 @@ export const rolesData = [
       name:"Michael Davis",
       age: "40 Years",
       country:"Miami, FL",
-      image: "/people/people3.png",
-      designation:"Concierge"
+      image: "/people/Frame3.png",
+      designation:"// Concierge"
     },
     {
       id: 4,
@@ -45,8 +45,8 @@ export const rolesData = [
         name:"Chris Brown",
       age: "48 Years",
       country:"Chicago, IL",
-      image: "/people/people4.png",
-      designation:"Resort Admin"
+      image: "/people/Frame4.png",
+      designation:"// Resort Admin"
     },
     {
       id: 5,
@@ -57,8 +57,8 @@ export const rolesData = [
         name:"David Clark",
       age: "42 Years",
       country:"New York, NY",
-      image: "/people/people5.png",
-      designation:"Super Admin"
+      image: "/people/Frame5.png",
+      designation:"// Super Admin"
     },
     
   ];
