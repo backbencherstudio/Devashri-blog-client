@@ -87,12 +87,12 @@ const CaseStudiesOne = () => {
       rightLink:"/case-studies-two"
   }
 
-    useEffect(()=>{
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-  },[])
+  //   useEffect(()=>{
+  //     window.scrollTo({
+  //       top: 0,
+  //       behavior: 'smooth'
+  //     });
+  // },[])
 
   return (
     <div>
@@ -114,7 +114,7 @@ const CaseStudiesOne = () => {
         <ProblemCard />
       </div>
 
-      <div className='max-w-[1128px] mx-auto px-4 '>
+      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 '>
         <ProjectGoal/>
         <DesignApproch/>
 
