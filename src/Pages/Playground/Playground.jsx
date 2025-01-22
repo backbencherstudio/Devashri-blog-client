@@ -6,17 +6,17 @@ import playground3 from "/playground/playground3.gif"
 // import playground3 from "/playground/playground2.gif"
 const Playground = () => {
     return (
-        <div className='mt-[150px] md:mt-[250px]'>
+        <div className='mt-[100px] lg:mt-[250px]'>
 
             {/* title and description */}
-            <div className='max-w-[1038px] flex flex-col gap-10 items-center mx-auto md:text-center text-justify '>
+            <div className='max-w-[1038px] flex flex-col gap-5 lg::gap-10 items-center mx-auto md:text-center text-justify '>
                 <h1 className='text-[28px] font-semibold leading-[142.857%] tracking-[1.12px] text-[#2A2A2A]'>THE CREATIVE PLAYGROUND</h1>
                 <p className='text-[24px] font-normal leading-[166.667%] tracking-[1.2px] text-[#2A2A2A] px-7 md:px-0'>Welcome to my experimental lab, where ideas come alive and creativity knows no bounds. Stay tuned for bold prototypes and fresh design explorations!</p>
             </div>
 
             {/* mobile first div */}
-            <div className="my-[200px] md:bg-[#E5F2F9] md:py-[80px] md:px-[288px] max-w-[90%] max-h-[90%] md:max-w-[840px] mx-auto">
-                <img className="w-full rounded-[61.28px] md:rounded-[34.28px] lg:rounded-[44.28px] " src={playground1} alt="" />
+            <div className="my-[100px] lg:my-[200px] md:bg-[#E5F2F9] md:py-[80px] md:px-[144px] max-w-[90%] max-h-[90%] md:max-w-[840px] mx-auto">
+                <img className="w-full rounded-[61.28px] md:rounded-[74.28px] lg:rounded-[87.28px] " src={playground1} alt="" />
             </div>
             
 
@@ -47,8 +47,8 @@ const Playground = () => {
             </div>
 
             {/* mobile last div */}
-            <div className="my-[200px] md:bg-[#E5F2F9] md:py-[80px] md:px-[288px] max-w-[90%] max-h-[90%] md:max-w-[840px] mx-auto">
-                <img className="w-full rounded-[61.28px] md:rounded-[34.28px] lg:rounded-[44.28px]" src={playground3} alt="" />
+            <div className="my-[100px] lg:my-[200px] md:bg-[#E5F2F9] md:py-[80px] md:px-[144px] max-w-[90%] max-h-[90%] md:max-w-[840px] mx-auto">
+                <img className="w-full rounded-[61.28px] md:rounded-[74.28px] lg:rounded-[87.28px] " src={playground3} alt="" />
             </div>
         </div>
     );
