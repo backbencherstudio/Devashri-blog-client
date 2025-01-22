@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const ProtectedRoute = ({ children }) => {
   const navigate = useNavigate();
-  const [passwordOne, setPasswordOne] = useState(null); 
+  const [password, setPassword] = useState(null); 
 
   useEffect(() => {
     // Check for access token once the component mounts

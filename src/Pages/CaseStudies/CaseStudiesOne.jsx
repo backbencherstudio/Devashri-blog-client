@@ -83,7 +83,7 @@ const CaseStudiesOne = () => {
     const iconData={
       leftName:"Watt Wise",
       rightName:"BacheloRite",
-      leftLink:"/caseSTudyThree",
+      leftLink:"/bachelorRite",
       rightLink:"/case-studies-two"
   }
 
