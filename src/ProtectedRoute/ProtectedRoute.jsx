@@ -17,18 +17,18 @@ const ProtectedRoute = ({ children }) => {
 
   // Handle redirection after checking
   useEffect(() => {
-    if (passwordOne === false) {
+    if (password === false) {
       navigate("/protected");
     }
-  }, [passwordOne, navigate]);
+  }, [password, navigate]);
 
   // Render null while checking
-  if (passwordOne === null) {
+  if (password === null) {
     return null; // or a loading spinner
   }
 
   // Render children only if access is granted
-  return passwordOne ? children : null;
+  return password ? children : null;
 
   
 };
