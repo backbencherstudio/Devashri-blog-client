@@ -87,16 +87,16 @@ const CaseStudiesOne = () => {
       rightLink:"/case-studies-two"
   }
 
-    useEffect(()=>{
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-  },[])
+  //   useEffect(()=>{
+  //     window.scrollTo({
+  //       top: 0,
+  //       behavior: 'smooth'
+  //     });
+  // },[])
 
   return (
     <div>
-      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 responsive-padding2'>
+      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 responsive-padding3'>
         <div className='w-[100px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
 
         {/* header section title, description, options */}
@@ -114,9 +114,9 @@ const CaseStudiesOne = () => {
         <ProblemCard />
       </div>
 
-      <div className='max-w-[1128px] mx-auto px-4 '>
-        {/* <ProjectGoal/> */}
-        {/* <DesignApproch/> */}
+      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 '>
+        <ProjectGoal/>
+        <DesignApproch/>
 
       </div>
 

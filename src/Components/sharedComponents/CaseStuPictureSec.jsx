@@ -17,7 +17,7 @@ const CaseStuPictureSec = ({ image = "", animationUsed }) => {
                     {/* <img src={data[0].img2} className="" alt="" /> */}
                 </div>
             </div>}
-            <img src={image} alt="Case Studies Picture" />
+            {image && <img src={image} alt="Case Studies Picture" />}
         </div>
     );
 };

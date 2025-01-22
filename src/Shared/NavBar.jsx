@@ -60,7 +60,7 @@ const NavBar = () => {
                     </div>
                 </div>
                 {/* Sidebar with overlay */}
-                <div className={`md:hidden fixed inset-0 bg-black/50 transition-all duration-700 ${open ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+                <div className={`md:hidden fixed z-50 inset-0 bg-black/50 transition-all duration-700 ${open ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
                     <div
                         ref={sidebarRef}
                         className={`uppercase w-[220px] min-h-screen bg-zinc-50 fixed top-0 left-0 pt-[36px] p-4 transition-transform duration-700 ease-out ${open ? 'translate-x-0' : '-translate-x-full'

@@ -55,7 +55,7 @@ const ContentProtected = () => {
                                           type="password"
                                           placeholder="Enter Password"
                                           name='password'
-                                          className="border p-4 bg-white text-[#2A2A2A] rounded-[8px] w-full mt-6 md:mt-10 lg:mt-12 sm:w-[300px] md:w-[390px] mb-4 "
+                                          className="border md:placeholder:text-lg placeholder:text-base  md:p-4 p-3 bg-white text-[#2A2A2A] rounded-[8px] w-full mt-6 md:mt-10 lg:mt-12 sm:w-[300px] md:w-[390px] mb-4 "
                                       />
                                       
                                     

@@ -15,8 +15,8 @@ const Playground = () => {
             </div>
 
             {/* mobile first div */}
-            <div className="my-[100px] lg:my-[200px] md:bg-[#E5F2F9] md:py-[80px] md:px-[144px] max-w-[90%] max-h-[90%] md:max-w-[840px] mx-auto">
-                <img className="w-full rounded-[61.28px] md:rounded-[74.28px] lg:rounded-[87.28px] " src={playground1} alt="" />
+            <div className="my-[100px] lg:my-[200px] md:bg-[#E5F2F9] md:py-[80px] md:px-[144px] max-w-[90%] max-h-[90%] md:max-w-[840px] h-[100vh] mx-auto">
+                <img className="flex justify-self-center rounded-[61.28px] md:rounded-[74.28px] lg:rounded-[87.28px] " src={playground1} alt="" />
             </div>
             
 
