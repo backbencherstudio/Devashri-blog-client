@@ -80,11 +80,11 @@ const CaseStudiesOne = () => {
 
   //slider section
 
-  const iconData = {
-    leftName: "Watt Wise",
-    rightName: "BacheloRite",
-    leftLink: "/caseSTudyThree",
-    rightLink: "/case-studies-two"
+    const iconData={
+      leftName:"Watt Wise",
+      rightName:"BacheloRite",
+      leftLink:"/bachelorRite",
+      rightLink:"/case-studies-two"
   }
 
     useEffect(()=>{
