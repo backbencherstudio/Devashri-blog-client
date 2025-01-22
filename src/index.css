@@ -58,7 +58,7 @@ border-left: 2px solid  #221429;
   }
   .responsive-padding{
     padding-top: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 300px */
-    padding-bottom: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 200px */
+    padding-bottom: clamp(80px, 9vw, 180px); /* Adjusts between 80px and 200px */
   }
   .responsive-padding2{
     padding-top: clamp(80px, 8vw, 200px); /* Adjusts between 80px and 300px */
