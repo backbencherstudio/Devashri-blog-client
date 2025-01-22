@@ -41,10 +41,10 @@ const NavBar = () => {
                     </Link>
                     <div className='flex'>
                         <ul className='font-medium text-[#2A2A2A] text-[20px] hidden md:flex uppercase gap-12'>
-                            <li><NavLink to={"/"}>HOME</NavLink></li>
-                            <li><NavLink to={"/about"}>about</NavLink></li>
-                            <li><NavLink to={"/playground"}>playground</NavLink></li>
-                             <li>
+                            <li className='hover:text-[#DD0101] duration-500 transition-all '><NavLink to={"/"}>HOME</NavLink></li>
+                            <li className='hover:text-[#DD0101] duration-500 transition-all '><NavLink to={"/about"}>about</NavLink></li>
+                            <li className='hover:text-[#DD0101] duration-500 transition-all '><NavLink to={"/playground"}>playground</NavLink></li>
+                             <li className='hover:text-[#DD0101] duration-500 transition-all '>
                                 <a href="https://drive.google.com/file/d/1WS7BvELMfcFdXZii-b_XoBcJmwco3Xjp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                                     Resume
                                 </a>

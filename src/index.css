@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, p {
+  padding: 0px;
+  margin: 0px;
+}
+
 .font-barlow{
     font-family: "Barlow", serif;
 }
@@ -23,68 +28,39 @@ body{
 }
 
 
-@keyframes colorSlide {
-
-  0%,
-  24% {
-    color: #2A2A2A;
-    /* Default text color */
-  }
-
-  25%,
-  45% {
-    color: #DD0101;
-    /* Highlight color stays */
-  }
-
-  45%,
-  100% {
-    color: #2A2A2A;
-    /* Gradual transition back to default */
-  }
-}
-
-.highlight {
-  animation: colorSlide 12s infinite;
-  /* Adjusted total duration */
-}
-
-.delay-1 {
-  animation-delay: 2s;
-  /* Second word starts at 2 seconds */
-}
-
-.delay-2 {
-  animation-delay: 4s;
-  /* Third word starts at 4 seconds */
-}
-
-.delay-3 {
-  animation-delay: 6s;
-  /* Fourth word starts at 6 seconds */
-}
-
-.delay-4 {
-  animation-delay: 8s;
-  /* Fifth word starts at 8 seconds */
-}
-
-.delay-5 {
-  animation-delay: 10s;
-  /* Fifth word starts after 4th word completes */
-}
 
 
 .border-style-right {
   border-radius: 0px 32px 0px 0px;
   border-top: 2px solid  #221429;
   border-right: 2px solid  #221429;
-
- 
 }
 
 .border-style-left{
   border-radius: 32px 0px 0px 0px;
 border-top: 2px solid  #221429;
 border-left: 2px solid  #221429;
+}
+
+
+.responsive-textH1 {
+  font-size: clamp(24px, 4vw, 56px);
+  letter-spacing: clamp(1.5px, 0.5vw, 2.8px);
+}
+
+@layer utilities {
+  .responsive-textH5 {
+    font-size: clamp(16px, 2vw, 24px); /* Responsive font size */
+  }
+  .responsive-padding{
+    padding-top: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 300px */
+    padding-bottom: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 200px */
+  }
+  .responsive-padding2{
+    padding-top: clamp(80px, 8vw, 200px); /* Adjusts between 80px and 300px */
+    padding-bottom: clamp(80px, 5vw, 200px); /* Adjusts between 80px and 200px */
+  }
+  .dynamic-margin {
+    margin-top: clamp(40px, 8vw, 200px); /* Min: 40px, scales with 10% of viewport width, Max: 200px */
+  }
 }

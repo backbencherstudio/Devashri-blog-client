@@ -1,14 +1,20 @@
-import React from 'react';
-import img1 from "../../assets/Frame 1000003204.png"
+import React, { useState, useEffect } from 'react';
 import img2 from "../../assets/Frame 119.png"
 import img3 from "../../assets/Frame 116.png"
+import img1 from "../../assets/bg.png"
+import img4 from "../../assets/LaptopMockup.png"
+import img5 from "../../assets/home1.gif"
+
+
 import { Link } from 'react-router-dom';
 import { FaArrowRightLong } from "react-icons/fa6";
 
 let data = [
     {
-        id:1,
-        img: img1,
+        id: 1,
+        img1: img1,
+        img2: img4,
+        img3: img5,
         title: "Luxe Events",
         subtitle: "UX/UI Design",
         heading: "Redefining the guest experience with seamless event scheduling",
@@ -16,7 +22,7 @@ let data = [
         actionText: "Enter Password"
     },
     {
-        id:2,
+        id: 2,
         img: img2,
         title: "Watt Wise",
         subtitle: "UI Design",
@@ -25,7 +31,7 @@ let data = [
         actionText: "Enter Password"
     },
     {
-        id:3,
+        id: 3,
         img: img3,
         title: "BacheloRite",
         subtitle: "UX/UI Design",
@@ -37,51 +43,97 @@ let data = [
 
 
 const Home = () => {
-   
+
+    const [currentWordIndex, setCurrentWordIndex] = useState(0);
+
+    const words = [
+        { text: 'design,', color: 'text-[#DD0101]' },
+        { text: 'paint,', color: 'text-[#DD0101]' },
+        { text: 'cook,', color: 'text-[#DD0101]' },
+        { text: 'travel', color: 'text-[#DD0101]' },
+        { text: '&', color: 'text-[#2A2A2A]', skipAnimation: true },
+        { text: 'workout.', color: 'text-[#DD0101]' }
+    ];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentWordIndex((prevIndex) => {
+                // Skip the '&' symbol index
+                if (prevIndex === 3) return 5; // Skip from 'travel' to 'workout'
+                if (prevIndex === words.length - 1) return 0;
+                return prevIndex + 1;
+            });
+        }, 2000);
+
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <div className='bg-[##F9F6F5]'>
-        <div className='max-w-[1128px] mx-auto xl:pt-[300px] lg:pt-[250px] md:pt-[200px] pt-[120px]  px-4 2xl:px-0'>
-            <div>
-                <div className='w-full flex-col flex md:gap-6 gap-4'>
-                    <div className='md:w-[100px] w-[60px] md:h-[8px] h-[5px] bg-[#DD0101] '></div>
-                    <h1 className='text-[#2A2A2A] font-bold lg:text-[56px] md:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[2px]' >Hi, I'm<span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></h1>
-                    <h3 className="text-[#2A2A2A] lg:text-[56px] md:text-[48px] text-[24px] md:leading-[67.2px] md:tracking-[2.8px] tracking-[1.5px] ">
-                        I <span className="highlight delay-1">design</span>,
-                        <span className="highlight delay-2">paint</span>,
-                        <span className="highlight delay-3">cook</span>,
-                        <span className="highlight delay-4">travel</span> &
-                        <span className="highlight delay-5">workout</span>.
-                    </h3>
-
-
-                    <p className='md:text-2xl text-base leading[40px] w-full md:tracking-[1.2px] tracking-[.20px]'>I’m a user experience designer based in Kuala Lumpur, Malaysia, with expertise in end-to-end UX/UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
-                </div>
-                <div className='lg:mt-[200px] md:mt-[150px] mt-[100px]'>
-                    <p className='text-[#6D6D6D] text-2xl uppercase '>Recent case Studies</p>
-                    {
-                        data.map((item, i) => (
-                            <div className='md:mb-[104px] mb-[60px]' key={i} >
-                                <div className='pt-8'>
-                                    <img src={item.img} alt="" />
-                                </div>
-                                <div className='mt-12 grid md:grid-cols-2 gap-6'>
-                                    <div className='flex flex-col items-end'>
-                                        <h3 className='text-[#DD0101] text-2xl'>{item.title}</h3>
-                                        <p className='text-base text-[#2A2A2A]'>{item.subtitle}</p>
-                                    </div>
-                                    <div>
-                                        <h1 className='text-[#2A2A2A] lg:text-5xl md:text-[42px] text-[24px] font-semibold md:leading-[52.8px] tracking-[.5px] md:tracking-[1.44px]'>{item.heading}</h1>
-                                        <p className='md:text-2xl text-[16px] text-[#2A2A2A] mt-4 leading-[32px] md:tracking-[.72px] tracking-[.20px]'>{item.description}</p>
-                                        <button className='mt-6 text-[#6D6D6D] md:text-2xl text-[18px] flex items-center gap-3'><Link  to={item.id === 2 && "/protectedTwo" || item.id === 1 && "/protected" || item.id === 3 && "/bachelorRite"} className='leading'>{item.actionText}</Link>  <span> <FaArrowRightLong />
-                                        </span></button>
-                                    </div>
-                                </div>
+            <div className='max-w-[1128px] mx-auto  px-4 2xl:px-0'>
+                <div>
+                    <div className='w-full flex-col flex xl:gap-4 lg:gap-4 md:gap-3 gap-2 responsive-padding'>
+                        <div className='md:w-[100px] w-[60px] md:h-[8px] h-[5px] bg-[#DD0101]'></div>
+                        <div className="flex flex-col items-start">
+                            <h1 className='text-[#2A2A2A] font-bold  responsive-textH1' >Hi, I'm <Link to={"/about"}><span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></Link> </h1>
+                            <div className=" text-[#2A2A2A]  responsive-textH1">
+                                <span>I </span>
+                                {words.map((word, index) => (
+                                    <span
+                                        key={word.text}
+                                        className={`transition-all duration-500 ${word.skipAnimation
+                                            ? word.color
+                                            : index === currentWordIndex
+                                                ? `${word.color} opacity-100 font-medium`
+                                                : ' font-normal'
+                                            }`}
+                                    >
+                                        {word.text}{' '}
+                                    </span>
+                                ))}
                             </div>
-                        ))
-                    }
+                            <p className='mt-2 lg:responsive-textH5 md:text-[18px] leading-[166%] text-base md:tracking-[1.2px] tracking-[.8px]'>I’m a user experience designer based in Kuala Lumpur,Malaysia,with expertise in end-to-end UX/ UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
+                        </div>
+                    </div>
+                    <div className=' '>
+                        <p className='text-[#6D6D6D] text-2xl uppercase mb-8 lg:tracking-[3.6px] md:tracking-[2.3px] tracking-[1.6px]'>Recent case Studies</p>
+                        {
+                            data.map((item, i) => (
+                                <div className={`${i === 2 ? "lg:mb-[200px] md:mb-[150px] mb-[100px] ":"md:mb-[104px]  mb-[60px]" } `} >
+                                    <Link to={item.id === 2 && "/protectedTwo" || item.id === 1 && "/protected" || item.id === 3 && "/bachelorRite"} key={i} >
+                                        <div className=''>
+
+                                            {item.id === 1 && <div>
+                                                <div className="relative w-full  bg-cover bg-center "
+                                                    style={{ backgroundImage: `url(${data[0]?.img1})`, padding: "clamp(24px, 3vw, 48px) clamp(50px, 10vw, 150px)", }} >
+                                                    <div className='relative '>
+                                                        <img src={data[0]?.img2} className='' alt="" />
+                                                        <img className='absolute top-0 left-0  w-[85%] translate-x-[9%] translate-y-[6%]' src={data[0]?.img3} alt="" />
+                                                    </div>
+                                                    {/* <img src={data[0].img2} className="" alt="" /> */}
+                                                </div>
+                                            </div>}
+                                            <img src={item.img} alt="" />
+                                        </div>
+                                        <div className='mt-12 flex flex-col lg:flex-row items-start ms-auto w-full lg:w-[75%] gap-6 '>
+                                            <div className='flex flex-col items-start lg:items-end shrink-0'>
+                                                <h3 className='text-[#DD0101] text-2xl'>{item.title}</h3>
+                                                <p className='text-base text-[#2A2A2A]'>{item.subtitle}</p>
+                                            </div>
+                                            <div>
+                                                <h1 className='text-[#2A2A2A] lg:text-5xl md:text-[42px] text-[24px] font-semibold leading-[120%] tracking-[.5px] md:tracking-[1.44px]'>{item.heading}</h1>
+                                                <p className='md:text-2xl text-[16px] text-[#2A2A2A] mt-4 leading-[120%] md:tracking-[.72px] tracking-[.20px]'>{item.description}</p>
+                                                <button className='mt-6 text-[#6D6D6D] md:text-2xl text-[18px] flex items-center gap-3 hover:text-[#2A2A2A]'><div className='leading  hover:underline hover:font-[500] '>{item.actionText}</div>  <span> <FaArrowRightLong />
+                                                </span></button>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     );
 };

@@ -11,7 +11,7 @@ const About = () => {
                 {/* Image container that adapts to viewport */}
                 <div className='flex justify-center md:justify-end'>
                     <img 
-                        className='w-auto h-auto max-h-[25vh] md:max-h-[30vh] lg:max-h-[35vh] object-contain' 
+                        className='w-auto h-auto  object-contain' 
                         src="/devosri.png" 
                         alt="Devosri" 
                     />
