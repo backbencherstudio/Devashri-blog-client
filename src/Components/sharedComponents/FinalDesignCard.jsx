@@ -5,7 +5,7 @@ const FinalDesignCard = ({ data, position }) => {
         <div className="md:mb-40">
             {/* Effortless Section with Centered SVG */}
             <div>
-                <div className="relative flex items-center justify-center md:mb-9 w-full">
+                <div className="relative flex items-center justify-center md:mb-[36px] w-full">
                     {/* Background SVG */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -43,9 +43,13 @@ const FinalDesignCard = ({ data, position }) => {
                 {data.content}
             </p>
 
-                <div className="relative w-full h-auto lg:w-[1029.421px] lg:h-[667.053px] flex-shrink-0 mb-12">
+
+
+            {/* card start from here */}
+
+            <div className="relative w-full h-auto` mb-12">
                 {/* Laptop Mockup */}
-                <div className="relative w-full max-w-[900.421px] h-auto flex-shrink-0 mx-auto">
+                <div className="relative w-full max-w-[1032.92212px] h-auto flex-shrink-0">
                     {/* Laptop Mockup */}
                     <img
                         src="/LaptopMockup.png"
@@ -64,7 +68,7 @@ const FinalDesignCard = ({ data, position }) => {
 
                     {/* Mobile Frame in Bottom-Right Corner */}
                     <div
-                        className="absolute bottom-[-30px] right-[-10px] sm:bottom-[-40px] sm:right-[-30px] md:bottom-[-50px] md:right-[-20px] w-[80px] h-[160px] sm:w-[100px] sm:h-[200px] md:w-[201.931px] md:h-[414.992px] z-30"
+                        className="absolute bottom-[-30px] right-[-10px] sm:bottom-[-40px] sm:right-[-30px] md:bottom-[-57px] md:right-[-72px] w-[80px] h-[160px] sm:w-[100px] sm:h-[200px] md:w-[201.931px] md:h-[414.992px] z-30"
                     >
                         <img
                             className="absolute inset-0 w-full h-full object-cover z-10"
