@@ -45,7 +45,7 @@ border-left: 2px solid  #221429;
 
 .responsive-textH1 {
   font-size: clamp(24px, 4vw, 56px);
-  letter-spacing: clamp(1.5px, 0.5vw, 2.8px);
+  letter-spacing: clamp(1.2px, 0.5vw, 2.8px);
 }
 .responsive-textH1Case {
   font-size: clamp(24px, 4vw, 56px);

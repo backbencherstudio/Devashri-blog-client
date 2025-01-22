@@ -75,7 +75,7 @@ const Home = () => {
                     <div className='w-full flex-col flex  responsive-padding'>
                         <div className='md:w-[100px] w-[60px] md:h-[8px] lg:mb-6 md:mb-4 leading-[120%] mb-2 h-[5px] bg-[#DD0101]'></div>
                         <div className="flex flex-col items-start">
-                            <h1 className='text-[#2A2A2A] font-bold lg:mb-6 md:mb-4 mb-2 leading-[120%] responsive-textH1' >Hi, I'm <Link to={"/about"}><span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></Link> </h1>
+                            <h1 className='text-[#2A2A2A] font-bold lg:mb-6 md:mb-4 mb-2 leading-[120%] responsive-textH1 ' >Hi, I'm <Link to={"/about"}><span className='hover:text-[#DD0101] duration-300 ml-[14px]'>Devashri Londhe</span></Link> </h1>
                             <div className=" text-[#2A2A2A] leading-[120%] md:mb-4 mb-2 lg:mb-6 responsive-textH1">
                                 <span>I </span>
                                 {words.map((word, index) => (
