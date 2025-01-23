@@ -11,7 +11,7 @@ const Footer = () => {
                         <h3 className='md:text-2xl text-[16px] text-center'>Get in touch for opportunities or just to say hello!</h3>
                         <a
                             href="mailto:devashrilondhe@gmail.com"
-                            className='text-[#DD0101] md:text-2xl text-[18px] md:tracking-[2.4px] tracking-[1px] font-[600] text-center underline'
+                            className='text-[#DD0101] leading-[110%] md:text-2xl text-[18px] md:tracking-[2.4px] tracking-[1px] font-[500]    text-center  text-decoration'
                         >
                             devashrilondhe@gmail.com
                         </a>

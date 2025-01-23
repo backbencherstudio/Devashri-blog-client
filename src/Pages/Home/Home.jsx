@@ -71,7 +71,7 @@ const Home = () => {
     return (
         <div className='bg-[##F9F6F5]'>
             <div className='max-w-[1128px] mx-auto  px-4 2xl:px-0'>
-                <div>
+                <div className=''>
                     <div className='w-full flex-col flex responsive-padding-home'>
                         <div className='md:w-[100px] w-[60px] md:h-[8px] lg:mb-6 md:mb-4  mb-2 h-[5px] bg-[#DD0101]'></div>
                         <div className="flex flex-col items-start">
@@ -96,7 +96,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className=' '>
-                        <p className='text-[#6D6D6D] text-2xl leading-none uppercase mb-8 lg:tracking-[3.6px] md:tracking-[2.3px] tracking-[1.6px]'>Recent case Studies</p>
+                        <p className='text-[#6D6D6D] text-2xl leading-none uppercase mb-8 lg:tracking-[3.6px] md:tracking-[2.3px] tracking-[1.6px] font-[500]'>Recent case Studies</p>
                         {
                             data.map((item, i) => (
                                 <div className={`${i === 2 ? "lg:mb-[200px] md:mb-[150px] mb-[100px] " : "md:mb-[104px]  mb-[60px]"} `} >
