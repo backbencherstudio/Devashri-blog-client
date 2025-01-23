@@ -78,6 +78,19 @@ const CaseStudiesOne = () => {
     tools: "Figma"
   }
 
+  const personalStoriesData = 
+    {
+      title: "PERSONAS & USER STORIES",
+      subtitle: "Building for every role.",
+      points: [
+        "The design process for Luxe Events centered around identifying five key personas integral to the platform’s success.",
+        "These personas represented different roles involved in the event booking process at the resort, each with unique needs and goals.",
+        "Each persona’s needs and goals were translated into user stories, which informed the design and prioritized feature development."
+      ]
+    }
+ 
+
+
   //slider section
 
     const iconData={
@@ -96,9 +109,8 @@ const CaseStudiesOne = () => {
 
   return (
     <div>
-      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 responsive-padding3'>
-        <div className='w-[100px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
-
+      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 '>
+        
         {/* header section title, description, options */}
         <SectionCategory sectionCat={sectionCat} title={title} description={description} options={options} />
 
@@ -125,11 +137,12 @@ const CaseStudiesOne = () => {
       </div>
 
       <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:py-[120px] md:py[100px] py-[60px]'>
-        <PersionalStories />
+        <PersionalStories data={personalStoriesData} />
 
         <PersonalStoriesCard />
 
-        <AffinityIdeation />
+        <AffinityIdeation  />
+       
 
         <TheSolution />
 

@@ -46,7 +46,7 @@ const data = [
 
 const PersonalStoriesCard = () => {
   return (
-    <div className="mt-[33px]">
+    <div className="lg:mb-[120px] md:mb-[100px] mb-[60px]">
       <div className="space-y-8">
 
         {rolesData.map((role) => (
@@ -71,8 +71,8 @@ const PersonalStoriesCard = () => {
               </div>
 
               <div className='max-w-[263px] text-[#2A2A2A]'>
-                <h1 className='border-b py-2 lg:text-[32px] md:text-[28px] text-2xl font-medium leading-[120%]'>Jessica Tim</h1>
-                <div className='flex gap-6 text-[20px]  items-center leading-[110%] mt-2'>
+                <h1 className='border-b py-2 lg:text-[32px] md:text-[28px] text-2xl font-medium leading-[120%]'>{role.name}</h1>
+                <div className='flex gap-6 lg::text-[20px] md:text-[18px] text-base  items-center leading-[110%] mt-2'>
                   <div className=''>{role.age}</div>
                   <div className='w-[1px] h-[22px] bg-[#D4D4D4]'></div>
                   <div className=' '>{role.country}</div>
@@ -82,21 +82,21 @@ const PersonalStoriesCard = () => {
 
             {/* Text Section */}
             <div>
-              <div className="flex  md:max-w-[786px] flex-col mt-6 md:mt-0 justify-end h-auto md:h-full">
-                <h1 className="md:text-[20px] text-[#2A2A2A] font-semibold leading-[22px] not-italic">
+              <div className="flex lg:text-[20px] md:text-[18px] text-base md:max-w-[786px] flex-col mt-6 md:mt-0 justify-end h-auto md:h-full ">
+                <h1 className="  text-[#2A2A2A] font-semibold leading-[110%]  not-italic">
                   Role:
                 </h1>
-                <p className="md:text-[20px] leading-[22px] not-italic mb-4">{role.role}</p>
+                <p className=" not-italic mb-4 leading-[110%]">{role.role}</p>
 
-                <h1 className="md:text-[20px] text-[#2A2A2A] font-semibold leading-[22px] not-italic">
+                <h1 className=" text-[#2A2A2A] leading-[110%] font-semibold  not-italic">
                   Goal:
                 </h1>
-                <p className="md:text-[20px] leading-[22px] not-italic mb-4">{role.goal}</p>
+                <p className=" not-italic leading-[110%] mb-4">{role.goal}</p>
 
-                <h1 className="md:text-[20px] text-[#2A2A2A] font-semibold leading-[22px] not-italic">
+                <h1 className="text-[#2A2A2A] leading-[110%] font-semibold  not-italic">
                   User Story:
                 </h1>
-                <p className="md:text-[20px] leading-[22px] not-italic ">{role.user_story}</p>
+                <p className=" not-italic  leading-[110%]">{role.user_story}</p>
               </div>
             </div>
           </div>

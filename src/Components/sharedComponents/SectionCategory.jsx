@@ -2,7 +2,8 @@ import React from 'react';
 
 const SectionCategory = ({sectionCat, title, description, options}) => {
     return (
-        <div className="text-[#2A2A2A] ">
+        <div className="text-[#2A2A2A] responsive-padding2">
+            <div className='w-[100px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
             {/* Section Title */}
             <p className="text-base font-normal tracking-[1.6px]">
                 {sectionCat}

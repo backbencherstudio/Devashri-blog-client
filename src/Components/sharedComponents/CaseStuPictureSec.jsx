@@ -6,7 +6,7 @@ import img5 from "../../assets/home1.gif"
 const CaseStuPictureSec = ({ image = "", animationUsed }) => {
 
     return (
-        <div className='dynamic-margin '>
+        <div className=''>
             {animationUsed && <div>
                 <div className="relative w-full  bg-cover bg-center "
                     style={{ backgroundImage: `url(${img1})`, padding: "clamp(24px, 3vw, 48px) clamp(50px, 10vw, 150px)", }} >
