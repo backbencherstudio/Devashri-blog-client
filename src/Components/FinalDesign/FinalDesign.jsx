@@ -3,7 +3,7 @@ import FinalDesignCard from '../sharedComponents/finalDesignCard';
 import {finaDesignData} from '../../finalDesignData/finalDesignData'
 const FinalDesign = ({ data }) => {
   return (
-    <div className="text-center">
+    <div className="text-center lg:mt-[120px] md:mt-[100px] mt-[60px]">
       {/* Title Section */}
       <h1 className="lg:text-[28px] md:text-[26px] text-2xl font-semibold leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic text-[#DD0101] mb-4">
         THE FINAL DESIGN

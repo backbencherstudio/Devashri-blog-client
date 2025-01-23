@@ -11,7 +11,7 @@ const TheSolution = () => {
 
       {/* Wireframes Section */}
 
-      <div className="flex flex-col md:flex-row gap-6 justify-between lg:mt-[120px] md:mt-[100px] mt-[60px]">
+      <div className="flex flex-col md:flex-row gap-6 justify-between ">
         <div className='mb-6 md:mb-0 '>
           <h1 className='text-[#DD0101] md:w-[246px] md:text-[24px] text-xl  font-semibold leading-[110%] tracking-[.72px] md:tracking-[2.4px]'>WIREFRAMES</h1>
         </div>
@@ -62,17 +62,19 @@ const TheSolution = () => {
       <h1 className=" text-center md:py-14 py-10 text-[#DD0101] text-[24px] leading-[26.4px] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px]">
         Low-Fidelity Wireframes: Structuring Core Features
       </h1>
-      <div className="flex flex-col lg:flex-row gap-6 mb-28">
+      <div className="grid lg:grid-cols-2 grid-flow-row gap-10 lg:gap-6 ">
         {/* Main Image */}
+        <div className=' '>  
         <img
-          className="h-auto w-full lg:h-[814px] lg:w-1/2 object-cover"
+          className="h-full w-full object-cover"
           src="/wireFrames/WIREFRAME3.png"
           alt="Main Wireframe"
         />
+        </div>
         {/* Secondary Images */}
-        <div className="flex flex-col gap-6 w-full lg:w-1/2">
+        <div className="flex flex-col gap-6 w-full ">
           <img
-            className="h-auto w-full object-cover lg:h-1/2"
+            className="h-auto w-full object-cover "
             src={"/wireFrames/WIREFRAME1.png"}
             alt="Sketch 1"
           />

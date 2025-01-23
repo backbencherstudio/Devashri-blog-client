@@ -120,7 +120,7 @@ const Home = () => {
                                                 <h3 className='text-[#DD0101] text-2xl leading-[90%] md:tracking-[2.4px] tracking-[1.4px]'>{item.title}</h3>
                                                 <p className='text-base text-[#2A2A2A] leading-[110%]  md:tracking-[1.6px]'>{item.subtitle}</p>
                                             </div>
-                                            <div className='w-[696px]'>
+                                            <div className='lg:w-[696px]'>
                                                 <h1 className='text-[#2A2A2A] lg:text-5xl md:text-[42px] text-[24px] font-semibold leading-[120%] tracking-[.5px] md:tracking-[1.44px]'>{item.heading}</h1>
                                                 <p className='md:text-2xl text-[16px] text-[#2A2A2A] mt-4 leading-[120%] md:tracking-[.72px] tracking-[.20px]'>{item.description}</p>
                                                 <button className="mt-6 text-[#6D6D6D] hover:text-[#2A2A2A] md:text-2xl text-[18px] flex items-center gap-4 tracking-[.72px] font-semibold group">
