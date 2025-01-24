@@ -84,9 +84,7 @@ const CaseStudiesTwo = () => {
 
     return (
         <div>
-            <div className='max-w-[1128px] mx-auto px-4 responsive-padding2'>
-            <div className='w-[100px]  md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
-
+            <div className='max-w-[1128px] mx-auto px-4 2xl:px-0'>
                 {/* header section title, description, options */}
                 <SectionCategory sectionCat={sectionCat} title = {title} description = {description} options= {options}/>
 

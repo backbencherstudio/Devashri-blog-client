@@ -1,11 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { PiLock } from "react-icons/pi";
 import { BsArrowRight } from "react-icons/bs";
 import { useNavigate } from 'react-router-dom';
 import { SignJWT } from 'jose';
+import { FaEyeSlash } from "react-icons/fa6";
+import { MdRemoveRedEye } from "react-icons/md";
 
 const ContentProtected = () => {
     const navigate = useNavigate()
+
 
     const SECRET_KEY = new TextEncoder().encode(import.meta.env.VITE_SECRET_KEY);
     const EXPIRATION_TIME = '1h';
@@ -27,7 +30,11 @@ const ContentProtected = () => {
             alert("Invalid Password");
         }
 
+
+
     }
+
+    
 
     useEffect(() => {
         window.scrollTo({
@@ -35,6 +42,21 @@ const ContentProtected = () => {
             behavior: 'smooth'
         });
     }, [])
+
+    const [showPassword, setShowPassword] = useState(false);
+    const [showIcon, setShowIcon] = useState(false)
+
+    const togglePasswordVisibility = () => {
+        setShowPassword((prevState) => !prevState);
+    };
+
+    const handleValue = (e) => {
+        if (e.target.value) {
+            setShowIcon(true); // Show icon when there's input
+        } else {
+            setShowIcon(false); // Hide icon when input is cleared
+        }
+    };
 
 
     return (
@@ -51,13 +73,32 @@ const ContentProtected = () => {
                         To view, please enter the password.
                     </p>
                     <form onSubmit={handleLogIN} action="">
-                        <input
+                        {/* <input
                             type="password"
                             placeholder="Enter Password"
                             name='password'
                             className="border md:placeholder:text-lg placeholder:text-base  md:p-4 p-3 bg-white text-[#2A2A2A] rounded-[8px] w-full mt-6 md:mt-10 lg:mt-12 sm:w-[300px] md:w-[390px] mb-4 text-lg"
-                        />
-
+                        /> */}
+                        <div className="relative inline">
+                            <input
+                                onChange={(e) => handleValue(e)}
+                                type={showPassword ? "text" : "password"} // Dynamically toggle type
+                                placeholder="Enter Password"
+                                name="password"
+                                className="border  md:placeholder:text-lg placeholder:text-base md:p-4 p-3 bg-white text-[#2A2A2A] rounded-[8px] w-full mt-6 md:mt-10 lg:mt-12 sm:w-[300px] md:w-[390px] mb-4  text-lg"
+                            />
+                            {showIcon && (
+                                <button
+                                    type="button"
+                                    onClick={togglePasswordVisibility}
+                                    className="absolute top-1/2 right-1 -translate-x-1/2 -translate-y-1/2 transform   text-[#2A2A2A]"
+                                >
+                                    {showPassword ?  <MdRemoveRedEye className='text-lg' />
+                                        : <FaEyeSlash className='text-lg' />
+                                    } 
+                                </button>
+                            )}
+                        </div>
 
                         {/* <button type='submit' className="flex lg:text-2xl md:text-xl text-base items-center md:mt-6 mt-3  text-[#6D6D6D] mx-auto justify-center gap-2 px-4 py-2  rounded hover:text-[#2A2A2A]  hover:underline hover:font-[500]  ">
                                           <p>Read Case Study</p>
