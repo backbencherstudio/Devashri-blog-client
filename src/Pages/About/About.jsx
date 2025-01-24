@@ -52,7 +52,7 @@ const About = () => {
                     </p>
                 </div>
 
-                <button className='lg:mt-[56px] md:mt-[46px] mt-[32px] border-[#DD0101] border bg-white text-[#DD0101] font-medium px-6 py-[10px] rounded-[8px] text-2xl tracking-[.1px] leading-[120%]' style={{boxShadow: '0px 4px 12px 0px rgba(0, 0, 0, 0.12)'}}>
+                <button className='lg:mt-[56px] md:mt-[46px] mt-[32px] border-[#DD0101] border bg-white hover:bg-rose-100/80 text-[#DD0101] font-medium px-6 py-[10px] rounded-[8px] text-2xl tracking-[.1px] leading-[120%]' style={{boxShadow: '0px 4px 12px 0px rgba(0, 0, 0, 0.12)'}}>
                     Download Resume
                 </button>
             </div>

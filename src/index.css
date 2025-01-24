@@ -83,4 +83,5 @@ border-left: 2px solid  #221429;
     font-size: clamp(24px, 4vw, 56px);
     letter-spacing: clamp(.72px, 0.5vw, 1.2px);
   }
+ 
 }
