@@ -94,7 +94,7 @@ const ContentProtectedTwo = () => {
                                    <p>Read Case Study</p>
                                    <BsArrowRight />
                                </button> */}
-                        <button type='submit' className="mt-6 text-[#6D6D6D] hover:text-[#2A2A2A] md:text-2xl text-[18px] flex justify-center w-full items-center gap-4 tracking-[.72px] font-semibold group">
+                        <button type='submit' className="mt-6 text-[#6D6D6D] hover:text-[#2A2A2A] md:text-2xl text-[18px] flex justify-center  mx-auto items-center gap-4 tracking-[.72px] font-semibold group">
                             <div className=" leading-[133%] group-hover:tracking-[.66px]  hover:tracking-[0.66px] group-hover:underline group-hover:decoration-[1px] group-hover:underline-offset-2" >Read Case Study</div>
                             <span>
                                 <svg
