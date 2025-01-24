@@ -20,8 +20,8 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
             </p>
 
             {/* Options */}
-            <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 mt-6 text-md leading-[133.33%]">
-                <span className="text-[16px] sm:text-[18px] md:text-[22px] lg:text-2xl font-normal   tracking-[0.48px] sm:tracking-[0.72px]">
+            <div className="flex flex-col md:flex-row md:items-center  mt-6 text-md leading-[133.33%]">
+                <span className="text-[16px] sm:text-[18px] md:text-[22px] lg:text-2xl font-normal   tracking-[0.48px] md:tracking-[0.72px]">
                     {options.events}
                 </span>
 

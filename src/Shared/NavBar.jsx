@@ -59,11 +59,11 @@ const NavBar = () => {
 
     return (
         <div>
-            <div className='max-w-[1128px] mx-auto pt-[72px] px-4 2xl:px-0'>
+            <div className='max-w-[1128px] mx-auto pt-[92px]  px-4 2xl:px-0'>
                 <div className={`fixed  top-0 left-0 w-full z-50 bg-[#F9F6F5] transition-transform duration-500 ${
         showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
-                    <div className='max-w-[1128px] mx-auto px-4 2xl:px-0  py-4 '>
-                        <div className='flex justify-between items-center h-full'>
+                    <div className='max-w-[1128px] mx-auto px-4 2xl:px-0  mt-8 mb-4 '>
+                        <div className='flex justify-between items-center h-full '>
                             <Link to={"/"} className='flex w-[56px]'>
                                 <img src={logo} alt="logo" />
                             </Link>

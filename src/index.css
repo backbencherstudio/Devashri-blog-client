@@ -27,12 +27,6 @@ body{
   color: #DD0101;
 }
 
-.text-decoration{
-  text-decoration-line: underline;
-text-decoration-thickness: 1.4px;
-text-underline-offset: 1px;
-text-underline-position: from-font;
-}
 
 
 .border-style-right {
@@ -53,6 +47,10 @@ border-left: 2px solid  #221429;
 .responsive-textH1 {
   font-size: clamp(24px, 4vw, 56px);
   letter-spacing: clamp(1.2px, 0.5vw, 2.8px);
+}
+.responsive-textH1-About {
+  font-size: clamp(24px, 3.5vw, 56px);
+  letter-spacing: clamp(.72px, 0.5vw, 1.2px);
 }
 .responsive-textH1Case {
   font-size: clamp(24px, 4vw, 56px);
@@ -76,5 +74,13 @@ border-left: 2px solid  #221429;
   }
   .dynamic-margin {
     margin-top: clamp(40px, 10vw, 200px); /* Min: 40px, scales with 10% of viewport width, Max: 200px */
+  }
+  .responsive-textH1-About1 {
+    font-size: clamp(24px, 3.5vw, 56px);
+    letter-spacing: clamp(.72px, 0.5vw, 1.2px);
+  }
+  .responsive-textH1-About2 {
+    font-size: clamp(24px, 4vw, 56px);
+    letter-spacing: clamp(.72px, 0.5vw, 1.2px);
   }
 }

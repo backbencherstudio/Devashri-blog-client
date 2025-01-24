@@ -5,19 +5,19 @@ const Conclusion = ({ conclusionData }) => {
 
 
     return (
-        <div className="max-w-[1128px] mx-auto px-4 ">
-            <div className="flex flex-col md:flex-row gap-6 md:gap-[40px] lg:gap-[98px] lg:mt-[100px] md:mt-[60px] mt-[100px] lg:mb-[200px] md:mb-[150px] mb-[100px]">
-                <h1 className="text-2xl lg:text-[28px] font-semibold lg:leading-[30.8px] tracking-[1px] md:tracking-[1.6px] lg:tracking-[2px] xl:tracking-[2.8px] text-[#DD0101]">
-                    Conclusion
+        <div className="max-w-[1128px] mx-auto px-4 2xl:px-0 ">
+            <div className=" flex flex-col md:flex-row gap-6 md:gap-[40px] lg:gap-[98px] lg:mt-[100px] md:mt-[60px] mt-[100px] lg:mb-[200px] md:mb-[150px] mb-[100px]">
+                <h1 className="max-w-[190px] uppercase text-2xl leading-[110%] lg:text-[28px] font-semibold lg:leading-[30.8px] tracking-[1px] md:tracking-[1.6px] lg:tracking-[2.8px] text-[#DD0101]">
+                CONCLUSION
                 </h1>
-                <div>
+                <div className='max-w-[840px]'>
                     {conclusionData.map((section, index) => (
                         <div key={index} className={` `}>
-                            <h1 className={ ` ${index === 0 && "hidden"} text-[#DD0101] mb-4 md:mb-6 lg:mb-8 text-[22px] md:text-[24px] lg:text-[28px] font-medium leading-[26px] sm:leading-[28px] lg:leading-[30.8px] tracking-[1px] md:tracking-[1.6px] lg:tracking-[2px] xl:tracking-[2.8px] mt-[56px]`}>
+                            <h1 className={ ` ${index === 0 && "hidden"} w-full text-[#DD0101] mb-4 md:mb-6 lg:mb-8 text-[22px] md:text-[24px] lg:text-[28px] font-medium leading-[110%]   tracking-[1px] md:tracking-[1.6px] lg:tracking-[2px] xl:tracking-[2.8px] mt-[56px]`}>
                                 {section.section}
                             </h1>
                             {section.content && (
-                                <p className="lgtext-2xl md:text-[20px] text-[16px] font-medium lg:tracking-[2.4px] md:traking-[1.4px] tracking-[.7px] md:leading-[26.4px]">
+                                <p className="lg:text-2xl md:text-[20px] text-[16px] font-medium lg:tracking-[2.4px] md:traking-[1.4px] tracking-[.7px] leading-[110%] ">
                                     {section.content}
                                 </p>
                             )}

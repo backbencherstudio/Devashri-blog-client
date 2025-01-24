@@ -20,7 +20,7 @@ const conclusionData = [
   {
     section: "Conclusion",
     content:
-      "The Luxe Events project aimed to create an innovative platform that enhances the guest experience by simplifying event booking and streamlining operational workflows. It focused on delivering a seamless, user-friendly solution for both guests and resort staff, improving efficiency, personalization, and guest satisfaction.",
+      "The Luxe Events project aimed to create an innovative platform that enhances the resort experience by simplifying event bookings and streamlining operational workflows. It focuses on delivering a seamless, user-friendly solution for both guests and resort staff, improving efficiency, personalization, and guest satisfaction.",
   },
   {
     section: "What I Achieved From This Project",
@@ -149,7 +149,7 @@ const CaseStudiesOne = () => {
         <FinalDesign />
       </div>
 
-      {/* <WebToolResortStuff/> */}
+      <WebToolResortStuff/>
 
       <Conclusion conclusionData={conclusionData} />
 
