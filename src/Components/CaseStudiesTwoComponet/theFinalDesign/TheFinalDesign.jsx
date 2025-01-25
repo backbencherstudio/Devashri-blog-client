@@ -1,12 +1,14 @@
 import React from 'react';
-import img1 from "../../../assets/case-studies-2/Login GIF.png"
-import img2 from "../../../assets/case-studies-2/Dashboard GIF.png"
-import img3 from "../../../assets/case-studies-2/My Account GIF.png"
-import img4 from "../../../assets/case-studies-2/My Contract GIF.png"
-import img5 from "../../../assets/case-studies-2/Billing GIF.png"
-import img6 from "../../../assets/case-studies-2/Payment GIF.png"
-import img7 from "../../../assets/case-studies-2/My Usage GIF.png"
-import img8 from "../../../assets/case-studies-2/Meter Reading GIF.png"
+import img1 from "../../../assets/case-studies-2/gif1.gif"
+import img2 from "../../../assets/case-studies-2/gif2.gif"
+import img3 from "../../../assets/case-studies-2/gif3.gif"
+import img4 from "../../../assets/case-studies-2/gif4.gif"
+import img5 from "../../../assets/case-studies-2/gif5.gif"
+import img6 from "../../../assets/case-studies-2/gif6.gif"
+import img7 from "../../../assets/case-studies-2/gif7.gif"
+import img8 from "../../../assets/case-studies-2/gif8.gif"
+import bgImg from "../../../assets/case-studies-2/Laptop Mockup 1.png"
+
 
 const TheFinalDesign = () => {
     return (
@@ -18,11 +20,14 @@ const TheFinalDesign = () => {
                 </div>
                 <div className='flex flex-col lg:gap-[200px] md:gap-[150px] gap-[100px]'>
                     {sections.map((item,i) => (
-                        <div key={i} className='grid md:grid-cols-5  lg:gap-6 gap-4'>
-                        <div className={`md:col-span-3  ${i % 2 == 1 && "md:order-1 md:mt-0" || i % 2 == 0 && "md:mt-[80px]"}`}>
-                            <img src={item.img} alt="" />
+                        <div key={i} className='flex  lg:gap-6 gap-4'>
+                        <div className={` ${i % 2 == 1 && "md:order-1 md:mt-0" || i % 2 == 0 && "md:mt-[80px]"}`}>
+                            {/* <img src={item.img} alt="" /> */}
+                            <div className='p-[54px] bg-no-repeat bg-center' style={{backgroundImage:`url(${bgImg})`,}}>
+                                <img className='-translate-y-[3.5%]' src={item.img} alt="" />
+                            </div>
                         </div>
-                        <div className={`md:col-span-2  ${i % 2 == 1 && "md:mt-[80px]"}`}>
+                        <div className={`max-w-[408px]  ${i % 2 == 1 && "md:mt-[80px]"}`}>
                             <div className='flex md:mb-[40px] mb-[20px] mt-6 md:mt-0 gap-6 items-center'>
                                 <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
                                 <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>{item.title}</h3>

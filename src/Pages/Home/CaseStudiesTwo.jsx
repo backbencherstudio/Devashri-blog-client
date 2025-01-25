@@ -75,12 +75,12 @@ const CaseStudiesTwo = () => {
         rightLink:"/bachelorRite"
     }
 
-      useEffect(()=>{
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-    },[])
+    //   useEffect(()=>{
+    //     window.scrollTo({
+    //       top: 0,
+    //       behavior: 'smooth'
+    //     });
+    // },[])
 
     return (
         <div>
@@ -95,7 +95,7 @@ const CaseStudiesTwo = () => {
                 <BriefSecOfCaseSec briefObj={briefObj}/>
             </div>
 
-            <div className='bg-[#F2ECEB] mt-28'>
+            <div className='bg-[#F2ECEB]'>
                 {/* Problem card */}
                 <Challenge/>
             </div>

@@ -10,7 +10,7 @@ const BriefSecOfCaseSec = ({briefObj}) => {
     </div>
 
     {/* Description */}
-    <div className='flex md:flex-row flex-col md:w-[74%]  gap-6 md:gap-4 lg:gap-0  justify-between'>
+    <div className='flex md:flex-row flex-col md:w-[74.5%]  gap-6 md:gap-4 lg:gap-0  justify-between'>
     <div className="md:max-w-[408px]  text-justify text-base md:text-xl lg:text-2xl tracking-[.32px] md:tracking-[.52px] lg:tracking-[.72px]  text-[#2A2A2A] md:text-left">
         <p>{briefObj.paragraph}</p>
     </div> 

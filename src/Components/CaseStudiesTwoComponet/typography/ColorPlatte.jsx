@@ -71,7 +71,7 @@ const colors = [
         ],
         dark: [
             { label: "Warning", color: "#FAAD14", percentage: "100%" },
-            { label: "Alert", color: "#FAAD14", percentage: "100%" },
+            { label: "Alert", color: "#FF4D4F", percentage: "100%" },
         ],
     },
 ];
@@ -84,20 +84,23 @@ const ColorPalette = () => {
     return (
         <div className="max-w-[1332px] mx-auto ">
             <div>
-                <h1 className="md:text-5xl text-2xl text-[#DD0101] text-center font-[900] lg:tracking-[9.6px] md:tracking-[2px] tracking-[1px] opacity-25 md:mb-[80px] mb-[40px] lg:mt-[200px] md:mt-[150px] mt-[80px]">
+                <h1 className="lg:text-5xl md:text-[42px] text-[32px]  text-[#DD0101] text-center font-[900] lg:tracking-[9.6px] md:tracking-[4px] tracking-[2px] opacity-25 md:mb-[80px] mb-[40px] lg:mt-[200px] md:mt-[150px] mt-[80px]">
                     Color System
                     </h1>
             </div>        {/* Left and Right Columns: Responsive Grid */}
             <div className="grid md:grid-cols-2 lg:grid-cols-2 min-h-screen">
                 {/* Left Column: White Background */}
-                <div className="bg-white md:py-16 pt-12">
+                <div className="bg-white md:pt-16 pt-12">
                     <div className="max-w-[666px] mx-auto px-4 md:px-0  ">
                         {colors.map((group, index) => (
-                            <div key={index} className="md:mb-8 mb-16 flex flex-col md:items-end">
-                                <h2 className="text-2xl font-[500] md:tracking-[2.4px] tracking-[1.2px] text-[#2A2A2A] ">
-                                    {window.innerWidth < 767 ? group.fullTitle : group.titleOne}
+                            <div key={index} className="md:mb-[56px] mb-16 flex flex-col md:items-end">
+                                <h2 className="text-2xl hidden md:block font-[500] md:tracking-[2.4px] tracking-[1.2px] leading-[110%] text-[#2A2A2A] ">
+                                    { group.titleOne}
                                 </h2>
-                                <div className="xl:pr-12 lg:pr-4 pr-4  flex flex-wrap md:gap-3 gap-4 lg:gap-4 mt-8">
+                                    <h2 className="md:hidden text-2xl font-[500] md:tracking-[2.4px] tracking-[1.2px] leading-[110%] text-[#2A2A2A] ">
+                                        {group.fullTitle}
+                                    </h2>
+                                <div className="xl:pr-12 lg:pr-4 pr-4 pl-4 md:pl-0  flex flex-wrap md:gap-3 gap-4 lg:gap-6 xl:gap-8 mt-8">
                                     {group.light.map((item, idx) => (
                                         <div key={idx} className="flex flex-col items-center">
                                             <div className="xl:px-[15px] lg:px-[8px] md:px-[5px] px-[15px]  lg:py-3 md:py-2 py-3 border rounded-[8px] border-[#80868B]">
@@ -122,14 +125,17 @@ const ColorPalette = () => {
                 </div>
 
                 {/* Right Column: Black Background */}
-                <div className="bg-black md:py-16 pt-12">
+                <div className="bg-black md:pt-16 pb-2 pt-12">
                     <div className="max-w-[666px] mx-auto px-4 md:px-0">
                         {colors.map((group, index) => (
-                            <div key={index} className="md:mb-8 mb-16 flex flex-col items-start">
-                                <h2 className="text-2xl font-[500] md:tracking-[2.4px] tracking-[1.2px]  text-white">
-                                    {window.innerWidth < 767 ? group.fullTitle : group.titleTwo}
+                            <div key={index} className="md:mb-[56px] mb-16 flex flex-col items-start">
+                                <h2 className="text-2xl hidden md:block font-[500] md:tracking-[2.4px] tracking-[1.2px] leading-[110%] text-white ">
+                                    { group.titleTwo}
                                 </h2>
-                                <div className="xl:pl-12 lg:pl-4 pl-4  flex flex-wrap md:gap-3 gap-4 lg:gap-4 mt-8">
+                                    <h2 className="md:hidden text-2xl font-[500] md:tracking-[2.4px] tracking-[1.2px] leading-[110%] text-white ">
+                                        {group.fullTitle}
+                                    </h2>
+                                <div className="xl:pl-12 lg:pl-4 pl-4  flex flex-wrap md:gap-3 gap-4 lg:gap-6 xl:gap-8 mt-8">
                                     {group.dark.map((item, idx) => (
                                         <div key={idx} className="flex flex-col items-center">
                                             <div className="xl:px-[15px] lg:px-[8px] md:px-[5px] px-[15px]  lg:py-3 md:py-2 py-3 border rounded-[8px] border-[#80868B]">
