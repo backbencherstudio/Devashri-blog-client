@@ -6,7 +6,7 @@ const Conclusion = ({ conclusionData }) => {
 
     return (
         <div className="max-w-[1128px] mx-auto px-4 2xl:px-0 ">
-            <div className=" flex flex-col md:flex-row gap-6 md:gap-[40px] lg:gap-[98px] lg:mt-[100px] md:mt-[60px] mt-[100px] lg:mb-[200px] md:mb-[150px] mb-[100px]">
+            <div className=" flex flex-col md:flex-row gap-6 md:gap-[40px] lg:gap-[98px] lg:mb-[200px] md:mb-[150px] mb-[100px]">
                 <h1 className="max-w-[190px] uppercase text-2xl leading-[110%] lg:text-[28px] font-semibold lg:leading-[30.8px] tracking-[1px] md:tracking-[1.6px] lg:tracking-[2.8px] text-[#DD0101]">
                 CONCLUSION
                 </h1>
@@ -26,7 +26,7 @@ const Conclusion = ({ conclusionData }) => {
                                     {section.items.map((item, itemIndex) => (
                                         <li
                                             key={itemIndex}
-                                            className="ml-9 py-2 md:py-3 lg:py-6"
+                                            className={`ml-9 py-2 md:py-3 lg:py-6 last:pb-0 `}
                                         >
                                             {item}
                                         </li>

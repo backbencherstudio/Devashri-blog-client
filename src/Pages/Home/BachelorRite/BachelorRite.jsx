@@ -17,6 +17,7 @@ import EmpathyMap from '../../../Components/EmpathyMap/EmpathyMap';
 import UxChallenge from '../../../Components/UxChallenge/UxChallenge';
 import UserFlow from '../../../Components/UserFlow/UserFlow';
 import StructuringInfo from '../../../Components/StructuringInfo/StructuringInfo';
+import ProblemCardRite from '../../../Components/ProblemCard/ProblemCardRite';
 
 const BachelorRite = () => {
   const sectionCat = "UXUI Design"
@@ -31,21 +32,27 @@ const BachelorRite = () => {
 
 //    brief section
   const briefObj = {
-      paragraph : "Luxe Events is a B2B2C platform designed to connect luxury resort guests with exclusive event offerings while streamlining operations for resort staff. The platform enables guests to seamlessly discover, book, and manage activities during their stay, offering a personalized and intuitive experience. For resort staff, it simplifies event scheduling, tracking, and guest communication, replacing manual processes with a unified digital solution. Luxe Events elevates the guest experience while driving operational efficiency and scalability for resorts.",
+      paragraph : "BacheloRite is a B2B2C platform that connects bachelors with landlords and service providers for a seamless living experience. The app offers bachelor-friendly accommodations alongside flexible rental options for furniture, appliances, and electronics. It also integrates essential services like housekeeping, cooking, etc. BacheloRite simplifies managing daily living needs through a unified, efficient solution.",
 
       briefHead : "BRIEF",
       role : "UX/UI Designer",
-      duration : "Dec 2023 - Ongoing",
-      tools : "Figma"
+      duration : "Feb - May 2023",
+      tools : "Figma, Photoshop, Miro"
   }
 
-  useEffect(()=>{
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-},[])
+//   useEffect(()=>{
+//     window.scrollTo({
+//       top: 0,
+//       behavior: 'smooth'
+//     });
+// },[])
 
+const iconData={
+  leftName:"Watt Wise",
+  rightName:"Luxe Events",
+  leftLink:"/case-studies-two",
+  rightLink:"/caseStudyOne"
+}
 
     return (
         <div>
@@ -61,12 +68,12 @@ const BachelorRite = () => {
                   <BriefSecOfCaseSec briefObj={briefObj}/>
             </div>
 
-            <div className='bg-[#F2ECEB] mt-28'>
+            <div className='bg-[#F2ECEB] lg:mt-[120px] md:mt-[100px] mt-[60px]'>
                 {/* Problem card */}
-                <ProblemCard />
+                <ProblemCardRite/>
             </div>
 
-            <div className='max-w-[1128px] mx-auto px-4 lg:mt-[120px] md:mt-[100px] mt-[60px]'>
+            <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:mt-[120px] md:mt-[100px] mt-[60px]'>
                 <CompetitiveAnalysis />
                 <UserResearch/>
                 <InsightsField/>
@@ -101,12 +108,7 @@ export default BachelorRite;
 
 
 
-const iconData={
-    leftName:"Watt Wise",
-    rightName:"Luxe Events",
-    leftLink:"/caseStudyOne",
-    rightLink:"/case-studies-two"
-}
+
 const conclusionData = [
     {
       section: "Conclusion",

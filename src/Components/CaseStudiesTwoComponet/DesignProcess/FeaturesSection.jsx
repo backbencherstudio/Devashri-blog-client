@@ -47,7 +47,7 @@ const FeaturesSection = () => {
     ];
 
     return (
-        <div className="md:flex  gap-6">
+        <div className="md:flex gap-6">
             <div className="md:max-w-[264px]">
                 <h1 className="text-[#DD0101] lg:text-[28px] md:text-[24px] text-[20px] uppercase font-semibold lg:tracking-[2.8px] md:tracking-[1.4px] tracking-[.72px] leading-[110%]">
                     Understanding the Requirements

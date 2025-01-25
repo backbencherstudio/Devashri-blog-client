@@ -96,8 +96,8 @@ const CaseStudiesOne = () => {
     const iconData={
       leftName:"Watt Wise",
       rightName:"BacheloRite",
-      leftLink:"/bachelorRite",
-      rightLink:"/case-studies-two"
+      leftLink:"/case-studies-two",
+      rightLink:"/bachelorRite"
   }
 
   //   useEffect(()=>{

@@ -9,7 +9,7 @@ const FinalDesignCard = ({ data, position }) => {
         <div className="">
             {/* Effortless Section with Centered SVG */}
             <div>
-                <div className="relative flex items-center justify-center md:mb-9 w-full ">
+                <div className="relative flex items-center justify-center md:mb-9 mb-6 w-full ">
                     {/* Background SVG */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const FinalDesignCard = ({ data, position }) => {
                         />
                     </svg>
                     {/* Text */}
-                    <h1 className=" ml-[-50px] md:text-[24px] font-semibold leading-[32px] tracking-[0.72px] not-italic">
+                    <h1 className=" ml-[-50px] md:text-[24px] font-semibold leading-[133%] tracking-[0.72px] not-italic">
                         {data.title}
                     </h1>
                 </div>
@@ -43,7 +43,7 @@ const FinalDesignCard = ({ data, position }) => {
 
 
             {/* Description */}
-            <p className={` mb-12 lg:text-[24px] md:text-[20px] ${data.id == 1 ? "text-center" : "text-left"} text-base  font-normal leading-[133%] md:tracking-[0.72px] tracking-[.52px] not-italic`}>
+            <p className={` md:mb-12 mb-6 lg:text-[24px] md:text-[20px] ${data.id == 1 ? "text-center" : "text-left"} text-base  font-normal leading-[133%] md:tracking-[0.72px] tracking-[.52px] not-italic`}>
                 {data.content}
             </p>
 
@@ -90,8 +90,8 @@ const FinalDesignCard = ({ data, position }) => {
             </div> */}
 
             <div className={`lg:mb-[140px]  border border-transparent  md:mb-[120px] mb-[80px] relative ${data.id % 2 === 0 ? "flex justify-end":""} `}>
-                <div className={`relative  w-full  xl:p-[50px] lg:p-[50px] md:p-[34px] p-[17px] bg-cover bg-center max-w-[91.56%]`} style={{backgroundImage:`url(${img})`,}}>
-                <img className=' xl:-translate-y-[2%] lg:-translate-y-[3%] -translate-y-[3%]' src={data.laptopGif}  alt="" />
+                <div className={`relative  w-full  p-[7%] bg-center bg-contain bg-no-repeat  max-w-[91.56%]`} style={{backgroundImage:`url(${img})`,}}>
+                <img className=' -translate-y-[3.2%]-y-[2%] lg:-translate-y-[3%] -translate-y-[3%]' src={data.laptopGif}  alt="" />
                 </div>
                 <div className={`absolute ${data.id % 2 === 0 ? "left-0":"right-0 "} -bottom-8  lg:max-w-fit md:max-w-[20%] max-w-[25%]`}>
                     <img src={data.mobilePic} alt="" />
