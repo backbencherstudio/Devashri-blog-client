@@ -23,24 +23,24 @@ const FinalDesignforRite = () => {
                 <div className='lg:mt-[120px] md:mt-[100px] mt-[60px]'>
                     <div className='flex flex-col md:gap-[96px] gap-[80px]'>
                         <div >
-                            <div className='flex lg:mb-[88px] mb-[40px] mt-6 md:mt-0 gap-6 items-center md:justify-end md:mr-[150px]'>
-                                <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
-                                <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>On-boarding Screens</h3>
+                            <div className='flex lg:mb-[88px] mb-[40px] mt-6 md:mt-0 gap-6 lg:gap-12 items-center md:justify-end md:mr-[150px]'>
+                                <div className='lg:w-6 lg:h-6 w-4 h-4 bg-[#DD0101]  rotate-45'></div>
+                                <h3 className='lg:text-[36px] xl:text-[40px] md:text-[28px] text-2xl font-rubik  lg:tracking-[1.2px] md:tracking-[.72px] tracking-[.52px] leading-[110%] text-[#2A2A2A]'>On-boarding Screens</h3>
                             </div>
                             <div className=' lg:gap-[70px] md:gap-[40px] md:flex flex-col md:flex-row lg:mx-[92px] md:mx-[60px]'>
                                 <div className=''>
                                     <img src={img1} alt="" />
                                 </div>
-                                <div className='md:mt-[200px] mt-[40px]'>
+                                <div className='md:mt-[200px] mt-[40px] max-w-[254px]'>
                                     <img src={img1half} alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className='md:flex flex-col md:flex-row md:gap-[55px] gap-[40px]'>
                             <div>
-                                <div className=' flex lg:mb-[80px] mb-[40px] md:mt-[56px] mt-[20px] gap-6 items-center md:justify-center md:mr-[40px]'>
-                                    <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
-                                    <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>Home Screens</h3>
+                                <div className=' flex lg:mb-[80px] mb-[40px] md:mt-[56px] mt-[20px] lg:gap-12 gap-6 items-center md:justify-center md:mr-[40px]'>
+                                    <div className='lg:w-6 lg:h-6 w-4 h-4 bg-[#DD0101]  rotate-45'></div>
+                                    <h3 className='lg:text-[36px] xl:text-[40px] md:text-[28px] text-2xl font-rubik  lg:tracking-[1.2px] md:tracking-[.72px] tracking-[.52px] leading-[110%] text-[#2A2A2A]'>Home Screens</h3>
                                 </div>
                                 <img src={img2} alt="" />
                             </div>
@@ -51,28 +51,28 @@ const FinalDesignforRite = () => {
                         <div>
                             <div>
                                 <div className='md:flex xl:gap-[400px] lg:gap-[300px] md:gap-[150px] items-center md:relative'>
-                                    <div className=''>
-                                        <div className='md:absolute top-50 md:translate-x-[100%] flex lg:mb-[80px] mb-[40px] mt-6 md:mt-0 gap-6 items-center md:justify-end '>
-                                            <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
-                                            <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>Property Browsing</h3>
+                                    <div className='max-w-[463px]'>
+                                        <div className='md:absolute top-50   lg:translate-x-[85%] md:translate-x-[77%]  flex lg:mb-[80px] mb-[40px] mt-6 md:mt-0 lg:gap-12 gap-6 items-center md:justify-end '>
+                                            <div className='lg:h-6 lg:w-6 w-4 h-4 bg-[#DD0101]  rotate-45'></div>
+                                            <h3 className='lg:text-[36px] xl:text-[40px] md:text-[28px] text-2xl font-rubik  lg:tracking-[1.2px] md:tracking-[.72px] tracking-[.52px] leading-[110%] text-[#2A2A2A] '>Property Browsing</h3>
                                         </div>
                                         <img src={img3} alt="" />
                                     </div>
-                                    <div className=''>
+                                    <div className='lg:max-w-[254px] md:max-w-[222px] max-w-[254px] mt-10 md:mt-0'>
                                         <img src={img3half} alt="" />
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className='xl:mx-[134px] lg:mx-[115px] md:mx-[100px]'>
+                        <div className='max-w-[840px] mx-auto'>
                             <div className='md:flex md:flex-row flex flex-col-reverse xl:gap-[160px] lg:gap-[130px] md:gap-[100px] '>
-                                <div className='mt-[40px] md:mt-0'>
+                                <div className='mt-[40px] md:mt-0 max-w-[254px]'>
                                     <img src={img4} alt="" />
                                 </div>
-                                <div>
-                                    <div className='flex lg:mb-[64px] mb-[40px] mt-6 md:mt-0 gap-6 items-center md:justify-center'>
-                                        <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
-                                        <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>Product Browsing</h3>
+                                <div className=''>
+                                    <div className='flex lg:mb-[64px] mb-[40px] mt-6 md:mt-0 gap-6 lg:gap-12 items-center md:justify-center'>
+                                        <div className='lg:w-6 lg:h-6 w-4 h-4 bg-[#DD0101]  rotate-45'></div>
+                                        <h3 className='lg:text-[36px] xl:text-[40px] md:text-[28px] text-2xl font-rubik lg:tracking-[1.2px] md:tracking-[.72px] tracking-[.52px] leading-[110%] text-[#2A2A2A]'>Product Browsing</h3>
                                     </div>
                                     <div ><img src={img4half} alt="" /></div>
                                 </div>
@@ -80,14 +80,14 @@ const FinalDesignforRite = () => {
                         </div>
                         <div>
                             <div className='md:flex xl:gap-[410px] lg:gap-[300px] md:gap-[150px] md:relative'>
-                                <div className='md:absolute top-50 left-1/2 md:-translate-x-[50%] flex md:mb-[80px] mb-[40px] mt-6 md:mt-0 gap-6 items-center md:justify-end '>
-                                    <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
-                                    <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>Service Browsing</h3>
+                                <div className='md:absolute top-50 left-1/2 md:-translate-x-[50%] flex md:mb-[80px] mb-[40px] mt-6 md:mt-0 gap-6 lg:gap-12 items-center md:justify-end '>
+                                    <div className='lg:w-6 lg:h-6 w-4 h-4 bg-[#DD0101]  rotate-45'></div>
+                                    <h3 className='lg:text-[36px] xl:text-[40px] md:text-[28px] text-2xl font-rubik lg:tracking-[1.2px] md:tracking-[.72px] tracking-[.52px] leading-[110%] text-[#2A2A2A]'>Service Browsing</h3>
                                 </div>
                                 <div className='self-end'>
                                     <img src={img5} alt="" />
                                 </div>
-                                <div className='mt-[40px] md:mt-0'>
+                                <div className='mt-[40px] md:mt-0 max-w-[254px]'>
                                     <img src={img5half} alt="" />
                                 </div>
                             </div>
@@ -95,12 +95,12 @@ const FinalDesignforRite = () => {
                         <div>
                             <div>
                                 <div className='flex flex-col xl:mx-[60px] lg:mx-[45px] md:mx-[30px]'>
-                                    <div className='  flex lg:mb-[68px]  mb-[40px] mt-6 md:mt-0 gap-6 items-center xl:ml-[80px] lg:ml-[70px] md:ml-[60px]'>
-                                        <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
-                                        <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>Checkout Screens</h3>
+                                    <div className='  flex lg:mb-[68px]  mb-[40px] mt-6 md:mt-0 gap-6 lg:gap-12 items-center xl:ml-[80px] lg:ml-[70px] md:ml-[60px]'>
+                                        <div className='lg:w-6 lg:h-6 w-4 h-4 bg-[#DD0101]  rotate-45'></div>
+                                        <h3 className='lg:text-[36px] xl:text-[40px] md:text-[28px] text-2xl font-rubik  lg:tracking-[1.2px] md:tracking-[.72px] tracking-[.52px] leading-[110%] text-[#2A2A2A]'>Checkout Screens</h3>
                                     </div>
                                     <div className='md:flex xl:gap-[160px] lg:gap-[130px] md:gap-[80px]'>
-                                        <div>
+                                        <div className='max-w-[254px]'>
                                             <img src={img6} alt="" />
                                         </div>
                                         <div className='self-center mt-[40px] md:mt-[0]'>

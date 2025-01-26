@@ -16,6 +16,10 @@ h1, h2, h3, p {
 .font-barlow{
     font-family: "Barlow", serif;
 }
+.font-rubik{
+  font-family: "Rubik", serif;
+}
+
 
 body{
     font-family: 'Barlow', serif;
