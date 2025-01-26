@@ -42,47 +42,35 @@ const TheSolution = () => {
 
       <div className="flex flex-col lg:flex-row gap-6">
         {/* First Image */}
-        <div className="relative w-full lg:w-1/2 lg:h-[814px]">
+        <div className=" w-full lg:w-1/2 lg:h-[814px]">
           <img
             className="h-full w-full object-cover"
-            src="/solution/sol2.png"
+            src="/solution/WhatsApp Image 2023-11-30 at 8.59 2.png"
             alt="Main Wireframe"
           />
-          <img
-            className="absolute top-1 left-1/2 transform -translate-x-1/2 h-[32px] md:h-[64px] lg:h-[48px]"
-            src="/solution/Rectangle 1.png"
-            alt="Overlay"
-          />
+          
         </div>
 
           {/* Secondary Images */}
           <div className="flex flex-col gap-6 w-full lg:w-1/2 lg:h-[814px]">
             {/* Secondary Image 1 */}
-            <div className="relative w-full lg:h-[407px]">
+            <div className=" w-full lg:h-[407px]">
               <img
                 className="h-full w-full object-cover"
-                src="/solution/sol1.png"
+                src="/solution/WhatsApp Image 2023-11-30 at 8.59 1.png"
                 alt="Sketch 1"
               />
-              <img
-                className="absolute top-[0.10rem] md:top-1 left-1/2 transform -translate-x-1/2 h-[36px] md:h-[66px] lg:h-[48px]"
-                src="/solution/Rectangle 2.png"
-                alt="Overlay"
-              />
+              
             </div>
 
             {/* Secondary Image 2 */}
-            <div className="relative w-full lg:h-[407px]">
+            <div className=" w-full lg:h-[407px]">
               <img
                 className="h-full w-full object-cover"
-                src="/solution/sol3.png"
+                src="/solution/WhatsApp Image 2023-11-30 at 8.59 3.png"
                 alt="Sketch 2"
               />
-              <img
-                className="absolute top-1 left-1/2 transform -translate-x-1/2 h-[36px] md:h-[48px] lg:h-[44px]"
-                src="/solution/Rectangle 3.png"
-                alt="Overlay"
-              />
+              
             </div>
           </div>
       </div>

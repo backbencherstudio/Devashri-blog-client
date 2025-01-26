@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Conclusion = ({ conclusionData }) => {
+const Conclusion = ({ conclusionData, isNoteVisible }) => {
 
 
 
@@ -35,6 +35,19 @@ const Conclusion = ({ conclusionData }) => {
                             )}
                         </div>
                     ))}
+
+                    {/* Note section with conditional rendering */}
+                    {isNoteVisible && (
+                        <div>
+                            <h1 className='w-full text-[#DD0101] text-[22px] md:text-[24px] lg:text-[28px] font-[500] leading-[110%] tracking-[1px] md:tracking-[1.6px] lg:tracking-[2px] xl:tracking-[2.8px] mt-[56px]'>
+                                Note:
+                            </h1>
+                            <p className="lg:text-2xl md:text-[20px] text-[16px] font-medium lg:tracking-[2.4px] md:traking-[1.4px] tracking-[.7px]">
+                                This design is a reflection of the work completed during my time at the company and has likely undergone further iterations post my involvement.
+                            </p>
+                        </div>
+                    )}
+
                 </div>
             </div>
         </div>
