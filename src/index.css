@@ -1,3 +1,91 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.font-barlow{
+    font-family: "Barlow", serif;
+}
+.font-rubik{
+  font-family: "Rubik", serif;
+}
+
+
+body{
+    font-family: 'Barlow', serif;
+    background-color: #F9F6F5;
+
+}
+
+.active {
+  color: #DD0101;
+}
+
+
+
+.border-style-right {
+  border-radius: 0px 32px 0px 0px;
+  border-top: 2px solid  #221429;
+  border-right: 2px solid  #221429;
+}
+
+.border-style-left{
+  border-radius: 32px 0px 0px 0px;
+border-top: 2px solid  #221429;
+border-left: 2px solid  #221429;
+}
+
+
+
+
+.responsive-textH1 {
+  font-size: clamp(24px, 4vw, 56px);
+  letter-spacing: clamp(1.2px, 0.5vw, 2.8px);
+}
+.responsive-textH1-About {
+  font-size: clamp(24px, 3.5vw, 56px);
+  letter-spacing: clamp(.72px, 0.5vw, 1.2px);
+}
+.responsive-textH1Case {
+  font-size: clamp(24px, 4vw, 56px);
+  letter-spacing: clamp(.72px, 0.5vw, 1.68px);
+}
+
+@layer utilities {
+  .responsive-textH5 {
+    font-size: clamp(16px, 2vw, 24px); /* Responsive font size */
+  }
+  .responsive-padding-home{
+    padding-top: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 300px */
+    padding-bottom: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 200px */
+  }
+  .responsive-padding2{
+    padding-top: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 300px */
+    padding-bottom: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 200px */
+  }
+  .responsive-padding3{
+    padding-top: clamp(80px, 10vw, 200px); /* Adjusts between 80px and 300px *//* Adjusts between 80px and 200px */
+  }
+  .dynamic-margin {
+    margin-top: clamp(40px, 10vw, 200px); /* Min: 40px, scales with 10% of viewport width, Max: 200px */
+  }
+  .responsive-textH1-About1 {
+    font-size: clamp(24px, 3.5vw, 56px);
+    letter-spacing: clamp(.72px, 0.5vw, 1.2px);
+  }
+  .responsive-textH1-About2 {
+    font-size: clamp(24px, 4vw, 56px);
+    letter-spacing: clamp(.72px, 0.5vw, 1.2px);
+  }
+ 
+}
