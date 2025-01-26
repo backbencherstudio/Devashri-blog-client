@@ -60,16 +60,16 @@ const ContentProtected = () => {
 
 
     return (
-        <div className="max-w-[1128px] mx-auto px-4 ">
-            <div className="flex items-center justify-center translate-y-[25%] lg:translate-y-[20%]">
+        <div className="max-w-[1128px] mx-auto px-4 2xl:px-0 ">
+            <div className="flex items-center justify-center min-h-screen -mt-[104px] pt-[104px]">
                 <div className="text-center p-6 rounded">
                     <div className=''>
                         <PiLock className="mx-auto  text-[#6D6D6D]  md:w-[120px] md:h-[120px] w-[100px] h-[100px]" />
                     </div>
-                    <h1 className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl mt-6 md:mt-10 lg:mt-12 font-semibold  text-[#2A2A2A] tracking-[.52px] md:tracking-[1px] lg:tracking-[1.44px]">
+                    <h1 className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl mt-6 md:mt-10 lg:mt-12 font-medium  leading-[110%] text-[#2A2A2A] tracking-[.52px] md:tracking-[1px] lg:tracking-[1.44px]">
                         This content is protected.
                     </h1>
-                    <p className="mb-2 text-base md:mt-6 mt-4  md:text-[22px] lg:text-2xl text-[#6D6D6D] tracking-[.32px] md:tracking-[.52px] lg:tracking-[.72px]">
+                    <p className=" text-base md:mt-5 mt-4 leading-[120%] md:text-[22px] lg:text-2xl text-[#6D6D6D] tracking-[.32px] md:tracking-[.52px] lg:tracking-[.72px]">
                         To view, please enter the password.
                     </p>
                     <form onSubmit={handleLogIN} action="">
@@ -85,7 +85,7 @@ const ContentProtected = () => {
                                 type={showPassword ? "text" : "password"} // Dynamically toggle type
                                 placeholder="Enter Password"
                                 name="password"
-                                className="border  md:placeholder:text-lg placeholder:text-base md:p-4 p-3 bg-white text-[#2A2A2A] rounded-[8px] w-full mt-6 md:mt-10 lg:mt-12 sm:w-[300px] md:w-[390px] mb-4  text-lg"
+                                className="border  md:placeholder:text-xl placeholder:text-lg text-2xl md:px-4 md:py-[15px] p-3 bg-white text-[#2A2A2A] rounded-[8px]  mt-6 md:mt-10 lg:mt-12 sm:w-[300px] md:w-[390px] w-full"
                             />
                             {showIcon && (
                                 <button
@@ -93,8 +93,8 @@ const ContentProtected = () => {
                                     onClick={togglePasswordVisibility}
                                     className="absolute top-1/2 right-1 -translate-x-1/2 -translate-y-1/2 transform   text-[#2A2A2A]"
                                 >
-                                    {showPassword ?  <MdRemoveRedEye className='text-lg' />
-                                        : <FaEyeSlash className='text-lg' />
+                                    {showPassword ?  <MdRemoveRedEye className='text-2xl' />
+                                        : <FaEyeSlash className='text-2xl' />
                                     } 
                                 </button>
                             )}

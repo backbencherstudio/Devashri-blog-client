@@ -181,7 +181,7 @@ const CaseStudiesOne = () => {
 
       <WebToolResortStuff/>
 
-      <Conclusion conclusionData={conclusionData} />
+      <Conclusion isNoteVisible={true} conclusionData={conclusionData} />
 
       <Slider iconData={iconData} />
     </div>

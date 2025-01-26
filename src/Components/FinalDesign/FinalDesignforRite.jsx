@@ -14,7 +14,7 @@ import img6half from "../../assets/bachelorRite/6.5.png"
 
 const FinalDesignforRite = () => {
     return (
-        <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:py-[120px] md:py-[100px] py-[68px] border'>
+        <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:py-[120px] md:py-[100px] py-[68px] '>
             <div>
                 <div className='text-center'>
                     <h3 className='md:text-[26px] lg:text-[28px] text-2xl leading-[110%] font-semibold lg:tracking-[2.8px] md:tracking-[1.4px] tracking-[1.2px] text-center text-[#DD0101]'>THE FINAL DESIGN</h3>
