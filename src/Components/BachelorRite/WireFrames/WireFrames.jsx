@@ -26,13 +26,13 @@ const images = [
 
 const WireFrames = () => {
     return (
-        <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 mt-[120px] overflow-hidden'>
+        <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:mt-[120px] md:mt-[100px] mt-[60px] overflow-hidden'>
             <div>
-                <h1 className='text-[48px] text-[#DD0101] font-black leading-[52.8px] tracking-[12px] opacity-25'>Wire <br /> Frames</h1>
-                <div className='flex flex-col gap-6 mt-4 lg:text-[24px] md:text-[20px] text-[18px] font-normal lg:leading-[26.4px] leading-[25px] lg:tracking-[2.4px] tracking-[.72px] md:tracking-[1.2px]  text-[#221429]'>
-                    <p>After finalizing the information architecture, we progressed to wireframe development and visual design, addressing the identified pain points and opportunities for our personas.</p>
-                    <p>A seamless onboarding experience was prioritized, followed by a dynamic homepage showcasing the selected city, area, top-picked properties, post-COVID measures, and engaging blogs under "Life at BacheloRite."</p>
-                    <p>The apartment exploration and booking flow was designed to be intuitive, alongside a "Pay Rent" feature for easy monthly payments of consolidated packages, ensuring a user-friendly and streamlined experience for single tenants.</p>
+                <h1 className='text-[32px] md:text-[42px] lg:text-[48px] text-[#DD0101] font-black leading-[110%] tracking-[6px] md:tracking-[8px] lg:tracking-[12px] not-italic opacity-25 md:max-w-[10ch]'>Wire Frames</h1>
+                <div className='flex flex-col gap-6 mt-4 lg:text-[24px] md:text-[20px] text-base font-normal  lg:tracking-[2.4px] tracking-[.72px] md:tracking-[1.4px]  text-[#221429]'>
+                    <p className='leading-[110%]'>After finalizing the information architecture, we progressed to wireframe development and visual design, addressing the identified pain points and opportunities for our personas.</p>
+                    <p className='leading-[110%]'>A seamless onboarding experience was prioritized, followed by a dynamic homepage showcasing the selected city, area, top-picked properties, post-COVID measures, and engaging blogs under "Life at BacheloRite."</p>
+                    <p className='leading-[110%]'>The apartment exploration and booking flow was designed to be intuitive, alongside a "Pay Rent" feature for easy monthly payments of consolidated packages, ensuring a user-friendly and streamlined experience for single tenants.</p>
                 </div>
             </div>
             <div className='mt-[56px]'>

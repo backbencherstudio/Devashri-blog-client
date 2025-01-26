@@ -14,31 +14,31 @@ import img6half from "../../assets/bachelorRite/6.5.png"
 
 const FinalDesignforRite = () => {
     return (
-        <div className='max-w-[1128px] mx-auto px-4 2xl:px-4 lg:py-[120px] md:py-[100px] py-[80px] '>
+        <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:py-[120px] md:py-[100px] py-[68px] border'>
             <div>
                 <div className='text-center'>
-                    <h3 className='md:text-[28px] text-2xl font-semibold md:tracking-[2.8px] tracking-[1.2px] text-center text-[#DD0101]'>THE FINAL DESIGN</h3>
-                    <h1 className='lg:text-[48px] md:text-[36px] text-2xl font-semibold md:tracking-[1.44px] tracking-[.72px] text-center mt-3  lg:mt-4'>Perfecting the bachelor living experience</h1>
+                    <h3 className='md:text-[26px] lg:text-[28px] text-2xl leading-[110%] font-semibold lg:tracking-[2.8px] md:tracking-[1.4px] tracking-[1.2px] text-center text-[#DD0101]'>THE FINAL DESIGN</h3>
+                    <h1 className='lg:text-[48px] md:text-[42px] text-[32px] font-semibold leading-[110%] md:tracking-[1.44px] tracking-[.72px] text-center mt-3  lg:mt-4'>Perfecting the bachelor living experience</h1>
                 </div>
                 <div className='lg:mt-[120px] md:mt-[100px] mt-[60px]'>
                     <div className='flex flex-col md:gap-[96px] gap-[80px]'>
                         <div >
-                            <div className='flex lg:mb-[80px] mb-[40px] mt-6 md:mt-0 gap-6 items-center md:justify-end md:mr-[150px]'>
+                            <div className='flex lg:mb-[88px] mb-[40px] mt-6 md:mt-0 gap-6 items-center md:justify-end md:mr-[150px]'>
                                 <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
                                 <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>On-boarding Screens</h3>
                             </div>
-                            <div className='xl:gap-[96px] lg:gap-[70px] md:gap-[40px] md:flex flex-col md:flex-row lg:mx-[100px] md:mx-[60px]'>
+                            <div className=' lg:gap-[70px] md:gap-[40px] md:flex flex-col md:flex-row lg:mx-[92px] md:mx-[60px]'>
                                 <div className=''>
                                     <img src={img1} alt="" />
                                 </div>
-                                <div className='md:mt-[150px] mt-[40px]'>
+                                <div className='md:mt-[200px] mt-[40px]'>
                                     <img src={img1half} alt="" />
                                 </div>
                             </div>
                         </div>
-                        <div className='md:flex flex-col md:flex-row md:gap-[64px] gap-[40px]'>
+                        <div className='md:flex flex-col md:flex-row md:gap-[55px] gap-[40px]'>
                             <div>
-                                <div className=' flex lg:mb-[80px] mb-[40px] md:mt-[44px] mt-[20px] gap-6 items-center md:justify-center md:mr-[40px]'>
+                                <div className=' flex lg:mb-[80px] mb-[40px] md:mt-[56px] mt-[20px] gap-6 items-center md:justify-center md:mr-[40px]'>
                                     <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
                                     <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>Home Screens</h3>
                                 </div>
@@ -58,7 +58,7 @@ const FinalDesignforRite = () => {
                                         </div>
                                         <img src={img3} alt="" />
                                     </div>
-                                    <div className='mt-[40px]'>
+                                    <div className=''>
                                         <img src={img3half} alt="" />
                                     </div>
                                 </div>

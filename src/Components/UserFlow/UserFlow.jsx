@@ -1,5 +1,5 @@
 import React from 'react';
-import research from "../../assets/UserFLow/Research .png"
+import research from "../../assets/UserFLow/Research - Designboat - Frame .png"
 
 const UserFlow = () => {
     return (
