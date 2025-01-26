@@ -23,35 +23,71 @@ const conclusionData = [
       "The Luxe Events project aimed to create an innovative platform that enhances the resort experience by simplifying event bookings and streamlining operational workflows. It focuses on delivering a seamless, user-friendly solution for both guests and resort staff, improving efficiency, personalization, and guest satisfaction.",
   },
   {
-    section: "What I Achieved From This Project",
+    section: "WHAT I ACHIEVED FROM THIS PROJECT",
     items: [
-      "Designed a user-centric platform addressing the needs of guests and staff at luxury resorts.",
-      "Incorporated real-time booking management, activity tracking, and personalized recommendations to enhance user engagement.",
-      "Worked closely with stakeholders to understand and gather requirements, aligning client-facing and internal team objectives.",
-      "Contributed to the iterative design process, focusing on continuous improvement and adapting the platform to evolving user needs.",
+      [
+        "Designed a ",
+        <span className="font-[500]">user-centric platform</span>,
+        " addressing the needs of guests and staff at luxury resorts."
+      ],
+      [
+        "Incorporated ",
+        <span className="font-[500]">real-time booking management</span>,
+        ", ",
+        <span className="font-[500]">activity tracking</span>,
+        ", and ",
+        <span className="font-[500]">personalized recommendations</span>,
+        " to enhance user engagement."
+      ],
+      [
+        "Worked closely with ",
+        <span className="font-[500]">stakeholders</span>,
+        " to understand and gather requirements, playing a ",
+        <span className="font-[500]">client-facing role</span>,
+        " and ensuring alignment with business objectives."
+      ],
+      [
+        "Contributed to the iterative design process, focusing on ",
+        <span className="font-[500]">continuous improvement</span>,
+        " and adapting the platform to evolving user needs."
+      ],
     ],
   },
   {
     section: "What I Learned From This Project",
     items: [
-      "Client Interaction: Extensive engagement with stakeholders refined my ability to analyze user needs and contribute to tailored solutions, ensuring seamless collaboration between the needs of guests and staff at luxury resorts.",
-      "Cross-Functional Collaboration: Collaborated with diverse teams to ensure design and functionality met operational needs.",
-      "Iterative Design: Through continuous iteration, I gained insights into balancing user experience and technical constraints in a dynamic project environment.",
+      [
+        <span className="font-[500]">Client Interaction:</span>,
+        " Extensive engagement with stakeholders helped me refine requirements and create solutions that aligned with business goals."
+      ],
+      [
+        <span className="font-[500]">Cross-Functional Collaboration:</span>,
+        " Collaborated with diverse teams to ensure design and functionality met operational needs."
+      ],
+      [
+        <span className="font-[500]">Iterative Design:</span>,
+        " Through continuous iterations, I gained insights into balancing user experience and technical constraints in a dynamic project environment."
+      ],
     ],
   },
   {
     section: "Opportunities For Enhancement",
     items: [
-      "Guest Personalization: Further enhancing personalized recommendations based on guest behavior and preferences.",
-      "Staff Efficiency: Adding new administrative features to streamline internal communications and event management.",
-      "Scalability: Expanding the platform to support multiple resorts and diverse activity types.",
+      [
+        <span className="font-[500]">Guest Personalization:</span>,
+        " Further enhancing personalized recommendations based on past behavior and preferences."
+      ],
+      [
+        <span className="font-[500]">Staff Efficiency:</span>,
+        " Adding more administrative features to streamline internal communication and event management."
+      ],
+      [
+        <span className="font-[500]">Scalability:</span>,
+        " Expanding the platform to support multiple resorts and diverse activity types."
+      ],
     ],
   },
-  {
-    section: "Note",
-    content:
-      "This design is a reflection of the work completed during my time on the project. As likely company-sensitive iterations past my involvement.",
-  },
+  
 ];
 
 
@@ -100,12 +136,6 @@ const CaseStudiesOne = () => {
       rightLink:"/bachelorRite"
   }
 
-  //   useEffect(()=>{
-  //     window.scrollTo({
-  //       top: 0,
-  //       behavior: 'smooth'
-  //     });
-  // },[])
 
   return (
     <div>

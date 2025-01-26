@@ -71,7 +71,7 @@ const FinalDesignCard = ({ data, position }) => {
 
                     
                     <div
-                        className="absolute bottom-[-30px] right-[-10px] sm:bottom-[-40px] sm:right-[-30px] md:bottom-[-50px] md:right-[-20px] w-[80px] h-[160px] sm:w-[100px] sm:h-[200px] md:w-[201.931px] md:h-[414.992px] z-30"
+                        className="absolute bottom-[-30px] right-[-10px] sm:bottom-[-40px] sm:right-[-30px] md:bottom-[-57px] md:right-[-72px] w-[80px] h-[160px] sm:w-[100px] sm:h-[200px] md:w-[201.931px] md:h-[414.992px] z-30"
                     >
                         <img
                             className="absolute inset-0 w-full h-full object-cover z-10"

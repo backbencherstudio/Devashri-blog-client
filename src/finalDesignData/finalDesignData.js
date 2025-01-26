@@ -2,7 +2,7 @@ export const finaDesignData = [
     { 
       id: 1,
       title: "Effortless and Secure Onboarding",
-      content: "Guests join Luxe Events seamlessly with an invitation code sent after their resort reservation. Entering the code fetches reservation details automatically, requiring only a password setup. This ensures accuracy, eliminates manual entry, and supports the goal of a streamlined, luxurious experience.",
+      content: "<strong>invitation</strong> Guests join Luxe Events seamlessly with an invitation code sent after their resort reservation. Entering the code fetches reservation details automatically, requiring only a password setup. This ensures accuracy, eliminates manual entry, and supports the goal of a streamlined, luxurious experience.",
       laptopGif:
         "/gif/gif1.gif",
       mobilePic: "/mobileRes/mobile1.png"

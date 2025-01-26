@@ -1,6 +1,10 @@
 import React from 'react';
 
 const TheSolution = () => {
+
+  
+
+
   return (
     <div className="">
       {/* Title */}
@@ -35,27 +39,42 @@ const TheSolution = () => {
       <h1 className="p-8 text-center md:py-14 py-10 text-[#DD0101] text-[24px]  leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px]">
         Early Sketches: Laying the Foundation
       </h1>
+
       <div className="flex flex-col lg:flex-row gap-6">
-        {/* Main Image */}
-        <img
-          className="h-auto w-full lg:h-[814px] lg:w-1/2 object-cover"
-          src="/solution/sol2.png"
-          alt="Main Wireframe"
-        />
-        {/* Secondary Images */}
-        <div className="flex flex-col gap-6 w-full lg:w-1/2">
+        {/* First Image */}
+        <div className=" w-full lg:w-1/2 lg:h-[814px]">
           <img
-            className="h-auto w-full object-cover lg:h-1/2"
-            src={"/solution/sol1.png"}
-            alt="Sketch 1"
+            className="h-full w-full object-cover"
+            src="/solution/WhatsApp Image 2023-11-30 at 8.59 2.png"
+            alt="Main Wireframe"
           />
-          <img
-            className="h-auto w-full object-cover lg:h-1/2"
-            src={"/solution/sol3.png"}
-            alt="Sketch 2"
-          />
+          
         </div>
+
+          {/* Secondary Images */}
+          <div className="flex flex-col gap-6 w-full lg:w-1/2 lg:h-[814px]">
+            {/* Secondary Image 1 */}
+            <div className=" w-full lg:h-[407px]">
+              <img
+                className="h-full w-full object-cover"
+                src="/solution/WhatsApp Image 2023-11-30 at 8.59 1.png"
+                alt="Sketch 1"
+              />
+              
+            </div>
+
+            {/* Secondary Image 2 */}
+            <div className=" w-full lg:h-[407px]">
+              <img
+                className="h-full w-full object-cover"
+                src="/solution/WhatsApp Image 2023-11-30 at 8.59 3.png"
+                alt="Sketch 2"
+              />
+              
+            </div>
+          </div>
       </div>
+
 
 
       {/* Low-Fidelity Wireframes */}
@@ -67,7 +86,7 @@ const TheSolution = () => {
         <div className=' '>  
         <img
           className="h-full w-full object-cover"
-          src="/wireFrames/WIREFRAME3.png"
+          src="/wireFrames/Group 1000003158 (1).png"
           alt="Main Wireframe"
         />
         </div>
@@ -75,12 +94,12 @@ const TheSolution = () => {
         <div className="flex flex-col gap-6 w-full ">
           <img
             className="h-auto w-full object-cover "
-            src={"/wireFrames/WIREFRAME1.png"}
+            src={"/wireFrames/Group 1000003159.png"}
             alt="Sketch 1"
           />
           <img
             className="h-auto w-full object-cover lg:h-1/2"
-            src={"/wireFrames/WIREFRAME2.png"}
+            src={"/wireFrames/Group 1000003160.png"}
             alt="Sketch 2"
           />
         </div>
