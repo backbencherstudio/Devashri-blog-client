@@ -136,6 +136,13 @@ const CaseStudiesOne = () => {
       rightLink:"/bachelorRite"
   }
 
+   useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+  },[])
+
 
   return (
     <div>

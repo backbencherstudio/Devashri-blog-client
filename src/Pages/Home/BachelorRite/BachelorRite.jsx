@@ -40,12 +40,12 @@ const BachelorRite = () => {
       tools : "Figma, Photoshop, Miro"
   }
 
-//   useEffect(()=>{
-//     window.scrollTo({
-//       top: 0,
-//       behavior: 'smooth'
-//     });
-// },[])
+  useEffect(()=>{
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+},[])
 
 const iconData={
   leftName:"Watt Wise",

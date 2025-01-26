@@ -75,12 +75,12 @@ const CaseStudiesTwo = () => {
         rightLink:"/bachelorRite"
     }
 
-    //   useEffect(()=>{
-    //     window.scrollTo({
-    //       top: 0,
-    //       behavior: 'smooth'
-    //     });
-    // },[])
+      useEffect(()=>{
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+    },[])
 
     return (
         <div>
