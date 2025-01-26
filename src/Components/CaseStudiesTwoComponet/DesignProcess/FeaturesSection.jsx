@@ -48,18 +48,18 @@ const FeaturesSection = () => {
 
     return (
         <div className="md:flex gap-6">
-            <div>
-                <h1 className="text-[#DD0101] lg:text-[28px] md:text-[24px] text-[20px] uppercase font-semibold md:tracking-[2.8px] tracking-[1px] leading-[30.8px]">
-                    Understanding <br /> the Requirements
+            <div className="md:max-w-[264px]">
+                <h1 className="text-[#DD0101] lg:text-[28px] md:text-[24px] text-[20px] uppercase font-semibold lg:tracking-[2.8px] md:tracking-[1.4px] tracking-[.72px] leading-[110%]">
+                    Understanding the Requirements
                 </h1>
             </div>
-            <div>
-                <p className="lg:text-[24px] md:text-[20px] font-[500] pt-4 md:pt-0 lg:tracking-[2.4px] md:tracking-[1.4px] tracking-[.36px] leading-[26.4px] text-[#221429]">
+            <div className="max-w-[840px]">
+                <p className="lg:text-[24px] md:text-[20px] text-lg  font-[500] pt-4 md:pt-0 lg:tracking-[2.4px] md:tracking-[1.4px] tracking-[.72px] leading-[110%] text-[#221429]">
                     The Watt Wise Customer Portal was designed with the following key
                     features in mind, as outlined in the Business Requirement Document
                     (BRD):
                 </p>
-                <div className="mt-8 flex flex-col gap-10">
+                <div className="mt-8 flex flex-col lg:gap-10 md:gap-8 gap-6">
                     {features.map((feature, index) => (
                         <div key={index}>
                             <div>
@@ -69,7 +69,7 @@ const FeaturesSection = () => {
                             </div>
                             <div key={index} className="flex items-start md:gap-8 gap-4 mt-2">
                                 <div className=''>{feature.icon}</div>
-                                <p className="lg:text-2xl md:text-[20px] text-base text-[#2A2A2A] md:tracking-[.72px] tracking-[.36px]">{feature.description}</p>
+                                <p className="lg:text-2xl md:text-[20px] text-base text-[#2A2A2A] md:tracking-[.72px] tracking-[.36px] leading-[133%]">{feature.description}</p>
 
                             </div>
                         </div>

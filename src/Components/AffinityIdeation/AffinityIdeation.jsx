@@ -1,60 +1,56 @@
 import React from 'react';
+import PersionalStories from '../PersonalStories/PersionalStories';
+import img from "/list.png"
 
 const AffinityIdeation = () => {
+
+    const affinityIdeationData =
+    {
+        title: "AFFINITY MAPPING & IDEATION",
+        subtitle: "Deriving Insights",
+        points: [
+            "During the ideation phase, we organized and analyzed the data gathered from stakeholder meetings, personas, and user stories using affinity mapping.",
+            "This process allowed us to identify patterns, common themes, and key insights that would guide the design process.",
+            "Through brainstorming sessions, we discovered several crucial elements that shaped our approach."
+        ],
+        img:img,
+    }
+    const userFlowData =
+    {
+        title: "USER FLOW",
+        subtitle: "",
+        points: [
+            "To ensure the Luxe Events platform delivered an intuitive and seamless experience, we developed detailed user flow.",
+            "This flow served as a blueprint for designing the application’s interface and interactions, highlighting how user would navigate the system to achieve their goals.",
+        ],
+        
+    }
+
     return (
         <div>
 
-            <div className="flex flex-col md:flex-row gap-6">
-            {/* Affinity Mapping Text */}
-                <h1 className="text-[20px] md:text-[24px] font-normal md:leading-[110%] md:tracking-[2.4px] not-italic text-[#DD0101] md:w-1/3">
-                    AFFINITY MAPPING & IDEATION
-                </h1>
+            <PersionalStories data={affinityIdeationData}></PersionalStories>
 
-                {/* Deriving Insights Section */}
-                <div className="md:w-full">
-                    <h1 className="text-[20px] md:text-[24px] font-medium md:leading-[110%] md:tracking-[2.4px] not-italic mb-6">
-                    Deriving Insights
-                    </h1>
-                    <ul className="list-disc ml-8">
-                        <li className="mb-4 md:text-[24px] font-normal leading-[110%] md:tracking-[2.4px] not-italic">
-                            During the ideation phase, we organized and analyzed the data gathered from stakeholder meetings, personas, and user stories using affinity mapping.
-                        </li>
-                        <li className="mb-4 md:text-[24px] font-normal leading-[110%] md:tracking-[2.4px] not-italic">
-                            This process allowed us to identify patterns, common themes, and key insights that would guide the design process.
-                        </li>
-                        <li className="mb-4 md:text-[24px] font-normal leading-[110%] md:tracking-[2.4px] not-italic">
-                            Through brainstorming sessions, we discovered several crucial elements that shaped our approach.
-                        </li>
-                    </ul>
-                    <img className="mt-10 w-full object-contain" src={"/list.png"} alt="" />
+
+            <div className="flex flex-col md:flex-row gap-6 justify-between lg:mt-[120px] md:mt-[100px] mt-[60px]">
+                <div className='mb-6 md:mb-0 '>
+                    <h1 className='text-[#DD0101] md:w-[246px] md:text-[24px] text-xl  font-normal leading-[110%] tracking-[.72px] md:tracking-[2.4px]'>USER FLOW</h1>
                 </div>
-            </div>
 
-            <div className="flex flex-col md:flex-row gap-6 mt-28">
-            {/* Affinity Mapping Text */}
-                <h1 className="text-[20px] md:text-[24px] font-normal leading-[110%] tracking-[2.4px] not-italic text-[#DD0101] md:w-1/3">
-                    USER FLOW
-                </h1>
-
-                {/* Deriving Insights Section */}
-                <div className="md:w-full">
-                    <ul className="list-disc ml-8">
-                        <li className="mb-4 md:text-[24px] font-normal leading-[110%] md:tracking-[2.4px] not-italic">
-                            During the ideation phase, we organized and analyzed the data gathered from stakeholder meetings, personas, and user stories using affinity mapping.
+                <div className="w-full max-w-[840px] mt-[]">
+                    <ul className="list-disc ml-9 leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px]">
+                        <li className="mb-3 md:mb-4 leading-[110%] md:text-[20px] lg:text-[24px]  ">
+                            To ensure the Luxe Events platform delivered an intuitive and seamless experience, we developed detailed user flow.
                         </li>
-                        <li className="mb-4 md:text-[24px] font-normal leading-[110%] md:tracking-[2.4px] not-italic">
-                            This process allowed us to identify patterns, common themes, and key insights that would guide the design process.
-                        </li>
-                        <li className="mb-4 md:text-[24px] font-normal leading-[110%] md:tracking-[2.4px] not-italic">
-                            Through brainstorming sessions, we discovered several crucial elements that shaped our approach.
+                        <li className="mb-3 md:mb-4 leading-[110%]  md:text-[20px] lg:text-[24px] font-normal ">
+                            This flow served as a blueprint for designing the application’s interface and interactions, highlighting how user would navigate the system to achieve their goals.
                         </li>
                     </ul>
                 </div>
             </div>
 
-
-            {/* user flow */} 
-            <img className='mt-14' src={"/workflow.png"} alt="" />
+            {/* user flow */}
+            <img className='md:mt-14 mt-10' src={"/workflow.png"} alt="" />
 
 
             {/* the Solutions */}

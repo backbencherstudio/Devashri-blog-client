@@ -32,10 +32,65 @@ const NavBar = () => {
         };
     }, [open]);
 
+    const [showNavbar, setShowNavbar] = useState(true);
+    const lastScrollY = useRef(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+
+            if (currentScrollY > lastScrollY.current) {
+                // Scrolling Down - Hide Navbar
+                setShowNavbar(false);
+            } else {
+                // Scrolling Up - Show Navbar
+                setShowNavbar(true);
+            }
+
+            lastScrollY.current = currentScrollY;
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
         <div>
-            <div className='max-w-[1128px] mx-auto md:pt-[72px] pt-[36px] px-4 2xl:px-0'>
-                <div className='flex justify-between items-center'>
+            <div className='max-w-[1128px] mx-auto pt-[92px]  px-4 2xl:px-0'>
+                <div className={`fixed  top-0 left-0 w-full z-50 bg-[#F9F6F5] transition-transform duration-500 ${
+        showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
+                    <div className='max-w-[1128px] mx-auto px-4 2xl:px-0  mt-8 mb-4 '>
+                        <div className='flex justify-between items-center h-full '>
+                            <Link to={"/"} className='flex w-[56px]'>
+                                <img src={logo} alt="logo" />
+                            </Link>
+                            <div className='flex'>
+                                <ul className='font-medium text-[#2A2A2A] text-[20px] hidden md:flex uppercase gap-12'>
+                                    <li className='hover:text-[#DD0101] duration-500 transition-all '><NavLink to={"/"}>HOME</NavLink></li>
+                                    <li className='hover:text-[#DD0101] duration-500 transition-all '><NavLink to={"/about"}>about</NavLink></li>
+                                    <li className='hover:text-[#DD0101] duration-500 transition-all '><NavLink to={"/playground"}>playground</NavLink></li>
+                                    <li className='hover:text-[#DD0101] duration-500 transition-all '>
+                                        <a href="https://drive.google.com/file/d/1WS7BvELMfcFdXZii-b_XoBcJmwco3Xjp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                                            Resume
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button
+                                    ref={menuButtonRef}
+                                    onClick={() => setOpen(!open)}
+                                    className="md:hidden block"
+                                >
+                                    {open ? "" : <CiMenuFries className='text-2xl' />}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <div className='flex justify-between items-center'>
                     <Link to={"/"} className='flex w-[56px]'>
                         <img src={logo} alt="logo" />
                     </Link>
@@ -58,7 +113,7 @@ const NavBar = () => {
                             {open ? "" : <CiMenuFries className='text-2xl' />}
                         </button>
                     </div>
-                </div>
+                </div> */}
                 {/* Sidebar with overlay */}
                 <div className={`md:hidden fixed z-50 inset-0 bg-black/50 transition-all duration-700 ${open ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
                     <div
@@ -96,3 +151,33 @@ const NavBar = () => {
 
 
 export default NavBar;
+
+{/* <div className='fixed top-0 left-0 w-full z-50 bg-[#F9F6F5] transition-transform duration-500 ${
+        showNavbar ? "translate-y-0" : "-translate-y-full'>
+<div className='max-w-[1128px] mx-auto px-4 2xl:px-0  h-[72px]'>
+<div className='flex justify-between items-center h-full'>
+      <Link to={"/"} className='flex w-[56px]'>
+          <img src={logo} alt="logo" />
+      </Link>
+      <div className='flex'>
+          <ul className='font-medium text-[#2A2A2A] text-[20px] hidden md:flex uppercase gap-12'>
+              <li className='hover:text-[#DD0101] duration-500 transition-all '><NavLink to={"/"}>HOME</NavLink></li>
+              <li className='hover:text-[#DD0101] duration-500 transition-all '><NavLink to={"/about"}>about</NavLink></li>
+              <li className='hover:text-[#DD0101] duration-500 transition-all '><NavLink to={"/playground"}>playground</NavLink></li>
+               <li className='hover:text-[#DD0101] duration-500 transition-all '>
+                  <a href="https://drive.google.com/file/d/1WS7BvELMfcFdXZii-b_XoBcJmwco3Xjp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                      Resume
+                  </a>
+              </li>
+          </ul>
+          <button
+              ref={menuButtonRef}
+              onClick={() => setOpen(!open)}
+              className="md:hidden block"
+          >
+              {open ? "" : <CiMenuFries className='text-2xl' />}
+          </button>
+      </div>
+  </div>
+</div>
+  </div> */}

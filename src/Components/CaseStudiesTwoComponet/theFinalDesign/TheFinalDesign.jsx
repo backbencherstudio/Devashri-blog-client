@@ -1,57 +1,64 @@
 import React from 'react';
-import img1 from "../../../assets/case-studies-2/Login GIF.png"
-import img2 from "../../../assets/case-studies-2/Dashboard GIF.png"
-import img3 from "../../../assets/case-studies-2/My Account GIF.png"
-import img4 from "../../../assets/case-studies-2/My Contract GIF.png"
-import img5 from "../../../assets/case-studies-2/Billing GIF.png"
-import img6 from "../../../assets/case-studies-2/Payment GIF.png"
-import img7 from "../../../assets/case-studies-2/My Usage GIF.png"
-import img8 from "../../../assets/case-studies-2/Meter Reading GIF.png"
+import img1 from "../../../assets/case-studies-2/gif1.gif"
+import img2 from "../../../assets/case-studies-2/gif2.gif"
+import img3 from "../../../assets/case-studies-2/gif3.gif"
+import img4 from "../../../assets/case-studies-2/gif4.gif"
+import img5 from "../../../assets/case-studies-2/gif5.gif"
+import img6 from "../../../assets/case-studies-2/gif6.gif"
+import img7 from "../../../assets/case-studies-2/gif7.gif"
+import img8 from "../../../assets/case-studies-2/gif8.gif"
+import bgImg from "../../../assets/case-studies-2/Laptop Mockup 1.png"
+
 
 const TheFinalDesign = () => {
     return (
-        <div className='bg-[#f9f6f5] lg:mt-[200px] md:mt-[150px] mt-[100px]'>
+        <div className='bg-[#f9f6f5] lg:mt-[200px] md:mt-[150px] mt-[100px] lg:mb-[200px] '>
             <div className='max-w-[1128px] mx-auto px-4 2xl:px-0'>
                 <div className='lg:mb-[120px] md:mb-[100px] mb-[60px]'>
                     <h3 className='md:text-[28px] text-2xl font-semibold md:tracking-[2.8px] tracking-[1.2px] text-center text-[#DD0101]'>THE FINAL DESIGN</h3>
                     <h1 className='lg:text-[48px] md:text-[36px] text-2xl font-semibold md:tracking-[1.44px] tracking-[.72px] text-center mt-3  lg:mt-4'>Empowering Smarter Energy Management</h1>
                 </div>
-                <div className='flex flex-col lg:gap-[200px] md:gap-[150px] gap-[100px]'>
-                    {sections.map((item,i) => (
-                        <div key={i} className='grid md:grid-cols-5  lg:gap-6 gap-4'>
-                        <div className={`md:col-span-3  ${i % 2 == 1 && "md:order-1 md:mt-0" || i % 2 == 0 && "md:mt-[80px]"}`}>
-                            <img src={item.img} alt="" />
-                        </div>
-                        <div className={`md:col-span-2  ${i % 2 == 1 && "md:mt-[80px]"}`}>
-                            <div className='flex md:mb-[40px] mb-[20px] mt-6 md:mt-0 gap-6 items-center'>
-                                <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
-                                <h3 className='text-2xl font-semibold tracking-[.72px] text-[#2A2A2A]'>{item.title}</h3>
+                <div className='flex flex-col lg:gap-[160px] md:gap-[110px] gap-[80px]'>
+                    {sections.map((item, i) => (
+                        <div key={i} className='md:flex  lg:gap-6 gap-4'>
+                            <div className={` ${i % 2 == 1 && "md:order-1 md:mt-0" || i % 2 == 0 && "md:mt-[80px]"}`}>
+                                {/* <img src={item.img} alt="" /> */}
+                                <div className=' p-[8%] bg-no-repeat bg-center bg-contain ' style={{ backgroundImage: `url(${bgImg})`, }}>
+                                    <div className=''>
+                                        <img className='-translate-y-[3.2%]' src={item.img} alt="" />
+                                    </div>
+                                </div>
                             </div>
-                          <div className='font-medium xl:text-2xl lg:text-[18px] md:text-[15px] text-base tracking-[.6px] lg:leading-[28px] '>
-                          <div className=''>
-                                <h2 className=''>{item.features[0]?.label} <span className='font-normal'> {item.features[0].description}</span></h2>
-        
+                            <div className={`max-w-[408px]  ${i % 2 == 1 && "md:mt-[80px]"}`}>
+                                <div className='flex md:mb-[40px] mb-[20px] mt-6 md:mt-0 gap-6 items-center'>
+                                    <div className='h-4 w-4 bg-[#DD0101]  rotate-45'></div>
+                                    <h3 className='text-2xl font-semibold tracking-[.72px] leading-[133%] text-[#2A2A2A]'>{item.title}</h3>
                                 </div>
-                            <div className=''>
-                                <h2 className=''>{item.features[1]?.label}<span className='font-normal'>{item.features[1]?.description} </span></h2>                             
+                                <div className='font-medium  lg:text-[20px] md:text-[18px] text-base leading-[140%] md:tracking-[.6px] tracking-[.32px]  '>
+                                    <div className=''>
+                                        <h2 className=' leading-[140%]'>{item.features[0]?.label} <span className='font-normal'> {item.features[0].description}</span></h2>
+
+                                    </div>
+                                    <div className=''>
+                                        <h2 className=''>{item.features[1]?.label}<span className='font-normal  leading-[140%]'>{item.features[1]?.description} </span></h2>
+                                    </div>
+                                    <div className=''>
+                                        <h2 className=''>{item.features[2]?.label} <span className='font-normal  leading-[140%]'> {item.features[2]?.description}</span></h2>
+                                    </div>
+                                    <div className=''>
+                                        <h2 className=''>{item.features[3]?.label} <span className='font-normal  leading-[140%]'>{item.features[3]?.description} </span></h2>
+                                    </div>
+                                    <div className=''>
+                                        <h2 className=''> {item.features[4]?.label} <span className='font-normal  leading-[140%]'> {item?.features[4]?.description}</span></h2>
+                                    </div>
+                                    <div className=''>
+                                        <h2 className=''> {item.features[5]?.label} <span className='font-normal  leading-[140%]'> {item?.features[5]?.description}</span></h2>
+                                    </div>
                                 </div>
-                            <div className=''> 
-                                <h2 className=''>{item.features[2]?.label} <span className='font-normal'> {item.features[2]?.description}</span></h2>                               
-                                </div>
-                            <div className=''>
-                                <h2 className=''>{item.features[3]?.label} <span className='font-normal'>{item.features[3]?.description} </span></h2>           
-                                </div>
-                            <div className=''>
-                                <h2 className=''> {item.features[4]?.label} <span className='font-normal'> {item?.features[4]?.description}</span></h2>                               
-                                </div>
-                            <div className=''>
-                                <h2 className=''> {item.features[5]?.label } <span className='font-normal'> {item?.features[5]?.description}</span></h2>                               
-                                </div>
-                          </div>
+                            </div>
                         </div>
-                    </div>
                     ))}
-                    
+
                 </div>
             </div>
         </div>

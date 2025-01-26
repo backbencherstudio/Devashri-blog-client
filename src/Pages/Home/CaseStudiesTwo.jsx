@@ -75,18 +75,16 @@ const CaseStudiesTwo = () => {
         rightLink:"/bachelorRite"
     }
 
-      useEffect(()=>{
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-    },[])
+    //   useEffect(()=>{
+    //     window.scrollTo({
+    //       top: 0,
+    //       behavior: 'smooth'
+    //     });
+    // },[])
 
     return (
         <div>
-            <div className='max-w-[1128px] mx-auto px-4 responsive-padding2'>
-            <div className='w-[100px]  md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
-
+            <div className='max-w-[1128px] mx-auto px-4 2xl:px-0'>
                 {/* header section title, description, options */}
                 <SectionCategory sectionCat={sectionCat} title = {title} description = {description} options= {options}/>
 
@@ -97,7 +95,7 @@ const CaseStudiesTwo = () => {
                 <BriefSecOfCaseSec briefObj={briefObj}/>
             </div>
 
-            <div className='bg-[#F2ECEB] mt-28'>
+            <div className='bg-[#F2ECEB]'>
                 {/* Problem card */}
                 <Challenge/>
             </div>

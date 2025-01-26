@@ -20,15 +20,29 @@ const conclusionData = [
   {
     section: "Conclusion",
     content:
-      "The Luxe Events project aimed to create an innovative platform that enhances the guest experience by simplifying event booking and streamlining operational workflows. It focused on delivering a seamless, user-friendly solution for both guests and resort staff, improving efficiency, personalization, and guest satisfaction.",
+      "The Luxe Events project aimed to create an innovative platform that enhances the resort experience by simplifying event bookings and streamlining operational workflows. It focuses on delivering a seamless, ",
+      <span className="font-semibold">user-centric platform</span>,
+      " for both guests and resort staff, improving efficiency, personalization, and guest satisfaction.",
   },
   {
-    section: "What I Achieved From This Project",
+    section: "WHAT I ACHIEVED FROM THIS PROJECT",
     items: [
       "Designed a user-centric platform addressing the needs of guests and staff at luxury resorts.",
-      "Incorporated real-time booking management, activity tracking, and personalized recommendations to enhance user engagement.",
-      "Worked closely with stakeholders to understand and gather requirements, aligning client-facing and internal team objectives.",
-      "Contributed to the iterative design process, focusing on continuous improvement and adapting the platform to evolving user needs.",
+      "Incorporated ",
+      <span className="font-semibold">real-time booking management</span>,
+      ", ",
+      <span className="font-semibold">activity tracking</span>,
+      ", and ",
+      <span className="font-semibold">personalized recommendations</span>,
+      " to enhance user engagement.",
+      "Worked closely with ",
+      <span className="font-semibold">stakeholders</span>,
+      " to understand and gather requirements, playing a ",
+      <span className="font-semibold">client-facing role</span>,
+      " and ensuring alignment with business objectives.",
+      "Contributed to the iterative design process, focusing on ",
+      <span className="font-semibold">continuous improvement</span>,
+      " and adapting the platform to evolving user needs.",
     ],
   },
   {
@@ -78,13 +92,26 @@ const CaseStudiesOne = () => {
     tools: "Figma"
   }
 
+  const personalStoriesData = 
+    {
+      title: "PERSONAS & USER STORIES",
+      subtitle: "Building for every role.",
+      points: [
+        "The design process for Luxe Events centered around identifying five key personas integral to the platform's success.",
+        "These personas represented different roles involved in the event booking process at the resort, each with unique needs and goals.",
+        "Each persona's needs and goals were translated into user stories, which informed the design and prioritized feature development."
+      ]
+    }
+ 
+
+
   //slider section
 
     const iconData={
       leftName:"Watt Wise",
       rightName:"BacheloRite",
-      leftLink:"/bachelorRite",
-      rightLink:"/case-studies-two"
+      leftLink:"/case-studies-two",
+      rightLink:"/bachelorRite"
   }
 
   //   useEffect(()=>{
@@ -96,9 +123,8 @@ const CaseStudiesOne = () => {
 
   return (
     <div>
-      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 responsive-padding3'>
-        <div className='w-[100px] md:h-[8px] h-[5px] bg-[#DD0101] md:mb-6 mb-4'></div>
-
+      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 '>
+        
         {/* header section title, description, options */}
         <SectionCategory sectionCat={sectionCat} title={title} description={description} options={options} />
 
@@ -124,19 +150,20 @@ const CaseStudiesOne = () => {
         <img className='w-full' src={Frame1} alt="" />
       </div>
 
-      <div className='max-w-[1128px] mx-auto px-4 lg:py-[120px] md:py[100px] py-[60px]'>
-        <PersionalStories />
+      <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:pt-[120px] md:pt[100px] pt-[60px]'>
+        <PersionalStories data={personalStoriesData} />
 
         <PersonalStoriesCard />
 
-        <AffinityIdeation />
+        <AffinityIdeation  />
+       
 
         <TheSolution />
 
         <FinalDesign />
       </div>
 
-      {/* <WebToolResortStuff/> */}
+      <WebToolResortStuff/>
 
       <Conclusion conclusionData={conclusionData} />
 
