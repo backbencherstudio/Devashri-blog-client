@@ -54,12 +54,6 @@ const PersonalStoriesCard = () => {
             key={role.id}
             className="flex flex-col md:flex-row h-auto  gap-6 md:gap-8 lg:gap-12"
           >
-            {/* Image Section */}
-            {/* <img
-              className="w-full md:w-[294px] h-auto md:h-full object-cover"
-              src={role.image}
-              alt=""
-            /> */}
             <div>
               <div className="relative w-[292px]">
                 <div >
@@ -91,7 +85,7 @@ const PersonalStoriesCard = () => {
                 <h1 className=" text-[#2A2A2A] leading-[110%] font-semibold  not-italic">
                   Goal:
                 </h1>
-                <p className=" not-italic leading-[110%] mb-4">{role.goal}</p>
+                <p className=" not-italic leading-[110%] mb-10">{role.goal}</p>
 
                 <h1 className="text-[#2A2A2A] leading-[110%] font-semibold  not-italic">
                   User Story:
@@ -99,6 +93,7 @@ const PersonalStoriesCard = () => {
                 <p className=" not-italic  leading-[110%]">{role.user_story}</p>
               </div>
             </div>
+            
           </div>
         ))}
       </div>

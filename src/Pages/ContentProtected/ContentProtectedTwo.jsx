@@ -61,10 +61,10 @@ const ContentProtectedTwo = () => {
                     <div className=''>
                         <PiLock className="mx-auto  text-[#6D6D6D]  md:w-[120px] md:h-[120px] w-[100px] h-[100px]" />
                     </div>
-                    <h1 className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl mt-6 md:mt-10 lg:mt-12 font-semibold  text-[#2A2A2A] tracking-[.52px] md:tracking-[1px] lg:tracking-[1.44px]">
+                    <h1 className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl mt-6 md:mt-10 lg:mt-12 leading-[110%] font-medium  text-[#2A2A2A] tracking-[.52px] md:tracking-[1px] lg:tracking-[1.44px]">
                         This content is protected.
                     </h1>
-                    <p className="mb-2 text-base md:mt-6 mt-4  md:text-[22px] lg:text-2xl text-[#6D6D6D] tracking-[.32px] md:tracking-[.52px] lg:tracking-[.72px]">
+                    <p className="mb-2 text-base md:mt-6 mt-4 leading-[110%] md:text-[22px] lg:text-2xl text-[#6D6D6D] tracking-[.32px] md:tracking-[.52px] lg:tracking-[.72px]">
                         To view, please enter the password.
                     </p>
                     <form onSubmit={handleLogIN} action="">
