@@ -54,12 +54,12 @@ const FeaturesSection = () => {
                 </h1>
             </div>
             <div className="max-w-[840px]">
-                <p className="lg:text-[24px] md:text-[20px] text-lg  font-[500] pt-4 md:pt-0 lg:tracking-[2.4px] md:tracking-[1.4px] tracking-[.72px] leading-[110%] text-[#221429]">
+                <p className="lg:text-[24px] mb-14 md:text-[20px] font-[500] pt-4 md:pt-0 lg:tracking-[2.4px] md:tracking-[1.4px] tracking-[.72px] leading-[110%] text-[#221429]">
                     The Watt Wise Customer Portal was designed with the following key
                     features in mind, as outlined in the Business Requirement Document
                     (BRD):
                 </p>
-                <div className="mt-8 flex flex-col lg:gap-10 md:gap-8 gap-6">
+                <div className="flex flex-col lg:gap-10 md:gap-8 gap-6">
                     {features.map((feature, index) => (
                         <div key={index}>
                             <div>

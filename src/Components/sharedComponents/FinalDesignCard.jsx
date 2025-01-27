@@ -6,7 +6,7 @@ import img from "/LaptopMockup.png"
 const FinalDesignCard = ({ data, position }) => {
     console.log(data)
     return (
-        <div className="">
+        <div className="text-[#2A2A2A]">
             {/* Effortless Section with Centered SVG */}
             <div>
                 <div className="relative flex items-center justify-center md:mb-9 mb-6 w-full ">

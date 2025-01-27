@@ -15,7 +15,7 @@ const TheFinalDesign = () => {
         <div className='bg-[#f9f6f5] lg:mt-[200px] md:mt-[150px] mt-[100px] lg:mb-[200px] '>
             <div className='max-w-[1128px] mx-auto px-4 2xl:px-0'>
                 <div className='lg:mb-[120px] md:mb-[100px] mb-[60px]'>
-                    <h3 className='md:text-[28px] text-2xl font-semibold md:tracking-[2.8px] tracking-[1.2px] text-center text-[#DD0101]'>THE FINAL DESIGN</h3>
+                    <h3 className='md:text-[28px] text-2xl font-semibold md:tracking-[2.8px] tracking-[1.2px] leading-[110%] text-center text-[#DD0101]'>THE FINAL DESIGN</h3>
                     <h1 className='lg:text-[48px] md:text-[36px] text-2xl font-semibold md:tracking-[1.44px] tracking-[.72px] text-center mt-3  lg:mt-4'>Empowering Smarter Energy Management</h1>
                 </div>
                 <div className='flex flex-col lg:gap-[160px] md:gap-[110px] gap-[80px]'>
@@ -66,65 +66,6 @@ const TheFinalDesign = () => {
 };
 
 export default TheFinalDesign;
-
-// const sections = [
-//     {
-//         title: "Login",
-//         img: img1,
-//         features: [
-//             {
-//                 label: "Branding",
-//                 description: "Gradient background, logo consistency, and clear brand identity.",
-//             },
-//             {
-//                 label: "Minimal Design",
-//                 description: "Simple, labeled input fields for clarity.",
-//             },
-//             {
-//                 label: "CTA Focus",
-//                 description: "Prominent 'Login' button for visibility.",
-//             },
-//             {
-//                 label: "Usability",
-//                 description: "'Remember Me' checkbox and 'Forgot Password' link for convenience.",
-//             },
-//             {
-//                 label: "Accessibility",
-//                 description: "High contrast, large buttons, and structured layout for ease of use.",
-//             },
-//         ],
-//     },
-//     {
-//         title: "Dashboard",
-//         img: img2,
-//         features: [
-//             {
-//                 label: "Grid-Based Layout",
-//                 description: "Clear organization of information into distinct sections.",
-//             },
-//             {
-//                 label: "Key Info Display",
-//                 description: "Account details, payments, and usage statistics.",
-//             },
-//             {
-//                 label: "Actionable Buttons",
-//                 description: "Intuitive CTAs like 'Pay Now' and 'View My Usage' for quick actions.",
-//             },
-//             {
-//                 label: "Alerts Section",
-//                 description: "Highlights key notifications and alerts.",
-//             },
-//             {
-//                 label: "Service Options",
-//                 description: "Easy access to FAQs, quotes, and service requests.",
-//             },
-//             {
-//                 label: "Calming Visuals",
-//                 description: "Soft gradients and clean typography enhance readability.",
-//             },
-//         ],
-//     },
-// ];
 
 const sections = [
     {

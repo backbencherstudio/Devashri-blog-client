@@ -11,11 +11,11 @@ const DesignApproch = () => {
                 </div>
 
                 <div className='leading-[133%]  '>
-                    <p className='mb-6 leading-[110%]  md:text-[20px] lg:text-[24px] font-normal md:tracking-[1.2px] tracking-[.72px] lg:tracking-[2.4px]'>Understanding the ecosystem</p>
-                    <p className='mb-10 leading-[110%]  md:text-[20px] lg:text-[24px] font-medium  md:tracking-[1.2px] tracking-[.72px] lg:tracking-[2.4px]'>To kickstart the design process, we conducted in-depth stakeholder meetings to gain a deeper understanding of the resort’s ecosystem.</p>
-                    <p className='mb-6  leading-[133%] md:text-[20px] lg:text-[24px] font-normal  tracking-[.72px]'><span className='font-medium'>Limited feedback loop</span> meant we relied on stakeholders for insights into <span className='font-medium'>staff</span> and guest challenges.</p>
-                    <p className='mb-6  leading-[133%] md:text-[20px] lg:text-[24px] font-normal  tracking-[.72px]'>Identified <span className='font-medium'>pain points, user needs,</span> and <span className='font-medium'>inefficiencies</span> caused by manual processes.</p>
-                    <p className='mb-6  leading-[133%] md:text-[20px] lg:text-[24px] font-normal  tracking-[.72px]'>Gathered key information on <span className='font-medium'>operational hurdles</span> and areas for improvement.</p>
+                    <p className='mb-6 leading-[110%] text-[#221429]  md:text-[20px] lg:text-[24px] font-normal md:tracking-[1.2px] tracking-[.72px] lg:tracking-[2.4px]'>Understanding the ecosystem</p>
+                    <p className='mb-10 leading-[110%] text-[#221429] md:text-[20px] lg:text-[24px] font-medium  md:tracking-[1.2px] tracking-[.72px] lg:tracking-[2.4px]'>To kickstart the design process, we conducted in-depth stakeholder meetings to gain a deeper understanding of the resort’s ecosystem.</p>
+                    <p className='mb-6  leading-[133%] text-[#2A2A2A] md:text-[20px] lg:text-[24px] font-normal  tracking-[.72px]'><span className='font-medium'>Limited feedback loop</span> meant we relied on stakeholders for insights into <span className='font-medium'>staff</span> and guest challenges.</p>
+                    <p className='mb-6  leading-[133%] text-[#2A2A2A] md:text-[20px] lg:text-[24px] font-normal  tracking-[.72px]'>Identified <span className='font-medium'>pain points, user needs,</span> and <span className='font-medium'>inefficiencies</span> caused by manual processes.</p>
+                    <p className='mb-6  leading-[133%] text-[#2A2A2A] md:text-[20px] lg:text-[24px] font-normal  tracking-[.72px]'>Gathered key information on <span className='font-medium'>operational hurdles</span> and areas for improvement.</p>
                 </div>
             </div>
         </div>

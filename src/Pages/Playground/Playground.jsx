@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import playground1 from "/playground/playground1.gif"
 import playground2 from "/playground/playground2.gif"
 import playground2half from "/playground/Laptop Mockup 1.png"
 import playground3 from "/playground/playground3.gif"
 // import playground3 from "/playground/playground2.gif"
 const Playground = () => {
+    useEffect(()=>{
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+    },[])
     return (
         <>
             <div className='max-w-[1128px] mx-auto px-4 2xl:px-0'>

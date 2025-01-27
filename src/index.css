@@ -31,6 +31,18 @@ body{
   color: #DD0101;
 }
 
+.blackColor{
+  color: #2A2A2A;
+}
+
+.grayColor{
+  color: #6D6D6D;
+}
+
+.redColor{
+  color: #DD0101
+}
+
 
 
 .border-style-right {

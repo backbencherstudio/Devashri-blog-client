@@ -5,7 +5,7 @@ const ProjectGoal = () => {
     <div className="lg:mt-[120px] md:mt-[100px] mt-[60px]">
       <p className="active text-2xl md:text-[36px] lg:text-[48px] font-black leading-[110%] lg:tracking-[9.6px] md:tracking-[6px] tracking-[3px]  opacity-25">PROJECT GOALS</p>
 
-      <div className="lg:mt-[80px] md:mt-[56px] mt-[40px] grid grid-cols-1 md:grid-cols-3 gap-1">
+      <div className="lg:mt-[80px] md:mt-[56px] text-[#2A2A2A] mt-[40px] grid grid-cols-1 md:grid-cols-3 gap-1">
         {/* Headers */}
         <div className="bg-white  border-l-4 border-[#2A2A2A] flex items-center justify-center text-center">
           <h1 className="text-center lg:py-6 md:py-4 text-[20px]  md:text-[24px] font-medium leading-[110%] md:tracking-[2.4px] tracking-[1.4px]">Goal</h1>

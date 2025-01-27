@@ -8,7 +8,7 @@ const colors = [
             { label: "Secondary", color: "#15C753", percentage: "100%" },
         ],
         dark: [
-            { label: "Primary", color: "#DE7842", percentage: "100%" },
+            { label: "Primary", color: "#DE7642", percentage: "100%" },
         ],
     },
     {
@@ -16,11 +16,11 @@ const colors = [
         titleTwo: "kground",
         fullTitle: "App Background",
         light: [
-            { label: "Primary - Bg", color: "#A6C8EC", percentage: "100%" },
+            { label: "Primary - Bg", color: "#A6C8E6", percentage: "100%" },
             { label: "Secondary - Bg", color: "#BFE2DF", percentage: "100%" },
         ],
         dark: [
-            { label: "Primary - Bg", color: "#1F2128", percentage: "100%" },
+            { label: "Primary - Bg", color: " #1F2128", percentage: "100%" },
         ],
     },
     {
@@ -28,7 +28,7 @@ const colors = [
         titleTwo: "olors",
         fullTitle: "Fill Colors",
         light: [
-            { label: "Primary - Fill", color: "#BADBFF", percentage: "100%" },
+            { label: "Primary - Fill", color: "#BAD8FF", percentage: "100%" },
             { label: "Secondary - Fill", color: "#DAE9FC", percentage: "100%" },
             { label: "Tertiary - Fill", color: "#FFFFFF", percentage: "100%" },
         ],
@@ -43,11 +43,11 @@ const colors = [
         fullTitle: "Label / Text",
         light: [
             { label: "Primary - Label", color: "#333333", percentage: "100%" },
-            { label: "Secondary - Label", color: "#6B7280", percentage: "100%" },
+            { label: "Secondary - Label", color: " #8A92A6", percentage: "100%" },
         ],
         dark: [
-            { label: "Primary - Label", color: "#FFFFFF", percentage: "100%" },
-            { label: "Secondary - Label", color: "#E5E7EB", percentage: "100%" },
+            { label: "Primary - Label", color: "#FAFAFA", percentage: "100%" },
+            { label: "Secondary - Label", color: " #E0DEDE", percentage: "100%" },
         ],
     },
     {
@@ -58,7 +58,7 @@ const colors = [
             { label: "Separator - Light", color: "#E4E3E3", percentage: "100%" },
         ],
         dark: [
-            { label: "Primary - Label", color: "#FFFFFF", percentage: "100%" },
+            { label: "Primary - Label", color: "#FAFAFA", percentage: "100%" },
         ],
     },
     {
