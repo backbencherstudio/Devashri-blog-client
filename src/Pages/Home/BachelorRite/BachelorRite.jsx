@@ -40,12 +40,12 @@ const BachelorRite = () => {
       tools : "Figma, Photoshop, Miro"
   }
 
-//   useEffect(()=>{
-//     window.scrollTo({
-//       top: 0,
-//       behavior: 'smooth'
-//     });
-// },[])
+  useEffect(()=>{
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+},[])
 
 const iconData={
   leftName:"Watt Wise",
@@ -81,11 +81,11 @@ const iconData={
                 <EmpathyMap/>
             </div>
             
-            <div className='bg-[#F2ECEB] mt-28'>
-              <UxChallenge/>
+            <div className='bg-[#F2ECEB] mt-[60px] md:mt-[100px] lg:mt[120px]'>
+              <UxChallenge/> 
             </div>
 
-            <div className='max-w-[1128px] mx-auto px-4 mt-28'>
+            <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 mt-[60px] md:mt-[100px] lg:mt[120px]'>
               <UserFlow/>
               <StructuringInfo/>
             </div>

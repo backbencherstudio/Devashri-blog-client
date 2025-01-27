@@ -1,6 +1,6 @@
 import React from 'react';
-import empathyMap from "../../assets/empathyMap/empathyMap.jpg"
-import Ellipse from "../../assets/empathyMap/Ellipse 24.png"
+import empathyMap from "../../assets/empathyMap/Group 42.png"
+
 
 const EmpathyMap = () => {
     return (
@@ -9,11 +9,7 @@ const EmpathyMap = () => {
             <div className="relative inline-block">
                 <img src={empathyMap} alt="Empathy Map" />
 
-                <img
-                    className="absolute inset-0 m-auto w-[88px] h-[88px] md:w-[164px] md:h-[164px] lg:w-[226px] lg:h-[226px]"
-                    src={Ellipse}
-                    alt="Ellipse"
-                />
+              
             </div>
 
         </div>

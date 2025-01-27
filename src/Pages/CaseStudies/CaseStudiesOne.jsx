@@ -136,6 +136,13 @@ const CaseStudiesOne = () => {
       rightLink:"/bachelorRite"
   }
 
+   useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+  },[])
+
 
   return (
     <div>
@@ -181,7 +188,7 @@ const CaseStudiesOne = () => {
 
       <WebToolResortStuff/>
 
-      <Conclusion conclusionData={conclusionData} isNoteVisible={true} />
+      <Conclusion isNoteVisible={true} conclusionData={conclusionData} />
 
       <Slider iconData={iconData} />
     </div>

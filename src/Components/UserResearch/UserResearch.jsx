@@ -76,13 +76,13 @@ const UserResearch = () => {
                                 </div>
                             </div>
                             <div className='flex items-center   md:gap-8 gap-6 lg:gap-10'>
-                                <img className='w-[120px] h-[120px]w-28 h-28' src={frame2} alt="" />
+                                <img className='w-[120px] h-[120px]' src={frame2} alt="" />
                                 <div className='w-full md:text-[18px] lg:text-[20px] text-base leading-[110%]'>
                                     <p>“Apart from rent, I spend a significant amount on additional services like housekeeping, Wi-Fi, and appliances, which aren’t included in most rental agreements.”</p>
                                     <p className='font-medium mt-2'>-Meera, 24, Content Creator, Hyderabad</p>
                                 </div>
                             </div>
-                            <div className='flex items-cente mb-10 md:gap-8 gap-6 lg:gap-10'>
+                            <div className='flex items-center mb-10 md:gap-8 gap-6 lg:gap-10'>
                                 <img className='w-[120px] h-[120px]' src={frame3} alt="" />
                                 <div className='w-full md:text-[18px] lg:text-[20px] text-base leading-[110%]'>
                                     <p>“I’m paying almost 20% more for rent just to avoid unnecessary interrogations from landlords and nosy neighbors.”</p>

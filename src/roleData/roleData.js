@@ -45,8 +45,8 @@ export const rolesData = [
         name:"David Clark",
       age: "42 Years",
       country:"New York, NY",
-      image: "/people/Frame5.png",
-      designation:"// Super Admin"
+      image: "/people/Frame4.png",
+      designation:"// Resort Admin"
     },
     {
       id: 5,
@@ -57,8 +57,8 @@ export const rolesData = [
         name:"Chris Brown",
       age: "48 Years",
       country:"Chicago, IL",
-      image: "/people/Frame4.png",
-      designation:"// Resort Admin"
+      image: "/people/Frame5.png",
+      designation:"// Super Admin"
     },
     
     
