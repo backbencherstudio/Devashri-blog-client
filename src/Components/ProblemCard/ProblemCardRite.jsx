@@ -2,7 +2,7 @@ import React from "react";
 
 const ProblemCardRite = () => {
   return (
-    <div className="max-w-[1128px] mx-auto px-4 2xl:px-0">
+    <div className="max-w-[1128px] mx-auto px-4 2xl:px-0 ">
       <div className="flex flex-col md:flex-row justify-between md:gap-8 gap-6 md:py-12 py-8">
         {/* Title Section */}
         <h1 className="text-[20px] sm:text-[24px] md:text-[28px] font-semibold leading-[110%] sm:leading-[30px] tracking-[1.5px] md:tracking-[2.8px] text-[#DD0101]">
@@ -25,7 +25,7 @@ const ProblemCardRite = () => {
                 As high as
               </p>
               <div className="flex flex-col sm:flex-row items-start sm:items-end sm:space-x-4 lg:mt-1">
-                <h1 className="opacity-80 text-[32px] text-[#2A2A2A] md:text-[36px] lg:text-[42px] xl:text-[48px] font-semibold leading-[110%] tracking-[.72px] md:tracking-[1.44px] text-left">
+                <h1 className="opacity-80 text-[32px] text-[#2A2A2A] md:text-[36px] lg:text-[42px] xl:text-[48px] font-medium leading-[110%] tracking-[.72px] md:tracking-[1.44px] text-left">
                   82%
                 </h1>
                 <p className="text-[16px] md:text-[18px] lg:text-[20px] 2xl:text-2xl text-[#2A2A2A]  font-normal leading-[133%] tracking-[.36px] md:tracking-[0.72px] mt-2 sm:mt-0">
@@ -40,7 +40,7 @@ const ProblemCardRite = () => {
                 Nearly
               </p>
               <div className="flex flex-col sm:flex-row items-start sm:items-end sm:space-x-4 lg:mt-1">
-                <h1 className="opacity-80  text-[32px] text-[#2A2A2A] md:text-[36px] lg:text-[42px] xl:text-[48px] font-semibold leading-[110%] tracking-[.72px] md:tracking-[1.44px] text-left">
+                <h1 className="opacity-80  text-[32px] text-[#2A2A2A] md:text-[36px] lg:text-[42px] xl:text-[48px] font-medium leading-[110%] tracking-[.72px] md:tracking-[1.44px] text-left">
                   66%
                 </h1>
                 <p className="text-[16px] md:text-[18px] lg:text-[20px] 2xl:text-2xl text-[#2A2A2A]  font-normal leading-[133%] tracking-[.36px] md:tracking-[0.72px] mt-2 sm:mt-0">
@@ -56,7 +56,7 @@ const ProblemCardRite = () => {
                 Only
               </p>
               <div className="flex flex-col sm:flex-row items-start sm:items-end sm:space-x-4 lg:mt-1">
-                <h1 className="opacity-80 text-[32px] text-[#2A2A2A] md:text-[36px] lg:text-[42px] xl:text-[48px] font-semibold leading-[110%] tracking-[.72px] md:tracking-[1.44px] text-left">
+                <h1 className="opacity-80 text-[32px] text-[#2A2A2A] md:text-[36px] lg:text-[42px] xl:text-[48px] font-medium leading-[110%] tracking-[.72px] md:tracking-[1.44px] text-left">
                   58%
                 </h1>
                 <p className="text-[16px] md:text-[18px] lg:text-[20px] 2xl:text-2xl text-[#2A2A2A]  font-normal leading-[133%] tracking-[.36px] md:tracking-[0.72px] mt-2 sm:mt-0">
@@ -72,7 +72,7 @@ const ProblemCardRite = () => {
                 With a CAGR
               </p>
               <div className="flex text-[#2A2A2A] flex-col sm:flex-row items-start sm:items-end sm:space-x-4 lg:mt-1">
-                <span className="opacity-80 text-[32px] text-[#2A2A2A] md:text-[36px] lg:text-[42px] xl:text-[48px] font-semibold leading-[110%] tracking-[.72px] md:tracking-[1.44px] whitespace-nowrap text-left">
+                <span className="opacity-80 text-[32px] text-[#2A2A2A] md:text-[36px] lg:text-[42px] xl:text-[48px] font-medium leading-[110%] tracking-[.72px] md:tracking-[1.44px] whitespace-nowrap text-left">
                   18-20%
                 </span>
                 <p className="text-[16px] md:text-[18px] lg:text-[20px] 2xl:text-2xl text-[#2A2A2A]  font-normal leading-[133%] tracking-[.36px] md:tracking-[0.72px] mt-2 sm:mt-0">

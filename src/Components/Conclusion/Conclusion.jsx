@@ -22,7 +22,7 @@ const Conclusion = ({ conclusionData, isNoteVisible }) => {
                                 </p>
                             )}
                             {section.items && (
-                                <ul className="text-[16px] text-[#221429] md:text-[20px] lg:text-[24px] font-normal leading-[22px] md:leading-[24px] lg:leading-[26.4px] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] list-disc">
+                                <ul className="text-[16px] text-[#221429] md:text-[20px] lg:text-[24px] font-normal leading-[22px] md:leading-[24px] lg:leading-[26.4px] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] list-disc marker:text-[20px]">
                                     {section.items.map((item, itemIndex) => (
                                         <li
                                             key={itemIndex}

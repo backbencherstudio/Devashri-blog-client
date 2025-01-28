@@ -20,19 +20,19 @@ const BriefSecOfCaseSec = ({briefObj}) => {
         {/* Role */}
         <div className="mb-12">
             <h1 className="text-[#DD0101] bg-[#F2ECEB] font-semibold pb-4">Role</h1>
-            <p className="bg-[#F2ECEB] md:w-[12ch]">{briefObj.role}</p>
+            <p className="bg-[#F2ECEB] text-[#2A2A2A] md:w-[12ch]">{briefObj.role}</p>
         </div>
 
         {/* Duration */}
         <div className="mb-12">
             <h1 className="text-[#DD0101] bg-[#F2ECEB] font-semibold pb-4">DURATION</h1>
-            <p className="bg-[#F2ECEB]">{briefObj.duration}</p>
+            <p className="bg-[#F2ECEB] text-[#2A2A2A]">{briefObj.duration}</p>
         </div>
 
         {/* Tools */}
         <div className='mb-12'>
             <h1 className="text-[#DD0101] bg-[#F2ECEB] font-semibold pb-4">TOOLS</h1>
-            <p className="bg-[#F2ECEB]">{briefObj.tools}</p>
+            <p className="bg-[#F2ECEB] text-[#2A2A2A]">{briefObj.tools}</p>
         </div>
     </div>
     </div>

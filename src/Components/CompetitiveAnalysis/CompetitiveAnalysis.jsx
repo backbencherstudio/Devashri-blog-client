@@ -5,7 +5,7 @@ import img3 from "../../assets/competitiveAnalysis/Untitled - Frame 6.png"
 import img4 from "../../assets/competitiveAnalysis/Untitled - Frame 7.png"
 const CompetitiveAnalysis = () => {
     return (
-        <div className="lg:mb-[120px] md:mb-[100px] mb-[60px]">
+        <div className="lg:mb-[120px] md:mb-[100px] mb-[60px] text-[#2A2A2A]">
             <div className="flex flex-col md:flex-row justify-between md:gap-8 gap-6">
                 {/* Title Section */}
                 <h1 className="md:max-w-[197px] text-[20px] md:text-[24px] lg:text-[28px] font-semibold leading-[110%] tracking-[.72px] md:tracking-[1.5px] lg:tracking-[2.8px] text-[#DD0101]">

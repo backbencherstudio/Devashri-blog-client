@@ -37,11 +37,11 @@ const TypographyForRite = () => {
                 <div className="space-y-4  flex-1">
                     <div
                         className="h-full rounded-[16px] shadow-lg transition-transform hover:scale-[1.01] flex items-end"
-                        style={{ backgroundColor: '#4FA3A3' }}
+                        style={{ backgroundColor: '#4FA3A5' }}
                     >
-                        <div className="p-6 text-white">
-                            <span className="font-semibold">PRIMARY</span>
-                            <p className="text-base opacity-90">#4FA3A3</p>
+                        <div className="p-6 text-white ">
+                            <span className="tracking-[3px] font-medium text-[20px] leading-[110%]">PRIMARY</span>
+                            <p className="text-[18px] opacity-90 leading-[110%]">#4FA3A5</p>
                         </div>
                     </div>
                 </div>
@@ -49,11 +49,11 @@ const TypographyForRite = () => {
                 <div className="space-y-4 flex-1">
                     <div
                         className="h-full rounded-[16px] shadow-lg transition-transform hover:scale-[1.01] items-end flex"
-                        style={{ backgroundColor: '#204248' }}
+                        style={{ backgroundColor: '#264248' }}
                     >
                         <div className="p-6 text-white ">
-                            <span className="font-semibold">PRIMARY</span>
-                            <p className="text-base opacity-90">#204248</p>
+                            <span className="tracking-[3px] font-medium text-[20px] leading-[110%]">PRIMARY</span>
+                            <p className="text-[18px] opacity-90 leading-[110%]">#264248</p>
                         </div>
                     </div>
                 </div>
@@ -64,11 +64,11 @@ const TypographyForRite = () => {
                     <div className="space-y-4 ">
                         <div
                             className="h-[120px] rounded-[16px] shadow-lg transition-transform hover:scale-[1.01] items-end flex"
-                            style={{ backgroundColor: '#EFFFFF' }}
+                            style={{ backgroundColor: '#EEFFFF' }}
                         >
-                            <div className="p-6 text-gray-600">
-                                <span className="font-semibold">SECONDARY</span>
-                                <p className="text-base opacity-90">#EFFFFF</p>
+                            <div className="p-6 ">
+                                <span className="tracking-[3px] font-medium text-[20px] leading-[110%] text-[#2A2A2A]">SECONDARY</span>
+                                <p className="text-[18px] opacity-90 leading-[110%] text-[#2A2A2A]">#EEFFFF</p>
                             </div>
                         </div>
 
@@ -77,8 +77,8 @@ const TypographyForRite = () => {
                             style={{ backgroundColor: '#7E8186' }}
                         >
                             <div className="p-6 text-white">
-                                <span className="font-semibold">SECONDARY</span>
-                                <p className="text-base opacity-90">#7E8186</p>
+                                <span className="tracking-[3px] font-medium text-[20px] leading-[110%]">SECONDARY</span>
+                                <p className="text-[18px] opacity-90 leading-[110%]">#7E8186</p>
                             </div>
                         </div>
                         {/* Accent Colors */}
@@ -88,18 +88,18 @@ const TypographyForRite = () => {
                                 style={{ backgroundColor: '#FDAF2A' }}
                             >
                                 <div className="p-6 text-white">
-                                    <span className="font-semibold">ACCENT</span>
-                                    <p className="text-base opacity-90">#FDAF2A</p>
+                                    <span className="tracking-[3px] font-medium text-[20px] leading-[110%] text-[#2A2A2A]">ACCENT</span>
+                                    <p className="text-[18px] opacity-90 leading-[110%] text-[#2A2A2A]">#FDAF2A</p>
                                 </div>
                             </div>
 
                             <div
                                 className="h-[150px] rounded-[16px] shadow-lg transition-transform hover:scale-105 items-end flex"
-                                style={{ backgroundColor: '#E03288' }}
+                                style={{ backgroundColor: '#E03268' }}
                             >
                                 <div className="p-6 text-white">
-                                    <span className="font-semibold">ACCENT</span>
-                                    <p className="text-base opacity-90">#E03288</p>
+                                    <span className="tracking-[3px] font-medium text-[20px] leading-[110%]">ACCENT</span>
+                                    <p className="text-[18px] opacity-90 leading-[110%]">#E03268</p>
                                 </div>
                             </div>
                         </div>

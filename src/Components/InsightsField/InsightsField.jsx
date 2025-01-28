@@ -4,21 +4,21 @@ const InsightsField = () => {
     return (
         <div>
             <h2 className='lg:text-5xl md:text-[42px] text-[32px] text-[#DD0101] text-center font-[900] leading-[110%] lg:tracking-[12px] md:tracking-[8px] tracking-[6px] opacity-25'>INSIGHTS FROM THE FEILD</h2>
-            <p className='lg:text-[24px] md:max-w-[840px] mx-auto md:text-xl text-lg font-medium leading-[110%] lg:tracking-[2.4px] md:tracking-[1.2px] tracking-[.72px] not-italic text-center mt-4 mb-6 md:mb-10 lg:mb-14'>After conducting user interviews and analyzing gathered data, I categorized the insights into these three key categories:</p>
+            <p className='lg:text-[24px] text-[#221429] md:max-w-[840px] mx-auto md:text-xl text-lg font-medium leading-[110%] lg:tracking-[2.4px] md:tracking-[1.2px] tracking-[.72px] not-italic text-center mt-4 mb-6 md:mb-10 lg:mb-14'>After conducting user interviews and analyzing gathered data, I categorized the insights into these three key categories:</p>
 
             <div className='grid lg:grid-cols-3   items-center gap-8'>
 
-                <div className='rounded-[8px] border-[0.5px] border-[#DD0101] bg-[#F9F6F5]  p-[24px] h-full'>
+                <div className='rounded-[8px] border-[0.5px] border-[#DD0101] bg-[#F9F6F5] pt-[24px] px-[24px] h-full'>
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
                     <path d="M38 32.7743H35.5V21.5243L35.8656 21.89C36.1006 22.1245 36.4191 22.2561 36.7511 22.2558C37.0831 22.2555 37.4014 22.1234 37.6359 21.8884C37.8705 21.6534 38.0021 21.3349 38.0018 21.0029C38.0015 20.6709 37.8693 20.3526 37.6344 20.1181L22.2672 4.75558C21.7984 4.28709 21.1628 4.02393 20.5 4.02393C19.8372 4.02393 19.2016 4.28709 18.7328 4.75558L3.36563 20.1181C3.13128 20.3526 2.99971 20.6707 2.99986 21.0022C3 21.3338 3.13186 21.6517 3.36641 21.886C3.60096 22.1204 3.91899 22.252 4.25055 22.2518C4.58211 22.2517 4.90003 22.1198 5.13438 21.8853L5.5 21.5243V32.7743H3C2.66848 32.7743 2.35054 32.906 2.11612 33.1404C1.8817 33.3749 1.75 33.6928 1.75 34.0243C1.75 34.3559 1.8817 34.6738 2.11612 34.9082C2.35054 35.1426 2.66848 35.2743 3 35.2743H38C38.3315 35.2743 38.6495 35.1426 38.8839 34.9082C39.1183 34.6738 39.25 34.3559 39.25 34.0243C39.25 33.6928 39.1183 33.3749 38.8839 33.1404C38.6495 32.906 38.3315 32.7743 38 32.7743ZM24.25 32.7743H16.75V25.2743C16.75 25.1086 16.8158 24.9496 16.9331 24.8324C17.0503 24.7152 17.2092 24.6493 17.375 24.6493H23.625C23.7908 24.6493 23.9497 24.7152 24.0669 24.8324C24.1842 24.9496 24.25 25.1086 24.25 25.2743V32.7743Z" fill="#DD0101"/>
                     </svg>
 
                     <h1 className='md:text-[20px] text-lg mt-6 font-semibold leading-[120%] not-italic text-[#DD0101]'>Accommodation Search</h1>
-                    <ul className='list-disc md:mt-8 mt-6 pl-10  leading-[120%]  md:text-[20px] text-base'>
-                        <li><span className=''>42.6%</span> of tenants rely on agents or personal networks for finding housing, while 40.8% use online platforms.</li>
-                        <li>Tenants face discrimination from landlords due to lifestyle habits or being single.</li>
-                        <li> The search process is time-consuming and filled with biases, forcing many to compromise on their preferred housing options.</li>
+                    <ul className='list-disc text-[#2A2A2A] md:mt-8 mt-6 ml-7 leading-[120%]  md:text-[20px] text-base'>
+                        <li><span className='font-semibold'>42.6%</span> of tenants rely on agents or personal networks for finding housing, while <span className='font-semibold'>40.8%</span> use online platforms.</li>
+                        <li>Tenants face <span className='font-semibold'>discrimination</span> from landlords due to lifestyle habits or being single.</li>
+                        <li> The search process is <span className='font-semibold'>time-consuming</span> and filled with biases, forcing many to compromise on their preferred housing options.</li>
                     </ul>
                 </div>
 
@@ -27,9 +27,9 @@ const InsightsField = () => {
                     <path d="M20.5 4.02441C17.2861 4.02441 14.1443 4.97746 11.472 6.76303C8.79969 8.54861 6.71689 11.0865 5.48696 14.0558C4.25704 17.0251 3.93524 20.2924 4.56225 23.4446C5.18926 26.5968 6.73692 29.4923 9.00952 31.7649C11.2821 34.0375 14.1776 35.5852 17.3298 36.2122C20.482 36.8392 23.7493 36.5174 26.7186 35.2875C29.6879 34.0575 32.2258 31.9747 34.0114 29.3024C35.797 26.6301 36.75 23.4884 36.75 20.2744C36.7455 15.966 35.0319 11.8354 31.9855 8.78895C28.939 5.74247 24.8084 4.02896 20.5 4.02441ZM26.4875 15.2744H28C28.3315 15.2744 28.6495 15.4061 28.8839 15.6405C29.1183 15.875 29.25 16.1929 29.25 16.5244C29.25 16.8559 29.1183 17.1739 28.8839 17.4083C28.6495 17.6427 28.3315 17.7744 28 17.7744H26.7203C26.5623 19.4815 25.7732 21.0682 24.5071 22.2241C23.2411 23.38 21.5893 24.022 19.875 24.0244H17.8938L26.2672 30.5385C26.4031 30.6369 26.5177 30.7617 26.6044 30.9053C26.691 31.049 26.7479 31.2086 26.7715 31.3747C26.7951 31.5408 26.7851 31.71 26.742 31.8721C26.6988 32.0343 26.6235 32.1861 26.5205 32.3185C26.4174 32.4509 26.2888 32.5612 26.1422 32.6428C25.9957 32.7245 25.8342 32.7758 25.6674 32.7937C25.5005 32.8116 25.3318 32.7957 25.1713 32.7471C25.0107 32.6984 24.8616 32.6179 24.7328 32.5104L13.4828 23.7604C13.2775 23.6004 13.1273 23.3803 13.0531 23.1308C12.9789 22.8813 12.9844 22.6149 13.0689 22.3687C13.1533 22.1225 13.3126 21.9089 13.5243 21.7575C13.736 21.6062 13.9897 21.5247 14.25 21.5244H19.875C20.927 21.5243 21.9437 21.1452 22.7388 20.4565C23.534 19.7677 24.0544 18.8156 24.2047 17.7744H14.25C13.9185 17.7744 13.6005 17.6427 13.3661 17.4083C13.1317 17.1739 13 16.8559 13 16.5244C13 16.1929 13.1317 15.875 13.3661 15.6405C13.6005 15.4061 13.9185 15.2744 14.25 15.2744H23.8266C23.4718 14.5266 22.9123 13.8947 22.2128 13.4522C21.5133 13.0097 20.7027 12.7747 19.875 12.7744H14.25C13.9185 12.7744 13.6005 12.6427 13.3661 12.4083C13.1317 12.1739 13 11.8559 13 11.5244C13 11.1929 13.1317 10.875 13.3661 10.6405C13.6005 10.4061 13.9185 10.2744 14.25 10.2744H28C28.3315 10.2744 28.6495 10.4061 28.8839 10.6405C29.1183 10.875 29.25 11.1929 29.25 11.5244C29.25 11.8559 29.1183 12.1739 28.8839 12.4083C28.6495 12.6427 28.3315 12.7744 28 12.7744H25.175C25.7813 13.5076 26.2282 14.359 26.4875 15.2744Z" fill="#DD0101"/>
                     </svg>
                     <h1 className='md:text-[20px] text-lg mt-6 font-semibold leading-[120%] not-italic text-[#DD0101]'>Basic Needs & Expenses</h1>
-                    <ul className='list-disc md:mt-8 mt-6 pl-10 leading-[120%] md:text-[20px] text-base'>
-                        <li>Top priorities include geysers (71.4%), WiFi (66.1%), and equipped kitchens (62.5%), emphasizing the need for convenience in living spaces.</li>
-                        <li>53.6% spend ₹5,000–₹10,000 on monthly household needs, apart from rent, highlighting additional financial burdens.</li>
+                    <ul className='list-disc md:mt-8 mt-6 ml-8 leading-[120%] md:text-[20px] text-base text-[#2A2A2A]'>
+                        <li>Top priorities include <span className='font-semibold'>geysers (71.4%), WiFi (66.1%),</span> and <span className='font-semibold'>equipped kitchens (62.5%),</span> emphasizing the need for convenience in living spaces.</li>
+                        <li><span className='font-semibold'>53.6%</span> spend ₹5,000–₹10,000 on monthly household needs, apart from rent, highlighting additional financial burdens.</li>
                         <li>Lack of integrated amenities pushes tenants to pay extra for essential services like housekeeping and appliances.</li>
                     </ul>
                 </div>
@@ -46,9 +46,9 @@ const InsightsField = () => {
                 </defs>
                     </svg>
                     <h1 className='md:text-[20px] text-lg mt-6 font-semibold leading-[120%] not-italic text-[#DD0101]'>Rental Challenges</h1>
-                    <ul className='list-disc md:mt-8 mt-6 pl-10 leading-[120%] md:text-[20px] text-base'>
-                        <li>94.6% of tenants have prior experience living away from home but continue to face issues like interrogation by landlords and lack of privacy.</li>
-                        <li>Many bachelors pay up to 20% higher rent to avoid confrontations or unfavorable conditions.</li>
+                    <ul className='list-disc md:mt-8 mt-6 pl-8 leading-[120%] md:text-[20px] text-base text-[#2A2A2A]'>
+                        <li><span className='font-semibold'>94.6%</span> of tenants have prior experience living away from home but continue to face issues like <span className='font-semibold'>interrogation by landlords</span> and lack of privacy.</li>
+                        <li>Many bachelors pay up to <span className='font-semibold'>20% higher rent</span> to avoid confrontations or unfavorable conditions.</li>
                         <li>
                         Compromises on basic amenities such as parking and geysers are common due to limited availability of options in desirable locations.</li>
                     </ul>
