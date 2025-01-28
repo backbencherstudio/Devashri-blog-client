@@ -16,8 +16,7 @@ const Playground = () => {
             <div className='max-w-[1128px] mx-auto px-4 2xl:px-0'>
 
                 {/* title and description */}
-                <div className='max-w-[1028px] responsive-padding2  flex flex-col gap-5 lg
-                :gap-10 items-center mx-auto md:text-center '>
+                <div className='max-w-[1028px] responsive-padding2  flex flex-col gap-5 lg:gap-10 items-center mx-auto md:text-center '>
                     <h1 className='md:text-[28px] text-2xl font-semibold leading-[142.857%] md:tracking-[1.12px] tracking-[.72px] text-[#2A2A2A]'>THE CREATIVE PLAYGROUND</h1>
                     <p className='md:text-[24px] text-lg font-normal leading-[1.66667] tracking-[1.2px] text-[#2A2A2A] '>Welcome to my experimental lab, where ideas come alive and creativity knows no bounds. Stay tuned for bold prototypes and fresh design explorations!</p>
                 </div>
