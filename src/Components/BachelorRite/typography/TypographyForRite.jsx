@@ -62,7 +62,7 @@ const TypographyForRite = () => {
                     </div>
                 </div>
 
-                <div className="space-y-4 flex-1">
+                {/* <div className="space-y-4 flex-1">
                     <div
                         className="h-full rounded-[16px] shadow-lg transition-transform hover:scale-[1.01] items-end flex"
                         style={{ backgroundColor: '#264248' }}
@@ -72,7 +72,7 @@ const TypographyForRite = () => {
                             <p className="text-[18px] opacity-90 leading-[110%]">#264248</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Secondary Colors */}
                 <div className='md:w-[48%]'>

@@ -78,7 +78,7 @@ const CaseStudiesTwo = () => {
       useEffect(()=>{
         window.scrollTo({
           top: 0,
-          behavior: 'smooth'
+          // behavior: 'smooth'
         });
     },[])
 

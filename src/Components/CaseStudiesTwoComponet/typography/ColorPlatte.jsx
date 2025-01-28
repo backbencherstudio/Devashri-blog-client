@@ -30,7 +30,7 @@ const colors = [
         light: [
             { label: "Primary - Fill", color: "#BAD8FF", percentage: "100%" },
             { label: "Secondary - Fill", color: "#DAE9FC", percentage: "100%" },
-            { label: "Tertiary - Fill", color: "#FFFFFF", percentage: "100%" },
+            { label: "Tertiary - Fill", color: "#FFFFFF", percentage: "100%" ,borderC:"#615B58"},
         ],
         dark: [
             { label: "Primary - Fill", color: "#261F1C", percentage: "100%" },
@@ -43,7 +43,7 @@ const colors = [
         fullTitle: "Label / Text",
         light: [
             { label: "Primary - Label", color: "#333333", percentage: "100%" },
-            { label: "Secondary - Label", color: " #8A92A6", percentage: "100%" },
+            { label: "Secondary - Label", color: " #8A92A6", percentage: "100%" ,borderC:"#615B58"},
         ],
         dark: [
             { label: "Primary - Label", color: "#FAFAFA", percentage: "100%" },
@@ -67,7 +67,7 @@ const colors = [
         fullTitle: "Functional Color",
         light: [
             { label: "Success", color: "#52C41A", percentage: "100%" },
-            { label: "Warning", color: "#F0D752", percentage: "100%" },
+            { label: "Warning", color: "#F0D752", percentage: "100%",borderC:"#615B58" },
         ],
         dark: [
             { label: "Warning", color: "#FAAD14", percentage: "100%" },
@@ -84,7 +84,7 @@ const ColorPalette = () => {
     return (
         <div className="max-w-[1332px] mx-auto ">
             <div>
-                <h1 className="lg:text-5xl md:text-[42px] text-[32px]  text-[#DD0101] text-center font-[900] lg:tracking-[9.6px] md:tracking-[4px] tracking-[2px] opacity-25 md:mb-[80px] mb-[40px] lg:mt-[200px] md:mt-[150px] mt-[80px]">
+                <h1 className="lg:text-5xl md:text-[42px] text-[32px]  text-[#DD0101] text-center font-[900] lg:tracking-[9.6px] md:tracking-[4px] tracking-[2px] opacity-25 md:mb-[80px] mb-[40px] lg:mt-[200px] md:mt-[150px] mt-[80px] uppercase">
                     Color System
                     </h1>
             </div>        {/* Left and Right Columns: Responsive Grid */}
@@ -105,7 +105,9 @@ const ColorPalette = () => {
                                         <div key={idx} className="flex flex-col items-center">
                                             <div className="xl:px-[15px] lg:px-[8px] md:px-[5px] px-[15px]  lg:py-3 md:py-2 py-3 border rounded-[8px] border-[#80868B]">
                                                 <div
-                                                    className="lg:w-[128px] lg:h-[128px] md:w-[80px] md:h-[80px] w-[100px] h-[100px] mx-auto rounded-[8px] border border-gray-300"
+                                                    className={`lg:w-[128px] lg:h-[128px]  md:w-[80px] md:h-[80px] w-[100px] h-[100px] mx-auto rounded-[8px] ${
+                                                        item.borderC ? `border border-[#615B58]` : ""
+                                                      }`}
                                                     style={{ backgroundColor: item.color }}
                                                 ></div>
                                                 <div className="text-[#2A2A2A] lg:text-base text-sm ">
@@ -140,7 +142,7 @@ const ColorPalette = () => {
                                         <div key={idx} className="flex flex-col items-center">
                                             <div className="xl:px-[15px] lg:px-[8px] md:px-[5px] px-[15px]  lg:py-3 md:py-2 py-3 border rounded-[8px] border-[#80868B]">
                                                 <div
-                                                    className="lg:w-[128px] lg:h-[128px] md:w-[80px] md:h-[80px] w-[100px] h-[100px] mx-auto rounded-[8px] border border-gray-300"
+                                                    className="lg:w-[128px] lg:h-[128px] md:w-[80px] md:h-[80px] w-[100px] h-[100px] mx-auto rounded-[8px] border border-[#80868B]"
                                                     style={{ backgroundColor: item.color }}
                                                 ></div>
                                                 <div className="text-white lg:text-base text-sm">

@@ -15,10 +15,10 @@ const InsightsField = () => {
                     </svg>
 
                     <h1 className='md:text-[20px] text-lg mt-6 font-semibold leading-[120%] not-italic text-[#DD0101]'>Accommodation Search</h1>
-                    <ul className='list-disc text-[#2A2A2A] md:mt-8 mt-6 ml-7 leading-[120%]  md:text-[20px] text-base space-y-2 md:space-y-0'>
-                        <li className='leading-[120%]'><span className='font-semibold'>42.6%</span> of tenants rely on agents or personal networks for finding housing, while <span className='font-semibold'>40.8%</span> use online platforms.</li>
-                        <li className='leading-[120%]'>Tenants face <span className='font-semibold'>discrimination</span> from landlords due to lifestyle habits or being single.</li>
-                        <li className='leading-[120%]'> The search process is <span className='font-semibold'>time-consuming</span> and filled with biases, forcing many to compromise on their preferred housing options.</li>
+                    <ul className='list-disc text-[#2A2A2A] md:mt-8 mt-6 ml-7 leading-[130%] marker:text-[14px] md:text-[20px] text-base space-y-2 md:space-y-0'>
+                        <li className='leading-[130%]'><span className='font-semibold'>42.6%</span> of tenants rely on agents or personal networks for finding housing, while <span className='font-semibold'>40.8%</span> use online platforms.</li>
+                        <li className='leading-[130%]'>Tenants face <span className='font-semibold'>discrimination</span> from landlords due to lifestyle habits or being single.</li>
+                        <li className='leading-[130%]'> The search process is <span className='font-semibold'>time-consuming</span> and filled with biases, forcing many to compromise on their preferred housing options.</li>
                     </ul>
                 </div>
 
@@ -27,10 +27,10 @@ const InsightsField = () => {
                     <path d="M20.5 4.02441C17.2861 4.02441 14.1443 4.97746 11.472 6.76303C8.79969 8.54861 6.71689 11.0865 5.48696 14.0558C4.25704 17.0251 3.93524 20.2924 4.56225 23.4446C5.18926 26.5968 6.73692 29.4923 9.00952 31.7649C11.2821 34.0375 14.1776 35.5852 17.3298 36.2122C20.482 36.8392 23.7493 36.5174 26.7186 35.2875C29.6879 34.0575 32.2258 31.9747 34.0114 29.3024C35.797 26.6301 36.75 23.4884 36.75 20.2744C36.7455 15.966 35.0319 11.8354 31.9855 8.78895C28.939 5.74247 24.8084 4.02896 20.5 4.02441ZM26.4875 15.2744H28C28.3315 15.2744 28.6495 15.4061 28.8839 15.6405C29.1183 15.875 29.25 16.1929 29.25 16.5244C29.25 16.8559 29.1183 17.1739 28.8839 17.4083C28.6495 17.6427 28.3315 17.7744 28 17.7744H26.7203C26.5623 19.4815 25.7732 21.0682 24.5071 22.2241C23.2411 23.38 21.5893 24.022 19.875 24.0244H17.8938L26.2672 30.5385C26.4031 30.6369 26.5177 30.7617 26.6044 30.9053C26.691 31.049 26.7479 31.2086 26.7715 31.3747C26.7951 31.5408 26.7851 31.71 26.742 31.8721C26.6988 32.0343 26.6235 32.1861 26.5205 32.3185C26.4174 32.4509 26.2888 32.5612 26.1422 32.6428C25.9957 32.7245 25.8342 32.7758 25.6674 32.7937C25.5005 32.8116 25.3318 32.7957 25.1713 32.7471C25.0107 32.6984 24.8616 32.6179 24.7328 32.5104L13.4828 23.7604C13.2775 23.6004 13.1273 23.3803 13.0531 23.1308C12.9789 22.8813 12.9844 22.6149 13.0689 22.3687C13.1533 22.1225 13.3126 21.9089 13.5243 21.7575C13.736 21.6062 13.9897 21.5247 14.25 21.5244H19.875C20.927 21.5243 21.9437 21.1452 22.7388 20.4565C23.534 19.7677 24.0544 18.8156 24.2047 17.7744H14.25C13.9185 17.7744 13.6005 17.6427 13.3661 17.4083C13.1317 17.1739 13 16.8559 13 16.5244C13 16.1929 13.1317 15.875 13.3661 15.6405C13.6005 15.4061 13.9185 15.2744 14.25 15.2744H23.8266C23.4718 14.5266 22.9123 13.8947 22.2128 13.4522C21.5133 13.0097 20.7027 12.7747 19.875 12.7744H14.25C13.9185 12.7744 13.6005 12.6427 13.3661 12.4083C13.1317 12.1739 13 11.8559 13 11.5244C13 11.1929 13.1317 10.875 13.3661 10.6405C13.6005 10.4061 13.9185 10.2744 14.25 10.2744H28C28.3315 10.2744 28.6495 10.4061 28.8839 10.6405C29.1183 10.875 29.25 11.1929 29.25 11.5244C29.25 11.8559 29.1183 12.1739 28.8839 12.4083C28.6495 12.6427 28.3315 12.7744 28 12.7744H25.175C25.7813 13.5076 26.2282 14.359 26.4875 15.2744Z" fill="#DD0101"/>
                     </svg>
                     <h1 className='md:text-[20px] text-lg mt-6 font-semibold leading-[120%] not-italic text-[#DD0101]'>Basic Needs & Expenses</h1>
-                    <ul className='list-disc md:mt-8 mt-6 ml-8  md:text-[20px] text-base text-[#2A2A2A] space-y-2 md:space-y-0'>
-                        <li className='leading-[120%]'>Top priorities include <span className='font-semibold'>geysers (71.4%), WiFi (66.1%),</span> and <span className='font-semibold'>equipped kitchens (62.5%),</span> emphasizing the need for convenience in living spaces.</li>
-                        <li className='leading-[120%]'><span className='font-semibold'>53.6%</span> spend ₹5,000–₹10,000 on monthly household needs, apart from rent, highlighting additional financial burdens.</li>
-                        <li className='leading-[120%]'>Lack of integrated amenities pushes tenants to pay extra for essential services like housekeeping and appliances.</li>
+                    <ul className='list-disc md:mt-8 mt-6 ml-8  md:text-[20px] marker:text-[14px] text-base text-[#2A2A2A] space-y-2 md:space-y-0'>
+                        <li className='leading-[130%]'>Top priorities include <span className='font-semibold'>geysers (71.4%), WiFi (66.1%),</span> and <span className='font-semibold'>equipped kitchens (62.5%),</span> emphasizing the need for convenience in living spaces.</li>
+                        <li className='leading-[130%]'><span className='font-semibold'>53.6%</span> spend ₹5,000–₹10,000 on monthly household needs, apart from rent, highlighting additional financial burdens.</li>
+                        <li className='leading-[130%]'>Lack of integrated amenities pushes tenants to pay extra for essential services like housekeeping and appliances.</li>
                     </ul>
                 </div>
 
@@ -46,10 +46,10 @@ const InsightsField = () => {
                 </defs>
                     </svg>
                     <h1 className='md:text-[20px] text-lg mt-6 font-semibold leading-[120%] not-italic text-[#DD0101]'>Rental Challenges</h1>
-                    <ul className='list-disc md:mt-8 mt-6 pl-8 leading-[120%] md:text-[20px] text-base text-[#2A2A2A] space-y-2 md:space-y-0'>
-                        <li className='leading-[120%]'><span className='font-semibold'>94.6%</span> of tenants have prior experience living away from home but continue to face issues like <span className='font-semibold'>interrogation by landlords</span> and lack of privacy.</li>
-                        <li className='leading-[120%]'>Many bachelors pay up to <span className='font-semibold'>20% higher rent</span> to avoid confrontations or unfavorable conditions.</li>
-                        <li className='leading-[120%]'>
+                    <ul className='list-disc md:mt-8 mt-6 pl-8 leading-[130%] marker:text-[14px] md:text-[20px] text-base text-[#2A2A2A] space-y-2 md:space-y-0'>
+                        <li className='leading-[130%]'><span className='font-semibold'>94.6%</span> of tenants have prior experience living away from home but continue to face issues like <span className='font-semibold'>interrogation by landlords</span> and lack of privacy.</li>
+                        <li className='leading-[130%]'>Many bachelors pay up to <span className='font-semibold'>20% higher rent</span> to avoid confrontations or unfavorable conditions.</li>
+                        <li className='leading-[130%]'>
                         Compromises on basic amenities such as parking and geysers are common due to limited availability of options in desirable locations.</li>
                     </ul>
                 </div>
