@@ -8,26 +8,42 @@ const TypographyForRite = () => {
                 <div className="mb-8">
                     <div className='md:flex justify-between gap-10'>
                         <div className=''>
-                        <h2 className="text-[#DD0101] uppercase font-semibold lg:text-[28px] md:text-[26px] text-2xl leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.8px]">TYPOGRAPHY</h2>
+                            <h2 className="text-[#DD0101] uppercase font-semibold lg:text-[28px] md:text-[26px] text-2xl leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.8px]">TYPOGRAPHY</h2>
                         </div>
                         <div className='md:max-w-[840px]'>
-                        <p className="text-[#2A2A2A] mt-6 md:mt-0 lg:text-2xl md:text-[20px] text-[18px]  leading-[110%] md:tracking-[.72px] tracking-[.36px]">
-                        The main goal was to ensure users could easily navigate and accomplish their tasks. We aimed to provide a seamless experience, leveraging the clean and modern typefaces Rubik and Karla to create a visually engaging and user-friendly interface.
-                        </p>
+                            <p className="text-[#2A2A2A] mt-6 md:mt-0 lg:text-2xl md:text-[20px] text-[18px]  leading-[110%] md:tracking-[.72px] tracking-[.36px]">
+                                The main goal was to ensure users could easily navigate and accomplish their tasks. We aimed to provide a seamless experience, leveraging the clean and modern typefaces Rubik and Karla to create a visually engaging and user-friendly interface.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <img src={typo} alt="" />
+                <div className='bg-[#F2ECEB] py-10 md:py-[62px] lg:py-[72px] lg:px-[93px] md:px-[73px] px-[53px]' >
+                    <div>
+                        <div className='flex gap-12'>
+                            <div className="w-[24px] h-[24px] bg-[#DD0101] rotate-45">
+
+                            </div>
+                            <div className='font-rubik'>
+                                <div className="lg:text-[40px] font-rubik md:text-[32px] text-2xl leading-[110%] tracking-[.52px] md:tracking-[.72px] lg:tracking-[1.2px]">Rubik</div>
+                                <div className='flex gap-[32px] md:gap-[52px] lg:gap-[72px] mt-6'>
+                                    <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[600]">semibold</div>
+                                    <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[800]">extrabold</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="mb-8">
                 <div className='md:flex justify-between gap-10'>
                     <div>
-                    <h2 className="text-[#DD0101] uppercase font-semibold lg:text-[28px] md:text-[26px] text-2xl leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.8px]">Colors</h2>
+                        <h2 className="text-[#DD0101] uppercase font-semibold lg:text-[28px] md:text-[26px] text-2xl leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.8px]">Colors</h2>
                     </div>
                     <div className='md:max-w-[840px]'>
-                    <p className="text-[#2A2A2A] mt-6 md:mt-0 lg:text-2xl md:text-[20px] text-[18px]  leading-[110%] md:tracking-[.72px] tracking-[.36px]">
-                        Utilizing Teal Mist and Deep Ocean as primary colors creates a vibrant and grounded visual presence, while Cloud White and Slate Grey in the secondary palette add a sense of balance and elegance. The accent colors, Golden Sunrise and Rosy Blush, infuse warmth and energy, enhancing the overall design with a touch of sophistication.
-                    </p>
+                        <p className="text-[#2A2A2A] mt-6 md:mt-0 lg:text-2xl md:text-[20px] text-[18px]  leading-[110%] md:tracking-[.72px] tracking-[.36px]">
+                            Utilizing Teal Mist and Deep Ocean as primary colors creates a vibrant and grounded visual presence, while Cloud White and Slate Grey in the secondary palette add a sense of balance and elegance. The accent colors, Golden Sunrise and Rosy Blush, infuse warmth and energy, enhancing the overall design with a touch of sophistication.
+                        </p>
                     </div>
                 </div>
             </div>
