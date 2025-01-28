@@ -11,7 +11,7 @@ const UserPersona = () => {
                 <div className='flex flex-col lg:flex-row  border-[.5px] border-[#DD0101] bg-[#F2ECEB] rounded-[24px] lg:gap-8 md:gap-6 overflow-hidden'>
                     {/* User Persona details */}
                     <div className='lg:ml-8 px-6  lg:px-0 lg:order-1 order-2 lg:py-8 pt-0 pb-8 relative md:-top-[48px] lg:top-0 lg:max-w-[58.30%] max-w-full'>
-                        <h1 className='lg:text-[32px] md:text-[28px] text-2xl text-[#221429] font-semibold leading-[110%] lg:tracking-[3.2px] md:tracking-[2px] tracking-[1px] not-italic'>Rahul Verma</h1>
+                        <h1 className='lg:text-[32px] md:text-[28px] text-2xl text-[#221429] font-semibold leading-[110%] lg:tracking-[3.2px] md:tracking-[2px] tracking-[1px] not-italic mt-6 md:mt-0'>Rahul Verma</h1>
                         <p className='text-[16px] mt-2 font-normal leading-[110%] text-[#6D6D6D] not-italic'>27 YEARS <span className='mx-1'> | </span>  BENGALURU, INDIA <span className='mx-1'> | </span>  SOFTWARE DEVELOPER</p>
                         
                         {/* <hr className='bg-[#D4D4D4] h-[1px] '/> */}
@@ -37,7 +37,7 @@ const UserPersona = () => {
                                 </div>
 
                                 <div>
-                                    <h1 className='md:text-xl text-lg lg:text-[24px] mb-4 font-medium leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic'>Frustrations</h1>
+                                    <h1 className='md:text-xl text-lg lg:text-[24px] mb-4 font-medium leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic mt-4 md:mt-0'>Frustrations</h1>
                                     <ul className='list-disc md:text-lg  marker:text-[14px] text-base leading-[120%] ml-8 '>
                                         <li className='leading-[120%]'>High rent charges due to bachelor status.</li>
                                         <li className='leading-[120%]'>Lack of transparency and clear communication from landlords.</li>

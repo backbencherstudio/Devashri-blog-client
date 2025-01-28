@@ -16,7 +16,7 @@ const TheFinalDesign = () => {
             <div className='max-w-[1128px] mx-auto px-4 2xl:px-0'>
                 <div className='lg:mb-[120px] md:mb-[100px] mb-[60px]'>
                     <h3 className='md:text-[28px] text-2xl font-semibold md:tracking-[2.8px] tracking-[1.2px] leading-[110%] text-center text-[#DD0101]'>THE FINAL DESIGN</h3>
-                    <h1 className='lg:text-[48px] md:text-[36px] text-2xl font-semibold md:tracking-[1.44px] tracking-[.72px] text-center mt-3  lg:mt-4'>Empowering Smarter Energy Management</h1>
+                    <h1 className='lg:text-[48px] md:text-[36px] text-2xl font-semibold md:tracking-[1.44px] tracking-[.72px] text-center mt-3 leading-[110%]  lg:mt-4'>Empowering Smarter Energy Management</h1>
                 </div>
                 <div className='flex flex-col lg:gap-[160px] md:gap-[110px] gap-[80px]'>
                     {sections.map((item, i) => (
