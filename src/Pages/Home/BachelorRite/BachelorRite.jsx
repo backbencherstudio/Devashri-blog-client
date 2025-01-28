@@ -126,16 +126,16 @@ const conclusionData = [
     {
       section: "What I Learned From This Project",
       items: [
-        "User-Centric Design: Understanding user pain points and creating personas helped prioritize solutions that directly addressed bachelor-specific challenges.",
-        "Cross-Disciplinary Insights: Research processes in architecture and UX design share a common focus on user needs and spatial understanding, fostering my transition between fields.",
-        "Balancing Features: Ensuring the app remained feature-rich yet intuitive highlighted the importance of usability in complex interfaces.",
+        [<span className="font-[500]">User-Centric Design:</span>, " Understanding user pain points and creating personas helped prioritize solutions that directly addressed bachelor-specific challenges."],
+        [<span className="font-[500]">Cross-Disciplinary Insights:</span>, " Research processes in architecture and UX design share a common focus on user needs and spatial understanding, fostering my transition between fields."],
+        [<span className="font-[500]">Balancing Features:</span>, " Ensuring the app remained feature-rich yet intuitive highlighted the importance of usability in complex interfaces."],
       ],
     },
     {
       section: "Opportunities For Enhancement",
       items: [
-        "Flatmate Integration: Adding features to connect tenants with potential flatmates and a Splitwise-style tool for sharing consolidated rent and expenses.",
-        "ECommunity Building: Implementing a platform to allow tenants to connect, discuss, share suggestions, and build a sense of community within the app.",
+        [<span className="font-[500]">Flatmate Integration:</span>, " Adding features to connect tenants with potential flatmates and a Splitwise-style tool for sharing consolidated rent and expenses."],
+        [<span className="font-[500]">Community Building:</span>, " Implementing a platform to allow tenants to connect, discuss, share suggestions, and build a sense of community within the app."],
       ],
     },
   ];

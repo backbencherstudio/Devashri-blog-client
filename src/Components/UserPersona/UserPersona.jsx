@@ -29,7 +29,7 @@ const UserPersona = () => {
                             <div className='md:flex md:gap-6 lg:gap-8'>
                                 <div>
                                     <h1 className='md:text-xl text-lg lg:text-[24px] mb-4 font-medium leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic'>Goals</h1>
-                                    <ul className='list-disc  md:text-lg text-base leading-[120%] ml-10'>
+                                    <ul className='list-disc marker:text-[14px] md:text-lg text-base leading-[120%] ml-10'>
                                         <li className='leading-[120%]'>Find affordable housing with necessary amenities (WiFi, kitchen, geyser).</li>
                                         <li className='leading-[120%]'>Streamline the rental search and avoid lengthy negotiations with landlords.</li>
                                         <li className='leading-[120%]'>Secure rental agreements that align with his lifestyle needs.</li>
@@ -38,7 +38,7 @@ const UserPersona = () => {
 
                                 <div>
                                     <h1 className='md:text-xl text-lg lg:text-[24px] mb-4 font-medium leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic'>Frustrations</h1>
-                                    <ul className='list-disc md:text-lg text-base leading-[120%] ml-8 '>
+                                    <ul className='list-disc md:text-lg  marker:text-[14px] text-base leading-[120%] ml-8 '>
                                         <li className='leading-[120%]'>High rent charges due to bachelor status.</li>
                                         <li className='leading-[120%]'>Lack of transparency and clear communication from landlords.</li>
                                         <li className='leading-[120%]'>Limited housing options that cater to single tenants.</li>
@@ -50,8 +50,8 @@ const UserPersona = () => {
 
                                 {/* oppurtunity */}
                             <div className='lg:mt-8 md:mt-6 mt-4'>
-                                <h1 className='md:text-xl text-lg lg:text-[24px] mb-4 font-medium leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic'>Opportunities</h1>
-                                    <ul className='list-disc md:text-lg text-base leading-[120%] ml-10'>
+                                <h1 className='md:text-xl text-lg lg:text-[24px]  mb-4 font-medium leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic'>Opportunities</h1>
+                                    <ul className='list-disc md:text-lg text-base marker:text-[14px] leading-[120%] ml-10'>
                                         <li className='leading-[120%]'>Create a platform dedicated to simplifying the rental experience for single tenants.</li>
                                         <li className='leading-[120%]'>Offer bundled services (e.g., WiFi, cleaning) to reduce additional costs.</li>
                                         <li className='leading-[120%]'>Develop transparent listings with clear terms and amenities.</li>
