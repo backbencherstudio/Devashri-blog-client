@@ -1,12 +1,7 @@
 import React, { useEffect } from 'react';
 
 const About = () => {
-    useEffect(()=>{
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-    },[])
+    
     return (
         <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:mb-[200px] md:mb-[150px] mb-[100px]'>
             {/* Main container with auto-adjusting height */}

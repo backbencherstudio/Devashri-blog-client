@@ -84,7 +84,7 @@ const ColorPalette = () => {
     return (
         <div className="max-w-[1332px] mx-auto ">
             <div>
-                <h1 className="lg:text-5xl md:text-[42px] text-[32px]  text-[#DD0101] text-center font-[900] lg:tracking-[9.6px] md:tracking-[4px] tracking-[2px] opacity-25 md:mb-[80px] mb-[40px] lg:mt-[200px] md:mt-[150px] mt-[80px]">
+                <h1 className="lg:text-5xl md:text-[42px] text-[32px]  text-[#DD0101] text-center font-[900] lg:tracking-[9.6px] md:tracking-[4px] tracking-[2px] opacity-25 md:mb-[80px] mb-[40px] lg:mt-[200px] md:mt-[150px] mt-[80px] uppercase">
                     Color System
                     </h1>
             </div>        {/* Left and Right Columns: Responsive Grid */}
