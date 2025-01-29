@@ -17,10 +17,10 @@ const TypographyForRite = () => {
                         </div>
                     </div>
                 </div>
-                <img src={typo} alt="" />
+                <img src={typo} alt="" className='pointer-events-none select-none'  />
 
                 {/* custom text  */}
-                <div className='bg-[#F2ECEB] py-10 md:py-[62px] lg:py-[72px] lg:px-[93px] md:px-[73px] px-[53px]' >
+                {/* <div className='bg-[#F2ECEB] py-10 md:py-[62px] lg:py-[72px] lg:px-[93px] md:px-[73px] px-[53px]' >
                     <div>
                         <div className='flex gap-12 justify-between'>
                             <div className="w-[24px] h-[24px] bg-[#DD0101] shrink-0 rotate-45">
@@ -32,10 +32,10 @@ const TypographyForRite = () => {
                                         <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[600]">semibold</div>
                                         <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[800]">extrabold</div>
                                     </div>
-                                    <div className="flex flex-col md:flex-row   gap-[53px] mt-[56px]">
+                                    <div className="flex flex-col md:flex-row   lg:gap-[53px] md:gap-[33px] gap-[23px] lg:mt-[56px] md:mt-[36px] mt-[26px]">
                                         <h1 className='xl:text-[112px] md:text-[80px] text-[60px] font-[800] leading-[110%] tracking-[.72px] md:tracking-[1.5px] lg:tracking-[3.36px]'>gr.</h1>
                                         <div className="flex-1 grid gap-8">
-                                            <div className="grid grid-cols-7 md:grid-cols-9 gap-y-8 gap-x-[43px]">
+                                            <div className="grid grid-cols-6 lg:grid-cols-9 lg:gap-y-8 lg:gap-x-[43px] md:gap-y-6 md:gap-x-[12px] gap-y-4 gap-x-[13px]">
                                                 {[
                                                     "Aa", "Bb", "Cc", "Dd", "Ee", "Ff", "Gg",
                                                     "Hh", "Ii", "Jj", "Kk", "Ll", "Mm", "Nn",
@@ -44,13 +44,13 @@ const TypographyForRite = () => {
                                                 ].map((pair, index) => (
                                                     <div
                                                         key={index}
-                                                        className={`text-[#2A2A2A] leading-[110%] lg:text-2xl md:text-xl text-lg tracking-[.36px] md:tracking-[.72px] ${index === 9 || index === 17 && "text-right"}`}
+                                                        className={`text-[#2A2A2A] leading-[110%] lg:text-2xl md:text-xl text-lg tracking-[.36px] md:tracking-[.72px] ${index === 8 && "lg:text-right" || index === 17 && "lg:text-right"}`}
                                                     >
                                                         {pair}
                                                     </div>
                                                 ))}
                                             </div>
-                                            <div className='tracking-[10.8px] text-2xl leading-[110%]'>
+                                            <div className='tracking-[10.8px] flex col-span-1 text-2xl leading-[110%]'>
                                                 1234567890!@#$%^&*()?
                                             </div>
                                         </div>
@@ -59,7 +59,7 @@ const TypographyForRite = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
             <div className="mb-8">
