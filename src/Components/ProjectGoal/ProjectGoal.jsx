@@ -5,9 +5,11 @@ const ProjectGoal = () => {
     <div className="lg:mt-[120px] md:mt-[100px] mt-[60px]">
       <p className="active text-2xl md:text-[36px] lg:text-[48px] font-black leading-[110%] lg:tracking-[9.6px] md:tracking-[6px] tracking-[3px]  opacity-25">PROJECT GOALS</p>
 
-      <div className="lg:mt-[80px] md:mt-[56px] text-[#2A2A2A] mt-[40px] grid grid-cols-3 gap-1 marker:text-[14px]">
+    <div className="lg:mt-[80px] md:mt-[56px] mt-[40px]">
+      <div className="overflow-x-auto">
+      <div className=" text-[#2A2A2A]  grid grid-cols-3 md:gap-1 gap-[2px] md:marker:text-[14px] marker:text-[12px] min-w-[644px] overflow-x-auto">
         {/* Headers */}
-        <div className="bg-white  border-l-4 border-[#2A2A2A] flex items-center justify-center text-center">
+        <div className="bg-white  md:border-l-4 border-l-2 border-[#2A2A2A] flex items-center justify-center text-center">
           <h1 className="text-center lg:py-6 md:py-4 py-2  lg:text-[24px] md:text-[20px] text-[18px] font-medium leading-[110%] lg:tracking-[2.4px] md:tracking-[1.4px] tracking-[.72px]">Goal</h1>
         </div>
         <div className="bg-white   flex items-center justify-center text-center ">
@@ -18,7 +20,7 @@ const ProjectGoal = () => {
         </div>
 
         {/* Row 1 */}
-        <div className="bg-white  border-l-4 border-[#FF3364]  lg:text-[20px] md:text-[18px] text-[16px] font-medium leading-[120%] md:tracking-[0.6px] tracking-[0.36px]">
+        <div className="bg-white  md:border-l-4 border-l-2 border-[#FF3364]  lg:text-[20px] md:text-[18px] text-[16px] font-medium leading-[120%] md:tracking-[0.6px] tracking-[0.36px]">
           <p className='lg:p-6 md:p-4 p-2'>Digitize Activity Booking for Guests and Staff</p>
         </div>
         <div className="bg-white lg:text-[20px] md:text-[16px] text-[14px] lg:p-6 md:p-4 p-2 font-normal leading-[120%]  md:tracking-[0.6px] tracking-[0.36px]">
@@ -51,7 +53,7 @@ const ProjectGoal = () => {
         </div>
 
         {/* Row 2 */}
-        <div className="bg-white lg:p-6 md:p-4 p-2 border-l-4   md:text-[20px] lg:text-[24px] text-[18px] font-medium leading-[120%] md:tracking-[0.6px] tracking-[0.36px]  border-[#FDC334]">
+        <div className="bg-white lg:p-6 md:p-4 p-2 md:border-l-4 border-l-2  lg:text-[20px] md:text-[18px] text-[16px] font-medium leading-[120%] md:tracking-[0.6px] tracking-[0.36px]  border-[#FDC334]">
           <p className=''>
             Ensure Effortless Event Planning and Management
           </p>
@@ -81,7 +83,7 @@ const ProjectGoal = () => {
         </div>
 
         {/* Row 3 */}
-        <div className="bg-white lg:p-6 md:p-4 p-2 border-l-4   md:text-[20px] lg:text-[24px] text-[18px] font-medium leading-[120%] md:tracking-[0.6px] tracking-[0.36px]  border-[#2198F6]">
+        <div className="bg-white lg:p-6 md:p-4 p-2 md:border-l-4 border-l-2 lg:text-[20px] md:text-[18px] text-[16px] font-medium leading-[120%] md:tracking-[0.6px] tracking-[0.36px]  border-[#2198F6]">
         <p className=''>
             Create a Scalable Solution for Multiple Resorts
         </p>
@@ -111,6 +113,8 @@ const ProjectGoal = () => {
 
           </ul>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );
