@@ -20,7 +20,7 @@ const TypographyForRite = () => {
                 <img src={typo} alt="" />
 
                 {/* custom text  */}
-                {/* <div className='bg-[#F2ECEB] py-10 md:py-[62px] lg:py-[72px] lg:px-[93px] md:px-[73px] px-[53px]' >
+                <div className='bg-[#F2ECEB] py-10 md:py-[62px] lg:py-[72px] lg:px-[93px] md:px-[73px] px-[53px]' >
                     <div>
                         <div className='flex gap-12 justify-between'>
                             <div className="w-[24px] h-[24px] bg-[#DD0101] shrink-0 rotate-45">
@@ -32,20 +32,34 @@ const TypographyForRite = () => {
                                         <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[600]">semibold</div>
                                         <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[800]">extrabold</div>
                                     </div>
-                                    <div className='flex gap-[53px] mt-[56px] '>
-                                        <h1 className='text-[112px] font-[800] leading-[110%]  tracking-[.72px] md:tracking-[1.5px] lg:tracking-[3.36px] '>gr.</h1>
-                                        <div className="grid   gap-6 mb-8 ">
-                                            {[
-                                                <div className="grid   flex-1 grid-cols-9 gap-y-[32px] gap-x-[43px] mb-8 tracking-[.36px] md:tracking-[.72px]"> {["Aa", "Bb", "Cc", "Dd", "Ee", "Ff", "Gg", "Hh", "Ii", "Jj", "Kk", "Ll", "Mm", "Nn", "Oo", "Pp", "Qq", "Rr", "Ss", "Tt", "Uu", "Vv", "Ww", "Xx", "Yy", "Zz",].map((pair, index) => (<div key={index} className={`text-[#2A2A2A] ${index === 8 && "text-right"} leading-[110%] max-w-[32px] text-2xl`}> {pair} </div>))} </div>
-                                            ]}
-                                            <div className='tracking-[10.8px] text-2xl leading-[110%] '>1234567890!@#$%^&*()?</div>
+                                    <div className="flex flex-col md:flex-row   gap-[53px] mt-[56px]">
+                                        <h1 className='xl:text-[112px] md:text-[80px] text-[60px] font-[800] leading-[110%] tracking-[.72px] md:tracking-[1.5px] lg:tracking-[3.36px]'>gr.</h1>
+                                        <div className="flex-1 grid gap-8">
+                                            <div className="grid grid-cols-7 md:grid-cols-9 gap-y-8 gap-x-[43px]">
+                                                {[
+                                                    "Aa", "Bb", "Cc", "Dd", "Ee", "Ff", "Gg",
+                                                    "Hh", "Ii", "Jj", "Kk", "Ll", "Mm", "Nn",
+                                                    "Oo", "Pp", "Qq", "Rr", "Ss", "Tt", "Uu",
+                                                    "Vv", "Ww", "Xx", "Yy", "Zz"
+                                                ].map((pair, index) => (
+                                                    <div
+                                                        key={index}
+                                                        className={`text-[#2A2A2A] leading-[110%] lg:text-2xl md:text-xl text-lg tracking-[.36px] md:tracking-[.72px] ${index === 9 || index === 17 && "text-right"}`}
+                                                    >
+                                                        {pair}
+                                                    </div>
+                                                ))}
+                                            </div>
+                                            <div className='tracking-[10.8px] text-2xl leading-[110%]'>
+                                                1234567890!@#$%^&*()?
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
             </div>
             <div className="mb-8">

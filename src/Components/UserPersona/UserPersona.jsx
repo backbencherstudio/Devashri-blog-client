@@ -38,7 +38,7 @@ const UserPersona = () => {
 
                                 <div>
                                     <h1 className='md:text-xl text-lg lg:text-[24px] mb-4 font-medium leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic mt-4 md:mt-0'>Frustrations</h1>
-                                    <ul className='list-disc md:text-lg  marker:text-[14px] text-base leading-[120%] ml-8 '>
+                                    <ul className='list-disc md:text-lg  marker:text-[14px] text-base leading-[120%] md:ml-8 ml-10'>
                                         <li className='leading-[120%]'>High rent charges due to bachelor status.</li>
                                         <li className='leading-[120%]'>Lack of transparency and clear communication from landlords.</li>
                                         <li className='leading-[120%]'>Limited housing options that cater to single tenants.</li>

@@ -59,11 +59,11 @@ const About = () => {
                     </p>
                 </div>
 
+                <a href="https://drive.google.com/file/d/1WS7BvELMfcFdXZii-b_XoBcJmwco3Xjp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                 <button className='lg:mt-[56px] md:mt-[46px] mt-[32px] border-[#DD0101] border bg-white hover:bg-rose-100/80 text-[#DD0101] font-medium px-6 py-[10px] rounded-[8px] text-2xl tracking-[.1px] leading-[120%]' style={{ boxShadow: '0px 4px 12px 0px rgba(0, 0, 0, 0.12)' }}>
-                    <a href="https://drive.google.com/file/d/1WS7BvELMfcFdXZii-b_XoBcJmwco3Xjp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                         Download Resume
-                    </a>
                 </button>
+                </a>
             </div>
         </div>
     );
