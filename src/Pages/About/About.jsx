@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 
 const About = () => {
-    useEffect(()=>{
+    useEffect(() => {
         window.scrollTo({
-          top: 0,
-        //   behavior: 'smooth'
+            top: 0,
+            //   behavior: 'smooth'
         });
-    },[])
+    }, [])
     return (
         <div className='max-w-[1128px] mx-auto px-4 2xl:px-0 lg:mb-[200px] md:mb-[150px] mb-[100px]'>
             {/* Main container with auto-adjusting height */}
@@ -43,7 +43,7 @@ const About = () => {
                     <p className='text-base md:text-[20px] text-[#2A2A2A] leading-[166%] lg:text-2xl md:tracking-[1.2px] tracking-[.72px]'>
                         My most recent work involved designing user-centric solutions in the hospitality and energy management industries for <span className='text-[#DD0101] font-semibold'>Centralogic.</span> I also contributed to flagship projects like HRMS and CRM systems, ensuring a balance between user needs and business goals. My approach emphasizes crafting seamless and engaging interfaces, leveraging my expertise in UX/UI design for software products. Prior to this, I honed my design sensibilities through five years of experience in architecture and interior design, where I cultivated a deep appreciation for form, function, and spatial harmony—a perspective that continues to enhance my work today.
                     </p>
- 
+
                     <p className="text-base text-[#2A2A2A] md:text-[20px] leading-[166%] lg:text-2xl md:tracking-[1.2px] tracking-[.72px]">
                         I graduated from <span className="font-semibold text-[#DD0101]">Nagpur University in India</span> with a
                         <span className="font-[600] text-[#2A2A2A]"> Bachelor of Architecture.</span> During my five years in the industry, I developed a strong foundation in design thinking, which became a key part of my approach to problem-solving. Later, I pursued a
@@ -59,8 +59,10 @@ const About = () => {
                     </p>
                 </div>
 
-                <button className='lg:mt-[56px] md:mt-[46px] mt-[32px] border-[#DD0101] border bg-white hover:bg-rose-100/80 text-[#DD0101] font-medium px-6 py-[10px] rounded-[8px] text-2xl tracking-[.1px] leading-[120%]' style={{boxShadow: '0px 4px 12px 0px rgba(0, 0, 0, 0.12)'}}>
-                    Download Resume
+                <button className='lg:mt-[56px] md:mt-[46px] mt-[32px] border-[#DD0101] border bg-white hover:bg-rose-100/80 text-[#DD0101] font-medium px-6 py-[10px] rounded-[8px] text-2xl tracking-[.1px] leading-[120%]' style={{ boxShadow: '0px 4px 12px 0px rgba(0, 0, 0, 0.12)' }}>
+                    <a href="https://drive.google.com/file/d/1WS7BvELMfcFdXZii-b_XoBcJmwco3Xjp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                        Download Resume
+                    </a>
                 </button>
             </div>
         </div>

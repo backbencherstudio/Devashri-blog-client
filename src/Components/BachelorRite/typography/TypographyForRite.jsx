@@ -18,22 +18,35 @@ const TypographyForRite = () => {
                     </div>
                 </div>
                 <img src={typo} alt="" />
-                <div className='bg-[#F2ECEB] py-10 md:py-[62px] lg:py-[72px] lg:px-[93px] md:px-[73px] px-[53px]' >
-                    <div>
-                        <div className='flex gap-12'>
-                            <div className="w-[24px] h-[24px] bg-[#DD0101] rotate-45">
 
+                {/* custom text  */}
+                {/* <div className='bg-[#F2ECEB] py-10 md:py-[62px] lg:py-[72px] lg:px-[93px] md:px-[73px] px-[53px]' >
+                    <div>
+                        <div className='flex gap-12 justify-between'>
+                            <div className="w-[24px] h-[24px] bg-[#DD0101] shrink-0 rotate-45">
                             </div>
-                            <div className='font-rubik'>
+                            <div className='font-rubik w-[91.37%]'>
                                 <div className="lg:text-[40px] font-rubik md:text-[32px] text-2xl leading-[110%] tracking-[.52px] md:tracking-[.72px] lg:tracking-[1.2px]">Rubik</div>
-                                <div className='flex gap-[32px] md:gap-[52px] lg:gap-[72px] mt-6'>
-                                    <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[600]">semibold</div>
-                                    <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[800]">extrabold</div>
+                                <div>
+                                    <div className='flex gap-[32px] md:gap-[52px] lg:gap-[72px] mt-6'>
+                                        <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[600]">semibold</div>
+                                        <div className="lg:text-2xl md:text-xl text-lg md:tracking-[.72px] tracking-[.36px] leading-[133%] font-[800]">extrabold</div>
+                                    </div>
+                                    <div className='flex gap-[53px] mt-[56px] '>
+                                        <h1 className='text-[112px] font-[800] leading-[110%]  tracking-[.72px] md:tracking-[1.5px] lg:tracking-[3.36px] '>gr.</h1>
+                                        <div className="grid   gap-6 mb-8 ">
+                                            {[
+                                                <div className="grid   flex-1 grid-cols-9 gap-y-[32px] gap-x-[43px] mb-8 tracking-[.36px] md:tracking-[.72px]"> {["Aa", "Bb", "Cc", "Dd", "Ee", "Ff", "Gg", "Hh", "Ii", "Jj", "Kk", "Ll", "Mm", "Nn", "Oo", "Pp", "Qq", "Rr", "Ss", "Tt", "Uu", "Vv", "Ww", "Xx", "Yy", "Zz",].map((pair, index) => (<div key={index} className={`text-[#2A2A2A] ${index === 8 && "text-right"} leading-[110%] max-w-[32px] text-2xl`}> {pair} </div>))} </div>
+                                            ]}
+                                            <div className='tracking-[10.8px] text-2xl leading-[110%] '>1234567890!@#$%^&*()?</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
+
             </div>
             <div className="mb-8">
                 <div className='md:flex justify-between gap-10'>
@@ -62,7 +75,7 @@ const TypographyForRite = () => {
                     </div>
                 </div>
 
-                {/* <div className="space-y-4 flex-1">
+                <div className="space-y-4 flex-1">
                     <div
                         className="h-full rounded-[16px] shadow-lg transition-transform hover:scale-[1.01] items-end flex"
                         style={{ backgroundColor: '#264248' }}
@@ -72,7 +85,7 @@ const TypographyForRite = () => {
                             <p className="text-[18px] opacity-90 leading-[110%]">#264248</p>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 {/* Secondary Colors */}
                 <div className='md:w-[48%]'>
