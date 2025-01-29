@@ -40,7 +40,7 @@ const DesignProcess = () => {
         <div className='bg-[#f9f6f5]'>
             <div className='max-w-[1128px] mx-auto px-4 2xl:px-0  lg:py-[200px] md:py-[150px] py-[100px]'>
                 <div>
-                    <h2 className='md:text-4xl lg:text-5xl text-2xl text-[#DD0101] text-center font-[900] lg:tracking-[9.6px] md:tracking-[6px] tracking-[4px] opacity-25 leading-[110%]'>The design process</h2>
+                    <h2 className='md:text-4xl lg:text-5xl text-2xl text-[#DD0101] text-center font-[900] lg:tracking-[9.6px] md:tracking-[6px] tracking-[4px] opacity-25 leading-[110%] uppercase'>The design process</h2>
                     <div className='lg:mt-[80px] md:mt-[60px] mt-[40px] '>
                         <div className='flex-col md:space-y-10 space-y-7 max-w-[840px] mx-auto  '>
                             {

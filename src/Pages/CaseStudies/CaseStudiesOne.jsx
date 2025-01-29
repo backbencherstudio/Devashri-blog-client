@@ -71,7 +71,7 @@ const conclusionData = [
     ],
   },
   {
-    section: "Opportunities For Enhancement",
+    section: "OPPORTUNITIES FOR ENHANCEMENT",
     items: [
       [
         <span className="font-[500]">Guest Personalization:</span>,
@@ -135,6 +135,13 @@ const CaseStudiesOne = () => {
       leftLink:"/case-studies-two",
       rightLink:"/bachelorRite"
   }
+
+   useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        // behavior: 'smooth'
+      });
+  },[])
 
 
   return (

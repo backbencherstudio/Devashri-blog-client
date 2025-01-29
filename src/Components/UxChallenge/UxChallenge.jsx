@@ -10,10 +10,10 @@ const UxChallenge = () => {
 
             {/* UX Challenge Content */}
             <div className="flex-1 max-w-[840px]">
-                <h1 className= "text-[18px] sm:text-[22px] lg:text-[24px] font-medium leading-[110%] tracking-[1.2px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic mb-[36px] md:mb-[46px] lg:mb-[56px]">
+                <h1 className= "text-[18px] text-[#221429] sm:text-[22px] lg:text-[24px] font-medium leading-[110%] tracking-[1.2px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic mb-[36px] md:mb-[46px] lg:mb-[56px]">
                     How might we simplify the rental process for single tenants and improve transparency?
                 </h1>
-                <ul className="ml-7 list-decimal pl-5 space-y-6 text-[16px] sm:text-[18px] leading-[22px] md:leading-[24px] text-[#333]">
+                <ul className="ml-7 list-decimal pl-5 space-y-6 text-[16px] sm:text-[18px] leading-[22px] md:leading-[24px] text-[#2A2A2A]">
                     <li className='md:text-[20px] text-base lg:text-[24px] font-normal leading-[133%] tracking-[.36px] md:tracking-[0.72px] not-italic'>Design should be intuitive and easy to navigate for tech-savvy professionals.</li>
                     <li className='md:text-[20px] text-base lg:text-[24px] font-normal leading-[133%] tracking-[.36px] md:tracking-[0.72px] not-italic'>Design should clearly highlight amenities and rental terms to ensure transparency.</li>
                     <li className='md:text-[20px] text-base lg:text-[24px] font-normal leading-[133%] tracking-[.36px] md:tracking-[0.72px] not-italic'>Design should address common frustrations (e.g., lack of available rentals for single tenants).</li>

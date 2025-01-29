@@ -19,9 +19,9 @@ const Footer = () => {
                 </div>
                 <div className='md:py-[72px] py-[36px]'>
                     <div className='flex md:gap-[120px] gap-[32px]  md:text-[20px]  tracking-[2px] text-[#2A2A2A] font-[600] justify-center '>
-                        <a href="https://www.linkedin.com/in/devashri-londhe-795532133/" target='_blank' className='hover:text-[#DD0101] leading-[120%] duration-300' >LinkedIn</a>
-                        <a href="https://dribbble.com/devashril_05" target="_blank" className='hover:text-[#DD0101] leading-[120%] duration-300'>Dribble</a>
-                        <a href="https://www.behance.net/devashrilondhedesign" target="_blank" className='hover:text-[#DD0101] leading-[120%] duration-300'>Behance</a>
+                        <a href="https://www.linkedin.com/in/devashri-londhe-795532133/" target='_blank' className='hover:text-[#DD0101] text-[#2A2A2A] leading-[120%] duration-300' >LinkedIn</a>
+                        <a href="https://dribbble.com/devashril_05" target="_blank" className='hover:text-[#DD0101] leading-[120%] text-[#2A2A2A] duration-300'>Dribble</a>
+                        <a href="https://www.behance.net/devashrilondhedesign" target="_blank" className='hover:text-[#DD0101] leading-[120%] text-[#2A2A2A] duration-300'>Behance</a>
                     </div>
                 </div>
             </div>

@@ -39,7 +39,7 @@ const ProblemCard = () => {
       {problems.map((problem, index) => (
         <div key={index} className="mb-10">
           <h3 className="font-semibold text-[#2A2A2A] lg:text-2xl md:text-xl text-lg mb-2 opacity-80 leading-[133%] tracking-[.72px]">{problem.category}</h3>
-          <ul className="list-disc ml-12 tex-[#2A2A2A] lg:text-2xl md:text-lg text-base leading-[133%] tracking-[.72px]">
+          <ul className="list-disc ml-12 text-[#2A2A2A] lg:text-2xl md:text-lg text-base leading-[133%] tracking-[.72px]">
             {problem.issues.map((issue, i) => (
               <li key={i} className="my-2">{issue}</li>
             ))}

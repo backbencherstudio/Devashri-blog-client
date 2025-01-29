@@ -91,7 +91,7 @@ const PersonalStoriesCard = () => {
                 <h1 className=" text-[#2A2A2A] leading-[110%] font-semibold  not-italic">
                   Goal:
                 </h1>
-                <p className=" not-italic leading-[110%] mb-4">{role.goal}</p>
+                <p className=" not-italic leading-[110%] mb-10">{role.goal}</p>
 
                 <h1 className="text-[#2A2A2A] leading-[110%] font-semibold  not-italic">
                   User Story:

@@ -37,7 +37,7 @@ const AffinityIdeation = () => {
                     <h1 className='text-[#DD0101] md:w-[246px] md:text-[24px] text-xl  font-normal leading-[110%] tracking-[.72px] md:tracking-[2.4px]'>USER FLOW</h1>
                 </div>
 
-                <div className="w-full max-w-[840px] mt-[]">
+                <div className="w-full max-w-[840px] text-[#221429]">
                     <ul className="list-disc ml-9 leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px]">
                         <li className="mb-3 md:mb-4 leading-[110%] md:text-[20px] lg:text-[24px]  ">
                             To ensure the Luxe Events platform delivered an intuitive and seamless experience, we developed detailed user flow.

@@ -143,7 +143,7 @@ const FinalDesign = ({ data }) => {
       <h1 className="lg:text-[28px] md:text-[26px] text-2xl font-semibold leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] not-italic text-[#DD0101] mb-4">
         THE FINAL DESIGN
       </h1>
-      <h1 className="lg:mb-[132px] md:mb-[100px] mb-[60px] mb: text-[38px] md:text-[48px] font-semibold leading-[110%] tracking-[.72px] md:tracking-[1px] lg:tracking-[1.44px] not-italic">
+      <h1 className="lg:mb-[132px] text-[#2A2A2A] md:mb-[100px] mb-[60px] mb: text-[38px] md:text-[48px] font-semibold leading-[110%] tracking-[.72px] md:tracking-[1px] lg:tracking-[1.44px] not-italic">
         Redefining Luxury Event Planning
       </h1>
 

@@ -30,17 +30,17 @@ const conclusionData = [
     {
       section: "What I Learned From This Project",
       items: [
-        "User-Centric Design: Adapting complex data into visually engaging and intuitive components enhances usability.",
-        "Feature Prioritization: Streamlining functionality such as toggles, upload features, and download options ensures a practical workflow.",
-        "Limitation of BRD-Driven Design: While adhering to predefined requirements ensures alignment with initial goals, it may lack flexibility to address evolving user behaviors and needs.",
+        [<span className="font-[500]">User-Centric Design:</span>, " Adapting complex data into visually engaging and intuitive components enhances usability."],
+        [<span className="font-[500]">Feature Prioritization:</span>, " Streamlining functionality such as toggles, upload features, and download options ensures a practical workflow."],
+        [<span className="font-[500]">Limitation of BRD-Driven Design:</span>, " While adhering to predefined requirements ensures alignment with initial goals, it may lack flexibility to address evolving user behaviors and needs."],
       ],
     },
     {
       section: "Opportunities For Enhancement",
       items: [
-        "Introduce predictive analytics for energy consumption trends to provide proactive suggestions.",
-        "Enhance visual storytelling by integrating dynamic charts and comparisons over time.",
-        "Add personalization features like saved preferences for date ranges or commonly accessed tools.",
+        ["Introduce ", <span className="font-[500]">predictive analytics</span>, " for energy consumption trends to provide proactive suggestions."],
+        ["Enhance ", <span className="font-[500]">visual storytelling</span>, " by integrating dynamic charts and comparisons over time."],
+        ["Add ", <span className="font-[500]">personalization features</span>, " like saved preferences for date ranges or commonly accessed tools."],
         "Revisit BRD-driven workflows by incorporating iterative testing cycles for continuous refinement.",
       ],
     },
@@ -48,7 +48,7 @@ const conclusionData = [
   
 
 const CaseStudiesTwo = () => {
-    const sectionCat = "UXUI Design"
+    const sectionCat = "UI Design"
     const title = "Crafting a premium and intuitive portal for effortless energy management"
     const description = "Designed a sleek and intuitive portal that elevates the experience of managing energy consumption, empowering users with effortless control and insight."
     const options = {
@@ -75,12 +75,12 @@ const CaseStudiesTwo = () => {
         rightLink:"/bachelorRite"
     }
 
-    //   useEffect(()=>{
-    //     window.scrollTo({
-    //       top: 0,
-    //       behavior: 'smooth'
-    //     });
-    // },[])
+      useEffect(()=>{
+        window.scrollTo({
+          top: 0,
+          // behavior: 'smooth'
+        });
+    },[])
 
     return (
         <div>

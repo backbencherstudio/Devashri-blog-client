@@ -35,7 +35,7 @@ const ContentProtectedTwo = () => {
     useEffect(() => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
+            // behavior: 'smooth'
         });
     }, [])
 
@@ -80,7 +80,7 @@ const ContentProtectedTwo = () => {
                                         type={showPassword ? "text" : "password"} // Dynamically toggle type
                                         placeholder="Enter Password"
                                         name="password"
-                                        className="border  md:placeholder:text-xl placeholder:text-lg text-2xl md:px-4 md:py-[15px] p-3 bg-white text-[#2A2A2A] rounded-[8px]  mt-6 md:mt-10 lg:mt-12 sm:w-[300px] md:w-[390px] w-full"
+                                        className="border  md:placeholder:text-xl placeholder:text-lg text-2xl md:px-4 md:py-[15px] p-3 md:pr-[9%] pr-[17%] bg-white text-[#2A2A2A] rounded-[8px]  mt-6 md:mt-10 lg:mt-12 sm:w-[300px] md:w-[390px] w-full"
                                     />
                                     {showIcon && (
                                         <button
