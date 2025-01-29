@@ -21,14 +21,14 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
 
             {/* Options */}
             <div className="flex flex-col md:flex-row md:items-center  mt-6 text-md leading-[133.33%]">
-                <span className="text-[16px] sm:text-[18px] md:text-[22px] lg:text-2xl font-normal   tracking-[0.48px] md:tracking-[0.72px]">
+                <span className="text-[16px] sm:text-[18px] md:text-[22px] lg:text-2xl xl:text-[22px]   2xl:text-2xl font-normal   tracking-[0.48px] md:tracking-[0.72px]">
                     {options.events}
                 </span>
 
                 {/* Option 1 */}
                 <div className="flex items-center mt-3 sm:mt-0">
                     <span className="mx-4 sm:mx-8">&bull;</span>
-                    <span className="text-[15px] sm:text-[18px] md:text-[22px] lg:text-2xl font-normal  tracking-[0.48px] sm:tracking-[0.72px]">
+                    <span className="text-[15px] sm:text-[18px] md:text-[22px] lg:text-2xl xl:text-[22px] 2xl:text-2xl font-normal  tracking-[0.48px] sm:tracking-[0.72px]">
                         {options.management}
                     </span>
                 </div>
@@ -36,7 +36,7 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
                 {/* Option 2 */}
                 <div className="flex items-center mt-3 sm:mt-0">
                     <span className="mx-4 sm:mx-8">&bull;</span>
-                    <span className="text-[15px] sm:text-[18px] md:text-[22px] lg:text-2xl font-normal   tracking-[0.48px] sm:tracking-[0.72px]">
+                    <span className="text-[15px] sm:text-[18px] md:text-[22px] lg:text-2xl font-normal 2xl:text-2xl xl:text-[22px] tracking-[0.48px] sm:tracking-[0.72px]">
                         {options.research}
                     </span>
                 </div>
@@ -45,7 +45,7 @@ const SectionCategory = ({sectionCat, title, description, options}) => {
                 {options.res ? (
                     <div className="flex items-center mt-3 sm:mt-0">
                         <span className="mx-4 sm:mx-8">&bull;</span>
-                        <span className="text-[15px] sm:text-[18px] md:text-[24px] font-normal   tracking-[0.48px] sm:tracking-[0.72px]">
+                        <span className="text-[15px] sm:text-[18px] md:text-[24px] font-normal xl:text-[22px] 2xl:text-2xl  tracking-[0.48px] sm:tracking-[0.72px]">
                             {options.res}
                         </span>
                     </div>

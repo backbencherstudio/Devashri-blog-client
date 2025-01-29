@@ -20,7 +20,7 @@ const TheSolution = () => {
           <h1 className='text-[#DD0101] md:w-[246px] md:text-[24px] text-xl  font-semibold leading-[110%] tracking-[.72px] md:tracking-[2.4px]'>WIREFRAMES</h1>
         </div>
 
-        <div className="w-full max-w-[840px] mt-[]">
+        <div className="w-full max-w-[840px] text-[#221429]">
           <h1 className=" md:text-[22px] lg:text-[24px] font-medium leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] mb-4 md:mb-6">
           Structuring the Experience
           </h1>

@@ -43,6 +43,12 @@ let data = [
 
 
 const Home = () => {
+    useEffect(()=>{
+        window.scrollTo({
+          top: 0,
+        //   behavior: 'smooth'
+        });
+    },[])
 
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
@@ -92,7 +98,7 @@ const Home = () => {
                                     </span>
                                 ))}
                             </div>
-                            <p className=' lg:responsive-textH5 md:text-[18px] leading-[166%] text-base md:tracking-[1.2px] tracking-[.8px] -mb-[8px]'>I’m a user experience designer based in Kuala Lumpur,Malaysia,with expertise in end-to-end UX/ UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
+                            <p className='text-[#2A2A2A] lg:responsive-textH5 md:text-[18px] leading-[166%] text-base md:tracking-[1.2px] tracking-[.8px] -mb-[8px]'>I’m a user experience designer based in Kuala Lumpur,Malaysia,with expertise in end-to-end UX/ UI design for software products. I’m passionate about enhancing lives through design and continually seek to expand my knowledge. My experience in architecture and interior design enriches my approach to creating immersive and impactful user experiences.</p>
                         </div>
                     </div>
                     <div className=' '>

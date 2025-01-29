@@ -35,7 +35,7 @@ const UserResearch = () => {
                             <p className='  leading-[133%] tracking-[.36px] md:tracking-[0.72px] not-italic mb-6'><span className='font-medium'>Demographics:</span> 50% are aged 26-30, and 60.7% are male, dominating the survey pool</p>
                             <p className='  leading-[133%] tracking-[.36px] md:tracking-[0.72px] not-italic mb-6'><span className='font-medium'>Accommodation Search:</span>42.6% rely on agents or personal networks; 40.8% use online platforms.</p>
                             <p className=' leading-[133%] tracking-[.36px] md:tracking-[0.72px] not-italic mb-6'><span className='font-medium'>Basic Needs:</span> Geysers (71.4%), WiFi (66.1%), and equipped kitchens (62.5%) are top priorities.</p>
-                            <p className=' leading-[133%] tracking-[.36px] md:tracking-[0.72px] not-italic mb-6'><span className='font-medium'>Monthly Expenses:</span> Monthly Expenses: 53.6% spend ₹5,000–₹10,000 on household needs, besides rent.</p>
+                            <p className=' leading-[133%] tracking-[.36px] md:tracking-[0.72px] not-italic mb-6'><span className='font-medium'>Monthly Expenses:</span> 53.6% spend ₹5,000–₹10,000 on household needs, besides rent.</p>
                             <p className=' leading-[133%] tracking-[.36px] md:tracking-[0.72px] not-italic '><span className='font-medium'>Rental Experience:</span> 94.6% have lived away from home, highlighting familiarity with rental challenges.</p>
         
                             <img className='mt-14' src={imageResearch} alt="" />
@@ -49,7 +49,7 @@ const UserResearch = () => {
                         {/* Title Section */}
                        <div className="md:max-w-[264px]" >
                        <h1 className="text-[24px] font-normal leading-[26.4px] tracking-[2.4px] not-italic text-[#DD0101]">
-                        QUANTITATIVE INTERVIEW 
+                       QUALITATIVE INTERVIEWS  
                         </h1>
                        </div>
         

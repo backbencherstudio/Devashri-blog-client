@@ -8,8 +8,8 @@ const PersionalStories = ({data}) => {
                 <h1 className='text-[#DD0101] lg:w-[18ch]  md:text-[24px] text-xl  font-normal leading-[110%] tracking-[.72px] md:tracking-[2.4px]'>{data.title}</h1>
                 </div>
 
-            <div className="w-full max-w-[840px]">
-                {data.subtitle && <h1 className=" md:text-[22px] lg:text-[24px] font-medium leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] mb-4 md:mb-6">
+            <div className="w-full max-w-[840px] text-[#221429]">
+                {data.subtitle && <h1 className=" md:text-[22px] lg:text-[24px] font-medium leading-[110%]  tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px] mb-4 md:mb-6">
                     {data.subtitle}
                 </h1>}
                 <ul className="list-disc ml-9 leading-[110%] tracking-[.72px] md:tracking-[1.4px] lg:tracking-[2.4px]">

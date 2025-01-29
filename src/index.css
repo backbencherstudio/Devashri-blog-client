@@ -24,11 +24,24 @@ h1, h2, h3, p {
 body{
     font-family: 'Barlow', serif;
     background-color: #F9F6F5;
+    color: #2A2A2A;
 
 }
 
 .active {
   color: #DD0101;
+}
+
+.blackColor{
+  color: #2A2A2A;
+}
+
+.grayColor{
+  color: #6D6D6D;
+}
+
+.redColor{
+  color: #DD0101
 }
 
 

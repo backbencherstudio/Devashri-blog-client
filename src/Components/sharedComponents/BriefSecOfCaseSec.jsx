@@ -16,23 +16,23 @@ const BriefSecOfCaseSec = ({briefObj}) => {
     </div> 
 
     {/* Card */}
-    <div className="bg-[#F2ECEB] pt-6 pl-6 lg:w-[264px]  text-base md:text-xl lg:text-2xl">
+    <div className="bg-[#F2ECEB] pt-6 pl-6 lg:w-[264px]  text-base md:text-lg lg:text-2xl">
         {/* Role */}
-        <div className="mb-12">
-            <h1 className="text-[#DD0101] bg-[#F2ECEB] font-semibold pb-4">Role</h1>
-            <p className="bg-[#F2ECEB] md:w-[12ch]">{briefObj.role}</p>
+        <div className="xl:mb-12 lg:mb-10 md:mb-8 mb-6">
+            <h1 className="text-[#DD0101] bg-[#F2ECEB] font-semibold md:pb-4 pb-2">Role</h1>
+            <p className="bg-[#F2ECEB] text-[#2A2A2A] md:w-[12ch]">{briefObj.role}</p>
         </div>
 
         {/* Duration */}
-        <div className="mb-12">
-            <h1 className="text-[#DD0101] bg-[#F2ECEB] font-semibold pb-4">DURATION</h1>
-            <p className="bg-[#F2ECEB]">{briefObj.duration}</p>
+        <div className="xl:mb-12 lg:mb-10 md:mb-8 mb-6">
+            <h1 className="text-[#DD0101] bg-[#F2ECEB] font-semibold md:pb-4 pb-2">DURATION</h1>
+            <p className="bg-[#F2ECEB] text-[#2A2A2A]">{briefObj.duration}</p>
         </div>
 
         {/* Tools */}
-        <div className='mb-12'>
-            <h1 className="text-[#DD0101] bg-[#F2ECEB] font-semibold pb-4">TOOLS</h1>
-            <p className="bg-[#F2ECEB]">{briefObj.tools}</p>
+        <div className='xl:mb-12 lg:mb-10 md:mb-8 mb-6'>
+            <h1 className="text-[#DD0101] bg-[#F2ECEB] font-semibold md:pb-4 pb-2">TOOLS</h1>
+            <p className="bg-[#F2ECEB] text-[#2A2A2A]">{briefObj.tools}</p>
         </div>
     </div>
     </div>
